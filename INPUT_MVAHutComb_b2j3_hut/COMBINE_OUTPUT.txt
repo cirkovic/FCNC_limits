@@ -1,0 +1,39 @@
+combine -S 1 ../cards/input_MVAHutComb_b2j3_hut.txt -M Asymptotic --run both --expectSignal 0.02
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 21
+Median for expected limits: 0.109863
+Sigma  for expected limits: 0.0560537
+Constraints of type SimpleGaussianConstraint: 21
+Constraints of type SimpleGaussianConstraint: 21
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -12091.9 (r = 0.103216)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -12102.9 (r = 0.000175711)
+At r = 1.303216:	q_mu = 212.98437	q_A  = 256.05017	CLsb = 0.00000	CLb  = 0.92037	CLs  = 0.00000
+At r = 0.703216:	q_mu = 68.62866	q_A  = 90.73106	CLsb = 0.00000	CLb  = 0.89271	CLs  = 0.00000
+At r = 0.403216:	q_mu = 21.81226	q_A  = 48.58792	CLsb = 0.00000	CLb  = 0.98928	CLs  = 0.00000
+At r = 0.253216:	q_mu = 7.54165	q_A  = 26.06549	CLsb = 0.00301	CLb  = 0.99084	CLs  = 0.00304
+At r = 0.178216:	q_mu = 2.17265	q_A  = 19.40094	CLsb = 0.07024	CLb  = 0.99831	CLs  = 0.07036
+At r = 0.215716:	q_mu = 4.57739	q_A  = 22.54134	CLsb = 0.01620	CLb  = 0.99545	CLs  = 0.01627
+At r = 0.192716:	q_mu = 3.02129	q_A  = 20.55618	CLsb = 0.04109	CLb  = 0.99741	CLs  = 0.04120
+At r = 0.185619:	q_mu = 2.59184	q_A  = 19.97962	CLsb = 0.05371	CLb  = 0.99788	CLs  = 0.05382
+At r = 0.188602:	q_mu = 2.76897	q_A  = 20.21912	CLsb = 0.04805	CLb  = 0.99769	CLs  = 0.04817
+At r = 0.187202:	q_mu = 2.68512	q_A  = 20.10613	CLsb = 0.05064	CLb  = 0.99778	CLs  = 0.05076
+At r = 0.187803:	q_mu = 2.72101	q_A  = 20.15448	CLsb = 0.04952	CLb  = 0.99774	CLs  = 0.04963
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.1878
+Expected  2.5%: r < 0.0588
+Expected 16.0%: r < 0.0783
+Expected 50.0%: r < 0.1099
+Expected 84.0%: r < 0.1558
+Expected 97.5%: r < 0.2150
+
+Done in 0.02 min (cpu), 0.03 min (real)

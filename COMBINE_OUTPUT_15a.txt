@@ -1,0 +1,600 @@
+RM: 1000
+input_MVAHctMAX_comb_hct.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0509
+Expected 16.0%: r < 0.0512
+Expected 50.0%: r < 0.0675
+Expected 84.0%: r < 0.1359
+Expected 97.5%: r < 0.2048
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0096
+Expected 16.0%: r < 0.0184
+Expected 50.0%: r < 0.0187
+Expected 84.0%: r < 0.0375
+Expected 97.5%: r < 0.0565
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0106
+Expected 16.0%: r < 0.0142
+Expected 50.0%: r < 0.0195
+Expected 84.0%: r < 0.0272
+Expected 97.5%: r < 0.0357
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0014
+Expected  2.5%: r < 0.2085
+Expected 16.0%: r < 0.2107
+Expected 50.0%: r < 0.2144
+Expected 84.0%: r < 0.2204
+Expected 97.5%: r < 0.2296
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.4089
+Expected 16.0%: r < 0.6889
+Expected 50.0%: r < 0.8209
+Expected 84.0%: r < 0.8242
+Expected 97.5%: r < 0.8732
+input_MVAHutMAX_comb_hut.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0011
+Expected 16.0%: r < 0.0037
+Expected 50.0%: r < 0.0057
+Expected 84.0%: r < 0.0112
+Expected 97.5%: r < 0.0170
+
+
+
+RM: 500
+input_MVAHctMAX_b3j4_hct.txt
+Observed Limit: r < 0.0038
+Expected  2.5%: r < 0.0089
+Expected 16.0%: r < 0.4299
+Expected 50.0%: r < 0.4349
+Expected 84.0%: r < 0.4401
+Expected 97.5%: r < 0.4418
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.1465
+Expected  2.5%: r < 0.0065
+Expected 16.0%: r < 0.0275
+Expected 50.0%: r < 0.0278
+Expected 84.0%: r < 0.0558
+Expected 97.5%: r < 0.0842
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0019
+Expected  2.5%: r < 0.2072
+Expected 16.0%: r < 0.2082
+Expected 50.0%: r < 0.2113
+Expected 84.0%: r < 0.2155
+Expected 97.5%: r < 0.2214
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0588
+Expected  2.5%: r < 0.4089
+Expected 16.0%: r < 0.6825
+Expected 50.0%: r < 0.8209
+Expected 84.0%: r < 0.8242
+Expected 97.5%: r < 0.8667
+
+
+
+RM: 100
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.0113
+Expected  2.5%: r < 0.0005
+Expected 16.0%: r < 0.3920
+Expected 50.0%: r < 0.5054
+Expected 84.0%: r < 0.5074
+Expected 97.5%: r < 0.5094
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.0121
+Expected  2.5%: r < 0.6366
+Expected 16.0%: r < 0.6391
+Expected 50.0%: r < 0.6763
+Expected 84.0%: r < 0.6790
+Expected 97.5%: r < 0.6817
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0018
+Expected  2.5%: r < 0.2815
+Expected 16.0%: r < 0.2853
+Expected 50.0%: r < 0.2917
+Expected 84.0%: r < 0.3045
+Expected 97.5%: r < 0.3239
+input_MVAHctMAX_b3j4_hct.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.4403
+Expected 16.0%: r < 0.4443
+Expected 50.0%: r < 0.4456
+Expected 84.0%: r < 0.4473
+Expected 97.5%: r < 0.4491
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0064
+Expected  2.5%: r < 0.0005
+Expected 16.0%: r < 0.0291
+Expected 50.0%: r < 0.0296
+Expected 84.0%: r < 0.0593
+Expected 97.5%: r < 0.0895
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0012
+Expected  2.5%: r < 0.0228
+Expected 16.0%: r < 0.0231
+Expected 50.0%: r < 0.0449
+Expected 84.0%: r < 0.0903
+Expected 97.5%: r < 0.1361
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.4219
+Expected 16.0%: r < 0.6910
+Expected 50.0%: r < 0.8472
+Expected 84.0%: r < 0.8505
+Expected 97.5%: r < 0.8607
+
+
+
+RM: 50
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.0056
+Expected  2.5%: r < 0.0005
+Expected 16.0%: r < 0.3874
+Expected 50.0%: r < 0.4700
+Expected 84.0%: r < 0.4718
+Expected 97.5%: r < 0.4737
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0018
+Expected  2.5%: r < 0.2815
+Expected 16.0%: r < 0.2853
+Expected 50.0%: r < 0.2917
+Expected 84.0%: r < 0.3045
+Expected 97.5%: r < 0.3239
+input_MVAHctMAX_b3j4_hct.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0063
+Expected 16.0%: r < 0.0281
+Expected 50.0%: r < 0.4285
+Expected 84.0%: r < 0.4302
+Expected 97.5%: r < 0.4319
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.1292
+Expected  2.5%: r < 0.3007
+Expected 16.0%: r < 0.3119
+Expected 50.0%: r < 0.3333
+Expected 84.0%: r < 0.3718
+Expected 97.5%: r < 0.4257
+input_MVAHctMAX_comb_hct.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0499
+Expected 16.0%: r < 0.0504
+Expected 50.0%: r < 0.5298
+Expected 84.0%: r < 0.5319
+Expected 97.5%: r < 0.5340
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0057
+Expected 16.0%: r < 0.0238
+Expected 50.0%: r < 0.0241
+Expected 84.0%: r < 0.0483
+Expected 97.5%: r < 0.0729
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.1914
+Expected 16.0%: r < 0.1940
+Expected 50.0%: r < 0.1984
+Expected 84.0%: r < 0.2071
+Expected 97.5%: r < 0.2078
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0018
+Expected  2.5%: r < 0.2124
+Expected 16.0%: r < 0.2135
+Expected 50.0%: r < 0.2167
+Expected 84.0%: r < 0.2210
+Expected 97.5%: r < 0.2287
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0699
+Expected  2.5%: r < 0.4219
+Expected 16.0%: r < 0.6910
+Expected 50.0%: r < 0.8472
+Expected 84.0%: r < 0.8505
+Expected 97.5%: r < 0.8607
+
+
+
+RM: 10
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.3363
+Expected  2.5%: r < 0.1010
+Expected 16.0%: r < 0.1015
+Expected 50.0%: r < 0.1030
+Expected 84.0%: r < 0.1051
+Expected 97.5%: r < 0.1087
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.1061
+Expected 16.0%: r < 0.1104
+Expected 50.0%: r < 0.1187
+Expected 84.0%: r < 0.1191
+Expected 97.5%: r < 0.1918
+input_MVAHctMAX_b3j4_hct.txt
+Observed Limit: r < 0.0044
+Expected  2.5%: r < 0.1016
+Expected 16.0%: r < 0.1036
+Expected 50.0%: r < 0.1079
+Expected 84.0%: r < 0.1152
+Expected 97.5%: r < 0.1265
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.0191
+Expected  2.5%: r < 0.2969
+Expected 16.0%: r < 0.3120
+Expected 50.0%: r < 0.3408
+Expected 84.0%: r < 0.3857
+Expected 97.5%: r < 0.4047
+input_MVAHctMAX_comb_hct.txt
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4975
+Expected 50.0%: r < 0.6152
+Expected 84.0%: r < 0.6177
+Expected 97.5%: r < 0.6201
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0026
+Expected  2.5%: r < 0.2386
+Expected 16.0%: r < 0.2398
+Expected 50.0%: r < 0.2764
+Expected 84.0%: r < 0.2775
+Expected 97.5%: r < 0.2786
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0606
+Expected  2.5%: r < 0.1009
+Expected 16.0%: r < 0.1012
+Expected 50.0%: r < 0.1021
+Expected 84.0%: r < 0.1033
+Expected 97.5%: r < 0.1061
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.2004
+Expected 16.0%: r < 0.2011
+Expected 50.0%: r < 0.2061
+Expected 84.0%: r < 0.2134
+Expected 97.5%: r < 0.2143
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0371
+Expected  2.5%: r < 0.3726
+Expected 16.0%: r < 0.6688
+Expected 50.0%: r < 0.7480
+Expected 84.0%: r < 0.7510
+Expected 97.5%: r < 0.8492
+
+
+
+RM: 5
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.0051
+Expected  2.5%: r < 0.0005
+Expected 16.0%: r < 0.3850
+Expected 50.0%: r < 0.4902
+Expected 84.0%: r < 0.4922
+Expected 97.5%: r < 0.4941
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.4184
+Expected  2.5%: r < 0.0522
+Expected 16.0%: r < 0.0537
+Expected 50.0%: r < 0.0562
+Expected 84.0%: r < 0.0602
+Expected 97.5%: r < 0.0667
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.0185
+Expected  2.5%: r < 0.1043
+Expected 16.0%: r < 0.1232
+Expected 50.0%: r < 0.1558
+Expected 84.0%: r < 0.2061
+Expected 97.5%: r < 0.2698
+input_MVAHctMAX_comb_hct.txt
+Observed Limit: r < 0.0009
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.5176
+Expected 84.0%: r < 0.5196
+Expected 97.5%: r < 0.5217
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0738
+Expected  2.5%: r < 0.0511
+Expected 16.0%: r < 0.0519
+Expected 50.0%: r < 0.0532
+Expected 84.0%: r < 0.0570
+Expected 97.5%: r < 0.0615
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0021
+Expected  2.5%: r < 0.1950
+Expected 16.0%: r < 0.1977
+Expected 50.0%: r < 0.2021
+Expected 84.0%: r < 0.2110
+Expected 97.5%: r < 0.2244
+
+
+
+RM: 1
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.1638
+Expected  2.5%: r < 0.4453
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.4578
+Expected 84.0%: r < 0.4596
+Expected 97.5%: r < 0.4615
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.3328
+Expected  2.5%: r < 0.0163
+Expected 16.0%: r < 0.0194
+Expected 50.0%: r < 0.0254
+Expected 84.0%: r < 0.0339
+Expected 97.5%: r < 0.0437
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0353
+Expected 16.0%: r < 0.0464
+Expected 50.0%: r < 0.0637
+Expected 84.0%: r < 0.0878
+Expected 97.5%: r < 0.0882
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.0764
+Expected  2.5%: r < 0.1773
+Expected 16.0%: r < 0.1947
+Expected 50.0%: r < 0.2258
+Expected 84.0%: r < 0.2753
+Expected 97.5%: r < 0.3379
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0183
+Expected 16.0%: r < 0.0224
+Expected 50.0%: r < 0.0285
+Expected 84.0%: r < 0.0381
+Expected 97.5%: r < 0.0498
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0636
+Expected  2.5%: r < 0.0144
+Expected 16.0%: r < 0.0175
+Expected 50.0%: r < 0.0215
+Expected 84.0%: r < 0.0287
+Expected 97.5%: r < 0.0376
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0025
+Expected  2.5%: r < 0.1937
+Expected 16.0%: r < 0.1964
+Expected 50.0%: r < 0.2008
+Expected 84.0%: r < 0.2096
+Expected 97.5%: r < 0.2245
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0023
+Expected  2.5%: r < 0.0209
+Expected 16.0%: r < 0.0265
+Expected 50.0%: r < 0.0348
+Expected 84.0%: r < 0.0478
+Expected 97.5%: r < 0.0627
+input_MVAHutMAX_comb_hut.txt
+Observed Limit: r < 0.0127
+Expected  2.5%: r < 0.0158
+Expected 16.0%: r < 0.0183
+Expected 50.0%: r < 0.0215
+Expected 84.0%: r < 0.0273
+Expected 97.5%: r < 0.0341
+
+
+
+RM: 0.5
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.1639
+Expected  2.5%: r < 0.4458
+Expected 16.0%: r < 0.4480
+Expected 50.0%: r < 0.4547
+Expected 84.0%: r < 0.4565
+Expected 97.5%: r < 0.4583
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.3553
+Expected  2.5%: r < 0.0138
+Expected 16.0%: r < 0.0172
+Expected 50.0%: r < 0.0238
+Expected 84.0%: r < 0.0326
+Expected 97.5%: r < 0.0429
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0339
+Expected 16.0%: r < 0.0452
+Expected 50.0%: r < 0.0629
+Expected 84.0%: r < 0.0872
+Expected 97.5%: r < 0.0876
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.1828
+Expected 16.0%: r < 0.1999
+Expected 50.0%: r < 0.2305
+Expected 84.0%: r < 0.2792
+Expected 97.5%: r < 0.3401
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0089
+Expected  2.5%: r < 0.0156
+Expected 16.0%: r < 0.0202
+Expected 50.0%: r < 0.0270
+Expected 84.0%: r < 0.0368
+Expected 97.5%: r < 0.0485
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0145
+Expected  2.5%: r < 0.0115
+Expected 16.0%: r < 0.0149
+Expected 50.0%: r < 0.0199
+Expected 84.0%: r < 0.0272
+Expected 97.5%: r < 0.0363
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.2029
+Expected 16.0%: r < 0.2050
+Expected 50.0%: r < 0.2086
+Expected 84.0%: r < 0.2161
+Expected 97.5%: r < 0.2169
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0042
+Expected  2.5%: r < 0.0189
+Expected 16.0%: r < 0.0250
+Expected 50.0%: r < 0.0340
+Expected 84.0%: r < 0.0473
+Expected 97.5%: r < 0.0626
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0296
+Expected  2.5%: r < 0.2747
+Expected 16.0%: r < 0.5494
+Expected 50.0%: r < 0.5516
+Expected 84.0%: r < 0.6901
+Expected 97.5%: r < 0.9330
+input_MVAHutMAX_comb_hut.txt
+Observed Limit: r < 0.0127
+Expected  2.5%: r < 0.0112
+Expected 16.0%: r < 0.0143
+Expected 50.0%: r < 0.0184
+Expected 84.0%: r < 0.0245
+Expected 97.5%: r < 0.0318
+
+
+
+RM: 0.1
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.1167
+Expected  2.5%: r < 0.0004
+Expected 16.0%: r < 0.0007
+Expected 50.0%: r < 0.0122
+Expected 84.0%: r < 0.0126
+Expected 97.5%: r < 0.0367
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0125
+Expected 16.0%: r < 0.0167
+Expected 50.0%: r < 0.0228
+Expected 84.0%: r < 0.0319
+Expected 97.5%: r < 0.0427
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0339
+Expected 16.0%: r < 0.0452
+Expected 50.0%: r < 0.0628
+Expected 84.0%: r < 0.0871
+Expected 97.5%: r < 0.0875
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.2970
+Expected 16.0%: r < 0.3091
+Expected 50.0%: r < 0.3320
+Expected 84.0%: r < 0.3731
+Expected 97.5%: r < 0.4265
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0049
+Expected  2.5%: r < 0.0145
+Expected 16.0%: r < 0.0194
+Expected 50.0%: r < 0.0266
+Expected 84.0%: r < 0.0363
+Expected 97.5%: r < 0.0485
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0701
+Expected  2.5%: r < 0.0107
+Expected 16.0%: r < 0.0143
+Expected 50.0%: r < 0.0195
+Expected 84.0%: r < 0.0273
+Expected 97.5%: r < 0.0361
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.2012
+Expected 16.0%: r < 0.2033
+Expected 50.0%: r < 0.2069
+Expected 84.0%: r < 0.2143
+Expected 97.5%: r < 0.2151
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0185
+Expected 16.0%: r < 0.0246
+Expected 50.0%: r < 0.0334
+Expected 84.0%: r < 0.0470
+Expected 97.5%: r < 0.0620
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.0519
+Expected  2.5%: r < 0.3841
+Expected 16.0%: r < 0.6775
+Expected 50.0%: r < 0.7713
+Expected 84.0%: r < 0.7743
+Expected 97.5%: r < 0.8572
+input_MVAHutMAX_comb_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0093
+Expected 16.0%: r < 0.0127
+Expected 50.0%: r < 0.0170
+Expected 84.0%: r < 0.0238
+Expected 97.5%: r < 0.0312
+
+
+
+RM: 0.05
+input_MVAHctMAX_b2j3_hct.txt
+Observed Limit: r < 0.1187
+Expected  2.5%: r < 0.0005
+Expected 16.0%: r < 0.0009
+Expected 50.0%: r < 0.0078
+Expected 84.0%: r < 0.0083
+Expected 97.5%: r < 0.0233
+input_MVAHctMAX_b2j4_hct.txt
+Observed Limit: r < 0.0082
+Expected  2.5%: r < 0.0125
+Expected 16.0%: r < 0.0167
+Expected 50.0%: r < 0.0228
+Expected 84.0%: r < 0.0319
+Expected 97.5%: r < 0.0427
+input_MVAHctMAX_b3j3_hct.txt
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0339
+Expected 16.0%: r < 0.0452
+Expected 50.0%: r < 0.0628
+Expected 84.0%: r < 0.0871
+Expected 97.5%: r < 0.0875
+input_MVAHctMAX_b4j4_hct.txt
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.2741
+Expected 16.0%: r < 0.2861
+Expected 50.0%: r < 0.3091
+Expected 84.0%: r < 0.3473
+Expected 97.5%: r < 0.4225
+input_MVAHutMAX_b2j3_hut.txt
+Observed Limit: r < 0.0092
+Expected  2.5%: r < 0.0145
+Expected 16.0%: r < 0.0194
+Expected 50.0%: r < 0.0266
+Expected 84.0%: r < 0.0363
+Expected 97.5%: r < 0.0485
+input_MVAHutMAX_b2j4_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0107
+Expected 16.0%: r < 0.0143
+Expected 50.0%: r < 0.0195
+Expected 84.0%: r < 0.0273
+Expected 97.5%: r < 0.0361
+input_MVAHutMAX_b3j3_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.2009
+Expected 16.0%: r < 0.2030
+Expected 50.0%: r < 0.2066
+Expected 84.0%: r < 0.2140
+Expected 97.5%: r < 0.2148
+input_MVAHutMAX_b3j4_hut.txt
+Observed Limit: r < 0.0020
+Expected  2.5%: r < 0.0180
+Expected 16.0%: r < 0.0243
+Expected 50.0%: r < 0.0334
+Expected 84.0%: r < 0.0470
+Expected 97.5%: r < 0.0620
+input_MVAHutMAX_b4j4_hut.txt
+Observed Limit: r < 0.1583
+Expected  2.5%: r < 0.3726
+Expected 16.0%: r < 0.6748
+Expected 50.0%: r < 0.7481
+Expected 84.0%: r < 0.7511
+Expected 97.5%: r < 0.8553
+input_MVAHutMAX_comb_hut.txt
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0093
+Expected 16.0%: r < 0.0127
+Expected 50.0%: r < 0.0170
+Expected 84.0%: r < 0.0238
+Expected 97.5%: r < 0.0312
+
+
+

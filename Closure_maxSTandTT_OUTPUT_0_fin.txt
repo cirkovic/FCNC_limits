@@ -1,0 +1,24 @@
+=====>  INPUT_MVAHutMAX_b2j3_hut/COMBINE_OUTPUT_0.txt
+Best fit r: 4.45325e-06  -4.45325e-06/+14.187  (68% CL)
+=====>  INPUT_MVAHutMAX_b3j3_hut/COMBINE_OUTPUT_0.txt
+Best fit r: 6.67007e-05  -6.67007e-05/+15.3889  (68% CL)
+=====>  INPUT_MVAHutMAX_b2j4_hut/COMBINE_OUTPUT_0.txt
+Best fit r: 0.00144599  -0.00144599/+1.45152  (68% CL)
+=====>  INPUT_MVAHutMAX_b3j4_hut/COMBINE_OUTPUT_0.txt
+Best fit r: 0.000336175  -0.000336175/+0.323056  (68% CL)
+=====>  INPUT_MVAHutMAX_b4j4_hut/COMBINE_OUTPUT_0.txt
+Best fit r: 0.0113612  -0.0113612/+0.968365  (68% CL)
+=====>  INPUT_MVAHutMAX_comb_hut/COMBINE_OUTPUT_0.txt
+Best fit r: 5.1104e-06  -5.1104e-06/+0.0367305  (68% CL)
+=====>  INPUT_MVAHctMAX_b2j3_hct/COMBINE_OUTPUT_0.txt
+Best fit r: 3.87618e-05  -3.87618e-05/+10.1252  (68% CL)
+=====>  INPUT_MVAHctMAX_b3j3_hct/COMBINE_OUTPUT_0.txt
+Best fit r: 0.0349943  -0.0349943/+2.30219  (68% CL)
+=====>  INPUT_MVAHctMAX_b2j4_hct/COMBINE_OUTPUT_0.txt
+Best fit r: 0.0163064  -0.0163064/+16.0247  (68% CL)
+=====>  INPUT_MVAHctMAX_b3j4_hct/COMBINE_OUTPUT_0.txt
+Best fit r: 0.0411785  -0.0411785/+1.95853  (68% CL)
+=====>  INPUT_MVAHctMAX_b4j4_hct/COMBINE_OUTPUT_0.txt
+Best fit r: 0.049232  -0.049232/+7.05184  (68% CL)
+=====>  INPUT_MVAHctMAX_comb_hct/COMBINE_OUTPUT_0.txt
+Best fit r: 0.00116824  -0.00116824/+13.3196  (68% CL)

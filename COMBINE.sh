@@ -1,0 +1,149 @@
+for i in `ls cards`; do
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    #if [[ "$i" != "input_MVAHutMAX_comb_hut.txt" ]] && [[ "$i" != "input_MVAHctMAX_comb_hct.txt" ]]; then continue; fi
+    echo $i
+    #combine cards/${i} -M Asymptotic  --rMin=-0.001 --rMax=0.001
+    #combine cards/${i} -M Asymptotic #-S 0
+#    if [[ "$i" == "input_MVAHutMAX_b2j4_hut.txt" ]]; then
+#        combine CARDS/${i} -M Asymptotic --rMin=-5 --rMax=5
+#    else
+#    if [[ "$i" == "input_MVAHutMAX_b3j4_hut.txt" ]]; then
+#        combine cards/${i} -M Asymptotic --rMin=-2.5 --rMax=2.5
+#    else
+        combine cards/${i} -M Asymptotic #-S 0
+#    fi
+#    fi
+    #exit
+done 2>&1 | tee COMBINE_OUTPUT_12.txt
+
+echo; echo
+
+grep "input_\|Expected \|Observed " COMBINE_OUTPUT_12.txt 2>&1 | tee COMBINE_OUTPUT_13.txt
+
+
+exit
+
+
+
+for i in `ls cards`; do
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    #if [[ "$i" != "input_MVAHutMAX_comb_hut.txt" ]] && [[ "$i" != "input_MVAHctMAX_comb_hct.txt" ]]; then continue; fi
+    echo $i
+    #combine cards/${i} -M Asymptotic  --rMin=-0.001 --rMax=0.001
+    #combine cards/${i} -M Asymptotic #-S 0
+    if [[ "$i" == "input_MVAHutMAX_b2j4_hut.txt" ]]; then
+        combine CARDS/${i} -M Asymptotic --rMin=-5 --rMax=5
+    else
+        combine CARDS/${i} -M Asymptotic #-S 0
+    fi
+    #exit
+done 2>&1 | tee COMBINE_OUTPUT_8.txt
+
+echo; echo
+
+grep "input_\|Expected \|Observed " COMBINE_OUTPUT_8.txt 2>&1 | tee COMBINE_OUTPUT_9.txt
+
+
+exit
+
+
+
+
+for i in `ls cards`; do
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    if [[ "$i" != "input_MVAHutMAX_comb_hut.txt" ]] && [[ "$i" != "input_MVAHctMAX_comb_hct.txt" ]]; then continue; fi
+    echo $i
+    combine cards/${i} -M Asymptotic
+done 2>&1 | tee COMBINE_OUTPUT_6.txt
+
+echo; echo
+
+grep "input_\|Expected \|Observed " COMBINE_OUTPUT_6.txt 2>&1 | tee COMBINE_OUTPUT_7.txt
+
+
+exit
+
+
+for i in `ls cards`; do
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    if [[ "$i" == "input_MVAHutMAX_comb_hut.txt" ]]; then continue; fi
+    if [[ "$i" == "input_MVAHctMAX_comb_hct.txt" ]]; then continue; fi
+    echo $i
+    if [[ "$i" == "input_MVAHutMAX_b3j4_hut.txt" ]]; then
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-100 --rMax=100
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1000 --rMax=1000
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-0.1 --rMax=0.1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1 --rMax=1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-10 --rMax=10
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-5 --rMax=5
+        combine cards/${i} -M Asymptotic --run expected --rMin=-2.5 --rMax=2.5
+    else
+        combine cards/${i} -M Asymptotic --run expected
+    fi
+done 2>&1 | tee COMBINE_OUTPUT_4.txt
+
+echo; echo
+
+grep "input_\|Expected " COMBINE_OUTPUT_4.txt 2>&1 | tee COMBINE_OUTPUT_5.txt 
+
+
+exit
+
+for i in `ls cards`; do
+    echo $i
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    if [[ "$i" == "input_MVAHutMAX_b3j4_hut.txt" ]]; then
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-100 --rMax=100
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1000 --rMax=1000
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-0.1 --rMax=0.1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1 --rMax=1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-10 --rMax=10
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-5 --rMax=5
+        combine cards/${i} -M Asymptotic --run expected --rMin=-2.5 --rMax=2.5
+    else
+        combine cards/${i} -M Asymptotic --run expected --rMin=-2.5 --rMax=2.5
+    fi
+done
+
+
+exit
+
+
+for i in `ls cards`; do
+    echo $i
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    if [[ "$i" == "input_MVAHutMAX_b3j4_hut.txt" ]]; then
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-100 --rMax=100
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1000 --rMax=1000
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-0.1 --rMax=0.1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1 --rMax=1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-10 --rMax=10
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-5 --rMax=5
+        combine cards/${i} -M Asymptotic --run expected --rMin=-2.5 --rMax=2.5
+    else
+        continue
+        combine cards/${i} -M Asymptotic --run expected
+    fi
+done
+
+exit
+
+for i in `ls cards`; do
+    echo $i
+    #combine cards/${i} -M Asymptotic --run expected --rMin=-0.001 --rMax=0.001
+    if [[ "$i" == "input_MVAHutMAX_b3j4_hut.txt" ]]; then
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-100 --rMax=100
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1000 --rMax=1000
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-0.1 --rMax=0.1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-1 --rMax=1
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-10 --rMax=10
+        #combine cards/${i} -M Asymptotic --run expected --rMin=-5 --rMax=5
+        combine cards/${i} -M FeldmanCousins #--run expected #--rMin=-2.5 --rMax=2.5
+    else
+        combine cards/${i} -M FeldmanCousins #--run expected #--rMin=-2.5 --rMax=2.5
+    fi
+done
+
+
+exit
+

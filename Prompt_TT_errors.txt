@@ -1,0 +1,548 @@
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHctTT_b2j3_hct.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-HAvNZK.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 2.18697e-10  -2.18697e-10/+0.0818614  (68% CL)
+nll S+B -> 208.546  nll B -> -1.14658e-10
+Done in 0.03 min (cpu), 0.12 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.00, 0.29!     ! +0.18, 0.00!       +0.00
+Jes                                           ! -0.00, 0.15!     ! +0.01, 0.00!       +0.00
+SfIteraviveFitCferr1                          * +0.00, 0.58*     ! -0.35, 0.00!       +0.00
+SfIteraviveFitCferr2                             -0.00, 1.02    ! +56.35, 0.00!       +0.00
+SfIteraviveFitHf                              ! +0.00, 0.15!     ! -0.56, 0.00!       +0.00
+SfIteraviveFitHfstats1                        ! +0.00, 0.34!     ! +0.08, 0.00!       +0.00
+SfIteraviveFitHfstats2                        ! -0.00, 0.37!     ! -0.09, 0.00!       +0.00
+SfIteraviveFitLf                              ! -0.00, 0.39!     ! -0.15, 0.00!       +0.00
+SfIteraviveFitLfstats1                        ! +0.00, 1.95!     ! -0.06, 0.00!       +0.00
+SfIteraviveFitLfstats2                        * -0.00, 0.71*    ! -15.60, 0.00!       +0.00
+SfLepton                                      ! -0.00, 0.15!     ! +0.24, 0.00!       +0.00
+SfPileup                                      ! +0.00, 0.43!     ! -0.18, 0.00!       +0.00
+SfTopPt                                       * +0.00, 0.85*     ! -0.00, 0.00!       +0.00
+lumi                                          ! -0.00, 0.07!     ! -0.44, 0.00!       +0.00
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHctTT_b2j4_hct.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-djEaay.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> -8.86677e-12
+Done in 0.01 min (cpu), 0.04 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHctTT_b3j3_hct.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-nZASO9.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> -1.42606e-12
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHctTT_b3j4_hct.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Channel b3j4 has bin 2 fill in data but empty in all backgrounds
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-uvf1hQ.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> -4.00245e-12
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHctTT_b4j4_hct.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-Oi5iQ9.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 6.94582e-05  -6.94582e-05/+0.00972501  (68% CL)
+nll S+B -> 3.61361e-05  nll B -> 0
+Done in 0.01 min (cpu), 0.07 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.00, 0.13!     ! +0.00, 0.12!       -0.10
+Jes                                           * +0.00, 0.59*     * -0.00, 0.56*       +0.10
+SfIteraviveFitCferr1                          * +0.00, 0.81*     * +0.00, 0.81*       +0.09
+SfIteraviveFitCferr2                             +0.00, 0.98        +0.00, 0.98       +0.01
+SfIteraviveFitHf                              * +0.00, 0.64*     * +0.00, 0.70*       +0.39
+SfIteraviveFitHfstats1                           +0.00, 0.98        +0.00, 0.98       +0.03
+SfIteraviveFitHfstats2                           +0.00, 0.99        +0.00, 0.99       -0.04
+SfIteraviveFitLf                              * +0.00, 0.86*     * -0.00, 0.87*       -0.13
+SfIteraviveFitLfstats1                           +0.00, 0.98        -0.00, 0.98       +0.05
+SfIteraviveFitLfstats2                           +0.00, 0.99        +0.00, 0.99       -0.02
+SfLepton                                      * +0.00, 0.66*     * -0.00, 0.66*       +0.08
+SfPileup                                      * +0.00, 0.87*     * -0.00, 0.87*       -0.05
+SfTopPt                                          +0.00, 0.99        +0.00, 0.99       +0.00
+lumi                                          * +0.00, 0.90*        +0.00, 0.90       -0.09
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHctTT_comb_hct.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Channel b3j4 has bin 2 fill in data but empty in all backgrounds
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-p6cwc8.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> 0
+Done in 0.04 min (cpu), 0.15 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHutTT_b2j3_hut.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-HvDElo.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.00928245  -0.000119847/+0.00363208  (68% CL)
+nll S+B -> 114057  nll B -> -4.70294e-11
+Done in 0.01 min (cpu), 0.06 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.00, 0.39!     ! -0.14, 0.18!       +0.42
+Jes                                           ! +0.00, 0.15!     ! +0.08, 0.09!       +0.21
+SfIteraviveFitCferr1                          ! +0.00, 0.23!     ! +0.08, 0.18!       -0.60
+SfIteraviveFitCferr2                          * +0.00, 0.77*     * -0.13, 0.76*       +0.62
+SfIteraviveFitHf                              ! +0.00, 0.38!     ! +0.86, 0.20!       -0.70
+SfIteraviveFitHfstats1                        * +0.00, 0.85*     ! +0.01, 0.34!       -0.55
+SfIteraviveFitHfstats2                        ! +0.00, 1.70!     ! +0.08, 0.36!       +0.51
+SfIteraviveFitLf                              ! +0.00, 0.36!     ! +0.17, 0.10!       +0.56
+SfIteraviveFitLfstats1                        * +0.00, 0.76*    ! -82.85, 255.60!       +0.82
+SfIteraviveFitLfstats2                        * +0.00, 0.83*    ! +129.78, 22.35!       -0.00
+SfLepton                                      ! +0.00, 0.22!     ! -0.02, 0.12!       +0.53
+SfPileup                                      * +0.00, 0.65*     * -0.03, 0.54*       -0.15
+SfTopPt                                          +0.00, 0.90     * +0.00, 0.76*       +0.00
+lumi                                          ! +0.00, 0.14!     ! -0.42, 0.08!       +0.59
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHutTT_b2j4_hut.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-2hXN9k.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> -5.28205e-11
+Done in 0.01 min (cpu), 0.06 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHutTT_b3j3_hut.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-GIIoAl.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> 0
+Done in 0.01 min (cpu), 0.09 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHutTT_b3j4_hut.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-2VNtp9.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.00875666  -0.00875666/+0.00425803  (68% CL)
+nll S+B -> 2.79576e+06  nll B -> -6.80148e-12
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.00, 0.35!        -0.19, 0.99       +0.00
+Jes                                           ! +0.00, 0.36!        -0.14, 0.99       +0.00
+SfIteraviveFitCferr1                          * -0.00, 0.74*    ! -60.90, 0.99!       +0.00
+SfIteraviveFitCferr2                             +0.00, 0.94    ! -37.23, 0.99!       +0.00
+SfIteraviveFitHf                              * -0.00, 0.52*     ! +2.29, 0.15!       +0.00
+SfIteraviveFitHfstats1                           -0.00, 0.95    ! +26.47, 0.99!       +0.00
+SfIteraviveFitHfstats2                           +0.00, 0.98     * -0.06, 0.60*       +0.00
+SfIteraviveFitLf                              * +0.00, 0.81*     ! -0.00, 0.21!       +0.00
+SfIteraviveFitLfstats1                           -0.00, 0.95    ! -25.53, 0.99!       +0.00
+SfIteraviveFitLfstats2                           +0.00, 0.98    ! +72.80, 0.99!       +0.00
+SfLepton                                      * -0.00, 0.74*     ! -0.97, 0.14!       +0.00
+SfPileup                                      * -0.00, 0.83*    ! +39.78, 0.99!       +0.00
+SfTopPt                                          +0.00, 0.99        -0.00, 0.99       +0.00
+lumi                                          * +0.00, 0.81*     ! -1.27, 0.16!       +0.00
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHutTT_b4j4_hut.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-EljCqF.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.00821565  -0.00821565/+0.0285603  (68% CL)
+nll S+B -> 2.49021e-05  nll B -> 0
+Done in 0.01 min (cpu), 0.06 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           * +0.00, 0.52*     ! +0.02, 0.00!       +0.00
+Jes                                           * +0.00, 0.74*     ! +0.03, 0.00!       +0.00
+SfIteraviveFitCferr1                          * +0.00, 0.88*     ! -0.12, 0.00!       +0.00
+SfIteraviveFitCferr2                             +0.00, 0.99     ! +0.02, 0.00!       +0.00
+SfIteraviveFitHf                              * +0.00, 0.69*     ! -0.35, 0.00!       +0.00
+SfIteraviveFitHfstats1                           +0.00, 0.99     ! -0.02, 0.00!       +0.00
+SfIteraviveFitHfstats2                           +0.00, 0.99     ! +0.01, 0.00!       +0.00
+SfIteraviveFitLf                                 +0.00, 0.91     ! +0.05, 0.00!       +0.00
+SfIteraviveFitLfstats1                           +0.00, 0.98     ! +7.70, 0.00!       +0.00
+SfIteraviveFitLfstats2                           +0.00, 0.99     ! +0.04, 0.00!       +0.00
+SfLepton                                      * +0.00, 0.76*     ! -0.00, 0.00!       +0.00
+SfPileup                                         +0.00, 0.93     ! +0.01, 0.00!       +0.00
+SfTopPt                                          +0.00, 0.99     ! +0.00, 0.00!       +0.00
+lumi                                             +0.00, 0.94     ! +0.08, 0.00!       +0.00
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 0 ../cards/input_MVAHutTT_comb_hut.txt -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_0.root -g plots_0.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-CzKF1w.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Fit failed.
+nll S+B -> -1  nll B -> -5.4764e-11
+Done in 0.02 min (cpu), 0.08 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 45, in <module>
+    if fit_s == None or fit_s.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the signal fit 'fit_s'"     % args[0]
+RuntimeError: File mlfit_0.root does not contain the output of the signal fit 'fit_s'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctTT_b2j3_hct.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-YPiYxT.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.091922/+0.0988881  (68% CL)
+nll S+B -> -16599.2  nll B -> -1
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctTT_b2j4_hct.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-ujPOvl.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.102068/+0.102844  (68% CL)
+nll S+B -> -44444  nll B -> -1
+Done in 0.01 min (cpu), 0.08 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctTT_b3j3_hct.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-YlJhWj.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.116595/+0.109226  (68% CL)
+nll S+B -> -15494.3  nll B -> 2.3086e+34
+Done in 0.01 min (cpu), 0.07 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                              +0.24, 0.99     * +0.00, 0.53*       +0.23
+Jes                                           ! +2.05, 0.99!     * +0.00, 0.55*       +0.25
+SfIteraviveFitCferr1                         ! -11.34, 0.99!        +0.00, 0.98       +0.39
+SfIteraviveFitCferr2                         ! +6971.51, 0.99!        +0.00, 0.96       -0.02
+SfIteraviveFitHf                              * +1.52, 0.99*     ! +0.00, 0.48!       +0.03
+SfIteraviveFitHfstats1                       ! -12.25, 0.99!     ! +0.00, 1.56!       +0.44
+SfIteraviveFitHfstats2                       ! +11.15, 0.99!     * +0.00, 0.89*       -0.32
+SfIteraviveFitLf                             ! +19.66, 0.99!     ! +0.00, 0.40!       -0.34
+SfIteraviveFitLfstats1                        * -1.17, 0.99*        +0.00, 0.94       -0.06
+SfIteraviveFitLfstats2                        ! +3.71, 0.99!        +0.00, 1.05       +0.18
+SfLepton                                      ! +3.18, 0.99!        +0.00, 0.93       +0.29
+SfPileup                                     ! -15.94, 0.99!     * +0.00, 0.68*       +0.08
+SfTopPt                                          +0.00, 0.99        +0.00, 0.98       +0.00
+lumi                                         ! +20.62, 0.99!     ! +0.00, 1.76!       +0.30
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctTT_b3j4_hct.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Channel b3j4 has bin 2 fill in data but empty in all backgrounds
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-DKAjFW.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -1/+0.00256458  (68% CL)
+nll S+B -> -53766  nll B -> -1
+Done in 0.02 min (cpu), 0.08 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctTT_b4j4_hct.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-JnF64T.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.198193/+0.214134  (68% CL)
+nll S+B -> -5811.85  nll B -> 7.47368e+27
+Done in 0.01 min (cpu), 0.04 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +1.61, 0.00!     ! +0.00, 0.37!       -0.38
+Jes                                           ! -0.18, 0.00!     ! +0.00, 0.39!       -0.70
+SfIteraviveFitCferr1                         ! -91.62, 0.00!     ! +0.00, 1.51!       +0.96
+SfIteraviveFitCferr2                         ! -435.18, 0.00!     * +0.00, 1.12*       -0.49
+SfIteraviveFitHf                              ! -8.54, 0.00!     * +0.00, 1.20*       +0.73
+SfIteraviveFitHfstats1                       ! -112.14, 0.00!        +0.00, 1.03       +0.17
+SfIteraviveFitHfstats2                       ! +217.40, 0.00!        +0.00, 1.01       -0.15
+SfIteraviveFitLf                             ! +299.65, 0.00!     ! +0.00, 2.39!       -0.94
+SfIteraviveFitLfstats1                       ! +25.67, 0.00!        +0.00, 1.00       +0.10
+SfIteraviveFitLfstats2                       ! +45.77, 0.00!        +0.00, 1.00       +0.00
+SfLepton                                      ! +0.05, 0.00!     * +0.00, 0.84*       +0.08
+SfPileup                                      ! +9.85, 0.00!        +0.00, 0.92       +0.28
+SfTopPt                                       ! +0.00, 0.00!        +0.00, 0.99       +0.00
+lumi                                         ! +47.96, 0.00!        +0.00, 1.01       -0.18
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctTT_comb_hct.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Channel b3j4 has bin 2 fill in data but empty in all backgrounds
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-59GRs1.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -1/+0.00128796  (68% CL)
+nll S+B -> -136115  nll B -> -1
+Done in 0.04 min (cpu), 0.16 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutTT_b2j3_hut.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-lUJLwC.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.0539907/+0.0496281  (68% CL)
+nll S+B -> -22917.6  nll B -> -1
+Done in 0.01 min (cpu), 0.08 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutTT_b2j4_hut.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-mdhWEl.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.0563009/+0.0566383  (68% CL)
+nll S+B -> -52880.9  nll B -> 5.30498e+56
+Done in 0.02 min (cpu), 0.07 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           * +1.19, 0.99*     ! +0.00, 0.35!       -0.07
+Jes                                           ! +2.62, 0.99!     ! +0.00, 0.25!       -0.27
+SfIteraviveFitCferr1                          ! -7.77, 0.99!     * -0.00, 0.73*       -0.02
+SfIteraviveFitCferr2                         ! -63.11, 0.99!     * +0.00, 0.90*       +0.03
+SfIteraviveFitHf                              ! -3.37, 0.99!     * -0.00, 0.62*       +0.08
+SfIteraviveFitHfstats1                       ! -73.35, 0.99!     * -0.00, 0.82*       +0.05
+SfIteraviveFitHfstats2                       ! +39.35, 0.99!        +0.00, 0.97       -0.13
+SfIteraviveFitLf                              ! +7.84, 0.99!     ! +0.00, 0.44!       -0.70
+SfIteraviveFitLfstats1                       ! -11602.41, 0.99!        -0.00, 1.00       -0.11
+SfIteraviveFitLfstats2                       ! -82.02, 0.99!        +0.00, 0.96       +0.02
+SfLepton                                     ! +43.50, 0.99!     * +0.00, 0.61*       -0.37
+SfPileup                                     ! +45.76, 0.99!     * -0.00, 0.71*       -0.05
+SfTopPt                                          +0.00, 0.99        +0.00, 0.99       -0.00
+lumi                                          * -0.73, 0.99*     * +0.00, 0.53*       +0.18
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutTT_b3j3_hut.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-2Yh9hZ.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.123212/+0.114707  (68% CL)
+nll S+B -> -18204.4  nll B -> -1
+Done in 0.01 min (cpu), 0.04 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutTT_b3j4_hut.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-TTDCIE.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.108199/+0.104854  (68% CL)
+nll S+B -> -54991.3  nll B -> -1
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutTT_b4j4_hut.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-lLIuJf.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.208235/+0.221311  (68% CL)
+nll S+B -> -1578.89  nll B -> -1
+Done in 0.01 min (cpu), 0.07 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutTT_comb_hut.txt -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-6zYzMJ.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 14
+Constraints of type SimpleGaussianConstraint: 14
+
+ --- MaxLikelihoodFit ---
+Best fit r: 1  -0.0225462/+0.0238732  (68% CL)
+nll S+B -> -150573  nll B -> -1
+Done in 0.02 min (cpu), 0.07 min (real)
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py", line 46, in <module>
+    if fit_b == None or fit_b.ClassName()   != "RooFitResult": raise RuntimeError, "File %s does not contain the output of the background fit 'fit_b'" % args[0]
+RuntimeError: File mlfit_1.root does not contain the output of the background fit 'fit_b'

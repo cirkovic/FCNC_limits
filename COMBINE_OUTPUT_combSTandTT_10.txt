@@ -1,0 +1,84 @@
+input_MVAHctComb_b2j3_hct.txt
+combine -S 1 ../cards/input_MVAHctComb_b2j3_hct.txt -M Asymptotic --run blind
+Expected  2.5%: r < 1.3660
+Expected 16.0%: r < 1.8638
+Expected 50.0%: r < 2.6797
+Expected 84.0%: r < 3.9294
+Expected 97.5%: r < 5.5940
+input_MVAHctComb_b2j4_hct.txt
+combine -S 1 ../cards/input_MVAHctComb_b2j4_hct.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.5379
+Expected 16.0%: r < 0.6956
+Expected 50.0%: r < 0.9336
+Expected 84.0%: r < 1.2574
+Expected 97.5%: r < 1.6589
+input_MVAHctComb_b3j3_hct.txt
+combine -S 1 ../cards/input_MVAHctComb_b3j3_hct.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.2111
+Expected 16.0%: r < 0.2843
+Expected 50.0%: r < 0.4004
+Expected 84.0%: r < 0.5680
+Expected 97.5%: r < 0.7735
+input_MVAHctComb_b3j4_hct.txt
+combine -S 1 ../cards/input_MVAHctComb_b3j4_hct.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.1618
+Expected 16.0%: r < 0.2135
+Expected 50.0%: r < 0.2969
+Expected 84.0%: r < 0.4188
+Expected 97.5%: r < 0.5757
+input_MVAHctComb_b4j4_hct.txt
+combine -S 1 ../cards/input_MVAHctComb_b4j4_hct.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.4240
+Expected 16.0%: r < 0.5928
+Expected 50.0%: r < 0.8789
+Expected 84.0%: r < 1.3378
+Expected 97.5%: r < 2.0104
+input_MVAHctComb_comb_hct.txt
+combine -S 1 ../cards/input_MVAHctComb_comb_hct.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.0886
+Expected 16.0%: r < 0.1194
+Expected 50.0%: r < 0.1675
+Expected 84.0%: r < 0.2376
+Expected 97.5%: r < 0.3214
+input_MVAHutComb_b2j3_hut.txt
+combine -S 1 ../cards/input_MVAHutComb_b2j3_hut.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.3939
+Expected 16.0%: r < 0.5293
+Expected 50.0%: r < 0.7441
+Expected 84.0%: r < 1.0675
+Expected 97.5%: r < 1.4830
+input_MVAHutComb_b2j4_hut.txt
+combine -S 1 ../cards/input_MVAHutComb_b2j4_hut.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.5975
+Expected 16.0%: r < 0.8113
+Expected 50.0%: r < 1.1289
+Expected 84.0%: r < 1.5744
+Expected 97.5%: r < 2.1334
+input_MVAHutComb_b3j3_hut.txt
+combine -S 1 ../cards/input_MVAHutComb_b3j3_hut.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.1806
+Expected 16.0%: r < 0.2375
+Expected 50.0%: r < 0.3291
+Expected 84.0%: r < 0.4590
+Expected 97.5%: r < 0.6219
+input_MVAHutComb_b3j4_hut.txt
+combine -S 1 ../cards/input_MVAHutComb_b3j4_hut.txt -M Asymptotic --run blind --rMin=-5 --rMax=5
+Expected  2.5%: r < 0.1633
+Expected 16.0%: r < 0.2184
+Expected 50.0%: r < 0.3086
+Expected 84.0%: r < 0.4501
+Expected 97.5%: r < 0.6427
+input_MVAHutComb_b4j4_hut.txt
+combine -S 1 ../cards/input_MVAHutComb_b4j4_hut.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.9892
+Expected 16.0%: r < 1.3278
+Expected 50.0%: r < 1.8828
+Expected 84.0%: r < 2.7459
+Expected 97.5%: r < 3.9214
+input_MVAHutComb_comb_hut.txt
+combine -S 1 ../cards/input_MVAHutComb_comb_hut.txt -M Asymptotic --run blind
+Expected  2.5%: r < 0.0768
+Expected 16.0%: r < 0.1028
+Expected 50.0%: r < 0.1440
+Expected 84.0%: r < 0.2032
+Expected 97.5%: r < 0.2756

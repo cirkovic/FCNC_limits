@@ -1,0 +1,422 @@
+=====>  INPUT_MVAHutMAX_b2j3_hut/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctMAX_comb_hct.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-lfny62.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+
+ --- MaxLikelihoodFit ---
+Best fit r: 4.45325e-06  -4.45325e-06/+14.187  (68% CL)
+nll S+B -> 1.72112e-05  nll B -> -5.29966e-11
+Done in 0.01 min (cpu), 0.04 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.37, 0.25!     ! +0.00, 0.45!       -0.01
+Jes                                           ! +0.66, 0.29!     ! +0.00, 0.25!       -0.12
+SfIteraviveFitCferr1                          ! -1.39, 0.15!     * +0.00, 0.57*       +0.40
+SfIteraviveFitCferr2                          ! +0.20, 0.32!        +0.00, 0.98       +0.00
+SfIteraviveFitHf                              ! -0.06, 0.30!        +0.00, 0.92       -0.03
+SfIteraviveFitHfstats1                        ! -0.03, 0.30!        +0.00, 1.04       -0.01
+SfIteraviveFitHfstats2                        ! -0.09, 0.30!        +0.00, 0.96       +0.13
+SfIteraviveFitLf                              ! +0.04, 0.15!     ! +0.00, 0.45!       +0.13
+SfIteraviveFitLfstats1                        ! +0.00, 0.31!        +0.00, 1.02       -0.02
+SfIteraviveFitLfstats2                        ! +0.05, 0.31!        +0.00, 0.97       -0.04
+SfLepton                                      ! +0.15, 0.19!     * +0.00, 0.53*       -0.42
+SfPileup                                      ! -0.53, 0.40!     * +0.00, 0.79*       +0.26
+SfTopPt                                       ! +0.00, 0.31!        +0.00, 0.99       -0.00
+
+
+
+=====>  INPUT_MVAHutMAX_b3j3_hut/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutMAX_b2j4_hut.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Channel b3j3 has bin 4 fill in data but empty in all backgrounds
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-aAWmru.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+
+ --- MaxLikelihoodFit ---
+Best fit r: 6.67007e-05  -6.67007e-05/+15.3889  (68% CL)
+nll S+B -> 5.26181e-06  nll B -> 0
+Done in 0.01 min (cpu), 0.04 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.00, 0.02!     ! +0.00, 0.02!       +0.02
+Jes                                           ! +0.00, 0.07!     ! +0.00, 0.07!       -0.03
+SfIteraviveFitCferr1                          * +0.00, 0.50*     ! +0.00, 0.42!       -0.31
+SfIteraviveFitCferr2                             +0.00, 0.97        +0.00, 0.97       -0.01
+SfIteraviveFitHf                              * +0.00, 0.76*     * +0.00, 0.56*       +0.10
+SfIteraviveFitHfstats1                           +0.00, 0.92        +0.00, 0.91       +0.11
+SfIteraviveFitHfstats2                           +0.00, 0.90     * -0.00, 1.11*       +0.01
+SfIteraviveFitLf                              ! +0.00, 0.47!     * -0.00, 0.57*       -0.32
+SfIteraviveFitLfstats1                           +0.00, 1.05        -0.00, 1.03       -0.02
+SfIteraviveFitLfstats2                           +0.00, 1.00        +0.00, 0.99       +0.04
+SfLepton                                      * +0.00, 0.89*     * +0.00, 1.15*       +0.14
+SfPileup                                      * +0.00, 0.81*     * +0.00, 0.79*       +0.14
+SfTopPt                                          +0.00, 0.99        -0.00, 1.00       +0.00
+
+
+
+=====>  INPUT_MVAHutMAX_b2j4_hut/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutMAX_b2j3_hut.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-QYJc63.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.00144599  -0.00144599/+1.45152  (68% CL)
+nll S+B -> 6.28759e-05  nll B -> -3.50745e-10
+Done in 0.01 min (cpu), 0.06 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.00, 0.43!     ! -0.00, 0.46!       -0.10
+Jes                                           ! +0.00, 0.31!     ! +0.00, 0.33!       +0.08
+SfIteraviveFitCferr1                          ! -0.00, 0.31!     ! -0.00, 0.33!       +0.08
+SfIteraviveFitCferr2                          * +0.00, 0.66*     * +0.00, 0.69*       -0.26
+SfIteraviveFitHf                              * -0.00, 0.64*     * +0.00, 0.69*       +0.11
+SfIteraviveFitHfstats1                           -0.00, 0.94        -0.00, 0.96       -0.08
+SfIteraviveFitHfstats2                        * +0.00, 0.89*        +0.00, 0.92       +0.12
+SfIteraviveFitLf                              ! +0.00, 0.48!     * +0.00, 0.56*       +0.00
+SfIteraviveFitLfstats1                           +0.00, 0.98        +0.00, 1.00       +0.01
+SfIteraviveFitLfstats2                           -0.00, 0.98        -0.00, 1.00       +0.01
+SfLepton                                      ! +0.00, 0.34!     ! -0.00, 0.41!       -0.25
+SfPileup                                      * -0.00, 0.65*     * -0.00, 0.66*       -0.11
+SfTopPt                                          +0.00, 0.99        -0.00, 0.98       -0.00
+
+
+
+=====>  INPUT_MVAHutMAX_b3j4_hut/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutMAX_b3j3_hut.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-YHN0aS.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+Real time 0:00:00, CP time 0.120
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.000336175  -0.000336175/+0.323056  (68% CL)
+nll S+B -> 2.12307e-05  nll B -> -7.11112e-11
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.08, 0.34!     * +0.00, 0.56*       -0.07
+Jes                                           ! -0.20, 0.19!     ! +0.00, 0.20!       -0.57
+SfIteraviveFitCferr1                          ! +0.38, 0.20!     ! +0.00, 0.21!       -0.75
+SfIteraviveFitCferr2                          ! -0.08, 0.46!     * +0.00, 0.54*       +0.05
+SfIteraviveFitHf                              ! +0.32, 0.26!     ! +0.00, 0.25!       -0.64
+SfIteraviveFitHfstats1                        ! -0.04, 0.47!     ! +0.00, 0.32!       -0.02
+SfIteraviveFitHfstats2                        ! +0.11, 0.48!     ! +0.00, 0.35!       -0.02
+SfIteraviveFitLf                              ! +0.97, 0.26!     ! +0.00, 0.17!       -0.76
+SfIteraviveFitLfstats1                        ! +0.07, 0.47!     * +0.00, 0.57*       +0.09
+SfIteraviveFitLfstats2                        ! -0.06, 0.48!     * +0.00, 0.85*       -0.01
+SfLepton                                      ! -0.09, 0.33!     ! +0.00, 0.42!       -0.67
+SfPileup                                      ! -0.06, 0.45!     * +0.00, 0.70*       -0.17
+SfTopPt                                       ! +0.00, 0.48!        +0.00, 0.95       -0.03
+
+
+
+=====>  INPUT_MVAHutMAX_b4j4_hut/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutMAX_b3j4_hut.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-m1pVEI.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+Real time 0:00:00, CP time 0.130
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.0113612  -0.0113612/+0.968365  (68% CL)
+nll S+B -> 7.61263e-05  nll B -> 0
+Done in 0.02 min (cpu), 0.06 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.00, 0.43!     ! +0.00, 0.40!       +0.16
+Jes                                           ! +0.00, 0.43!     ! -0.00, 0.45!       +0.03
+SfIteraviveFitCferr1                          * +0.00, 0.66*     * +0.00, 0.65*       +0.13
+SfIteraviveFitCferr2                             +0.00, 0.98        -0.00, 0.98       -0.03
+SfIteraviveFitHf                              * +0.00, 0.57*     * -0.00, 0.60*       -0.28
+SfIteraviveFitHfstats1                           +0.00, 0.98        +0.00, 0.98       +0.05
+SfIteraviveFitHfstats2                           +0.00, 0.99        -0.00, 0.98       -0.09
+SfIteraviveFitLf                              * +0.00, 0.79*     * -0.00, 0.79*       -0.23
+SfIteraviveFitLfstats1                           +0.00, 0.98        -0.00, 0.98       -0.04
+SfIteraviveFitLfstats2                           +0.00, 0.99        +0.00, 0.99       +0.01
+SfLepton                                      * +0.00, 0.68*     * +0.00, 0.77*       -0.02
+SfPileup                                      * +0.00, 0.88*     * +0.00, 0.88*       +0.08
+SfTopPt                                          +0.00, 0.99        -0.00, 1.00       +0.00
+
+
+
+=====>  INPUT_MVAHutMAX_comb_hut/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHutMAX_b4j4_hut.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+Channel b3j3 has bin 4 fill in data but empty in all backgrounds
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-c4QlNs.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+Real time 0:00:01, CP time 0.700
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 5.1104e-06  -5.1104e-06/+0.0367305  (68% CL)
+nll S+B -> 5.79424e-06  nll B -> 0
+Done in 0.02 min (cpu), 0.04 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.25, 0.09!     ! +0.00, 0.08!       -0.02
+Jes                                           ! -0.18, 0.04!     ! +0.00, 0.05!       +0.17
+SfIteraviveFitCferr1                          ! -0.65, 0.08!     ! +0.00, 0.07!       +0.24
+SfIteraviveFitCferr2                          ! -0.45, 0.14!     ! +0.00, 0.21!       +0.13
+SfIteraviveFitHf                              ! +1.07, 0.14!     ! +0.00, 0.13!       -0.01
+SfIteraviveFitHfstats1                        ! +0.03, 0.11!     ! +0.00, 0.37!       -0.18
+SfIteraviveFitHfstats2                        ! +0.11, 0.11!     ! +0.00, 0.42!       -0.22
+SfIteraviveFitLf                              ! +0.80, 0.07!     ! +0.00, 0.05!       -0.22
+SfIteraviveFitLfstats1                        ! +0.05, 0.11!     * +0.00, 0.51*       +0.02
+SfIteraviveFitLfstats2                        ! -0.18, 0.11!     * +0.00, 0.62*       +0.17
+SfLepton                                      ! -0.27, 0.04!     ! +0.00, 0.07!       -0.01
+SfPileup                                      ! +0.14, 0.10!     ! +0.00, 0.29!       +0.19
+SfTopPt                                       ! +0.00, 0.11!        +0.00, 0.97       -0.01
+
+
+
+=====>  INPUT_MVAHctMAX_b2j3_hct/COMBINE_OUTPUT_0.txt
+
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-eV7kL9.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+
+ --- MaxLikelihoodFit ---
+Best fit r: 3.87618e-05  -3.87618e-05/+10.1252  (68% CL)
+nll S+B -> 9.58722e-06  nll B -> -3.68312e-10
+Done in 0.01 min (cpu), 0.04 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.00, 0.43!     ! -0.00, 0.34!       +0.96
+Jes                                           ! -0.00, 0.17!     ! +0.00, 0.10!       +0.74
+SfIteraviveFitCferr1                          ! +0.00, 0.39!     ! -0.00, 0.10!       +0.98
+SfIteraviveFitCferr2                          * +0.00, 0.68*     ! -0.00, 0.07!       +0.27
+SfIteraviveFitHf                              * +0.00, 0.68*     ! +0.00, 0.22!       +0.98
+SfIteraviveFitHfstats1                           +0.00, 0.97     ! -0.00, 0.14!       +0.97
+SfIteraviveFitHfstats2                        * -0.00, 0.88*     ! +0.00, 0.15!       -0.97
+SfIteraviveFitLf                              ! -0.00, 0.39!     ! +0.00, 0.05!       -0.97
+SfIteraviveFitLfstats1                           +0.00, 0.98     * +0.00, 0.74*       +0.98
+SfIteraviveFitLfstats2                           +0.00, 0.95     ! +0.00, 0.30!       -0.48
+SfLepton                                      ! +0.00, 0.38!     ! -0.00, 0.11!       -0.98
+SfPileup                                      ! -0.00, 0.46!     ! +0.00, 0.07!       +0.33
+SfTopPt                                          +0.00, 0.99     ! +0.00, 0.42!       +0.04
+
+
+
+=====>  INPUT_MVAHctMAX_b3j3_hct/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctMAX_b2j4_hct.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-8f7aGd.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+Real time 0:00:00, CP time 0.160
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.0349943  -0.0349943/+2.30219  (68% CL)
+nll S+B -> 0.000105381  nll B -> -3.66041e-11
+Done in 0.02 min (cpu), 0.08 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.00, 0.47!     * -0.00, 0.51*       +0.03
+Jes                                           ! -0.06, 0.37!     ! +0.00, 0.41!       +0.15
+SfIteraviveFitCferr1                          ! +0.10, 0.49!     ! +0.00, 0.35!       -0.19
+SfIteraviveFitCferr2                          * +0.04, 0.85*        -0.00, 0.95       -0.02
+SfIteraviveFitHf                              * +0.07, 0.62*     ! +0.00, 0.49!       -0.22
+SfIteraviveFitHfstats1                        * -0.05, 0.84*     * +0.00, 0.87*       +0.03
+SfIteraviveFitHfstats2                        * +0.08, 0.84*        -0.00, 0.96       -0.23
+SfIteraviveFitLf                              ! +0.29, 0.32!     * -0.00, 0.53*       -0.65
+SfIteraviveFitLfstats1                        * +0.01, 0.85*        +0.00, 0.93       +0.04
+SfIteraviveFitLfstats2                        * -0.00, 0.86*        -0.00, 0.99       +0.05
+SfLepton                                      * -0.03, 0.68*     * -0.00, 0.84*       +0.07
+SfPileup                                      * -0.04, 0.73*     * -0.00, 0.83*       +0.15
+SfTopPt                                       * +0.00, 0.86*        +0.00, 0.99       +0.00
+
+
+
+=====>  INPUT_MVAHctMAX_b2j4_hct/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctMAX_b2j3_hct.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-JK6x5T.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.0163064  -0.0163064/+16.0247  (68% CL)
+nll S+B -> 6.66855e-05  nll B -> -1.00929e-09
+Done in 0.01 min (cpu), 0.05 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           * -0.00, 0.55*     ! -0.00, 0.38!       -0.10
+Jes                                           ! -0.00, 0.26!     ! +0.00, 0.09!       -0.14
+SfIteraviveFitCferr1                          ! -0.00, 0.36!     ! -0.00, 0.27!       +0.63
+SfIteraviveFitCferr2                          * -0.00, 0.80*     ! +0.00, 0.28!       -0.28
+SfIteraviveFitHf                              * -0.00, 0.60*     ! +0.00, 0.25!       -0.22
+SfIteraviveFitHfstats1                           +0.00, 1.01     ! +0.00, 0.24!       +0.22
+SfIteraviveFitHfstats2                           -0.00, 0.98     ! +0.00, 0.26!       -0.19
+SfIteraviveFitLf                              * -0.00, 0.51*     ! -0.00, 0.08!       -0.22
+SfIteraviveFitLfstats1                           -0.00, 0.99     * -0.00, 0.71*       -0.15
+SfIteraviveFitLfstats2                           -0.00, 0.99     ! +0.00, 2.44!       -0.68
+SfLepton                                      ! +0.00, 0.38!     ! +0.00, 0.10!       -0.11
+SfPileup                                      * +0.00, 0.73*     ! +0.00, 0.32!       +0.15
+SfTopPt                                          +0.00, 0.99        +0.00, 0.94       +0.03
+
+
+
+=====>  INPUT_MVAHctMAX_b3j4_hct/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctMAX_b3j3_hct.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-8XWKR0.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+Real time 0:00:00, CP time 0.160
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.0411785  -0.0411785/+1.95853  (68% CL)
+nll S+B -> 0.000136637  nll B -> -2.27486e-11
+Done in 0.02 min (cpu), 0.06 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! -0.04, 0.38!     ! +0.00, 0.32!       +0.21
+Jes                                           * -0.04, 0.51*     ! +0.00, 0.21!       +0.14
+SfIteraviveFitCferr1                          ! +0.00, 0.43!     ! -0.00, 0.18!       -0.19
+SfIteraviveFitCferr2                          * -0.13, 0.85*        +0.00, 0.93       -0.53
+SfIteraviveFitHf                              * +0.11, 0.67*     ! -0.00, 0.40!       -0.66
+SfIteraviveFitHfstats1                           -0.02, 1.02     ! -0.00, 0.46!       -0.00
+SfIteraviveFitHfstats2                           +0.07, 0.98     * +0.00, 0.51*       -0.45
+SfIteraviveFitLf                              ! +0.15, 0.38!     ! +0.00, 0.20!       -0.63
+SfIteraviveFitLfstats1                           +0.02, 1.03     * -0.00, 0.70*       -0.41
+SfIteraviveFitLfstats2                           -0.01, 1.03     * +0.00, 0.90*       +0.12
+SfLepton                                      * +0.01, 0.56*     ! +0.00, 0.33!       -0.49
+SfPileup                                         -0.06, 0.93     * +0.00, 0.86*       +0.02
+SfTopPt                                          -0.00, 1.05        +0.00, 0.98       -0.06
+
+
+
+=====>  INPUT_MVAHctMAX_b4j4_hct/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctMAX_b3j4_hct.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-CE9vD1.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+Real time 0:00:00, CP time 0.080
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.049232  -0.049232/+7.05184  (68% CL)
+nll S+B -> 3.75355e-05  nll B -> 0
+Done in 0.02 min (cpu), 0.07 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.00, 0.39!     ! +0.00, 0.39!       +0.11
+Jes                                           ! +0.00, 0.29!     ! +0.00, 0.30!       +0.08
+SfIteraviveFitCferr1                          * +0.00, 0.51*     * +0.00, 0.59*       +0.30
+SfIteraviveFitCferr2                             +0.00, 0.95        +0.00, 0.96       +0.07
+SfIteraviveFitHf                              * +0.00, 0.69*     * -0.00, 0.70*       -0.10
+SfIteraviveFitHfstats1                           +0.00, 0.97        -0.00, 0.99       +0.01
+SfIteraviveFitHfstats2                           +0.00, 0.99        -0.00, 0.99       -0.05
+SfIteraviveFitLf                              * +0.00, 0.79*     * -0.00, 0.85*       -0.19
+SfIteraviveFitLfstats1                           +0.00, 0.98        -0.00, 0.99       -0.04
+SfIteraviveFitLfstats2                           +0.00, 0.99        +0.00, 0.99       -0.00
+SfLepton                                      * +0.00, 0.74*     * +0.00, 0.84*       +0.21
+SfPileup                                      * +0.00, 0.89*     * +0.00, 0.89*       +0.09
+SfTopPt                                          +0.00, 0.99        +0.00, 1.00       -0.00
+
+
+
+=====>  INPUT_MVAHctMAX_comb_hct/COMBINE_OUTPUT_0.txt
+combine -S 1 -M MaxLikelihoodFit -t -1 --expectSignal 1 ../cards/input_MVAHctMAX_b4j4_hct.txt && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances.py -a mlfit.root -g plots.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-IP4OMv.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from expected outcome
+Created Branches
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Running Minos for POI 
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.00116824  -0.00116824/+13.3196  (68% CL)
+nll S+B -> 1.53704e-05  nll B -> -3.94834e-10
+Done in 0.03 min (cpu), 0.04 min (real)
+[?1034hname                                              b-only fit            s+b fit         rho
+Jer                                           ! +0.00, 0.18!     ! -0.00, 0.15!       -0.17
+Jes                                           ! -0.00, 0.07!     ! +0.00, 0.07!       +0.87
+SfIteraviveFitCferr1                          ! +0.00, 0.14!     ! +0.00, 0.07!       +0.83
+SfIteraviveFitCferr2                          ! +0.00, 0.30!     ! +0.00, 0.14!       +0.53
+SfIteraviveFitHf                              ! +0.00, 0.31!     ! -0.00, 0.09!       +0.52
+SfIteraviveFitHfstats1                        ! +0.00, 0.27!     ! -0.00, 0.14!       +0.74
+SfIteraviveFitHfstats2                        * -0.00, 0.74*     ! -0.00, 0.19!       -0.83
+SfIteraviveFitLf                              ! -0.00, 0.23!     ! -0.00, 0.06!       -0.85
+SfIteraviveFitLfstats1                           +0.00, 0.95     ! +0.00, 0.31!       +0.33
+SfIteraviveFitLfstats2                           +0.00, 0.91     * -0.00, 0.52*       +0.55
+SfLepton                                      ! -0.00, 0.13!     ! -0.00, 0.05!       +0.07
+SfPileup                                      ! -0.00, 0.37!     ! +0.00, 0.20!       +0.65
+SfTopPt                                          +0.00, 0.99        +0.00, 0.93       -0.04
+
+
+

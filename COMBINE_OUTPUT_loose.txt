@@ -1,0 +1,96 @@
+input_MVAHctMAX_b2j3_hct.txt
+combine -S 1 ../cards/input_MVAHctMAX_b2j3_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.1194
+Expected 16.0%: r < 0.1211
+Expected 50.0%: r < 0.1248
+Expected 84.0%: r < 0.1312
+Expected 97.5%: r < 0.1404
+input_MVAHctMAX_b2j4_hct.txt
+combine -S 1 ../cards/input_MVAHctMAX_b2j4_hct.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.1262
+Expected 16.0%: r < 0.1266
+Expected 50.0%: r < 0.1277
+Expected 84.0%: r < 0.1313
+Expected 97.5%: r < 0.1348
+input_MVAHctMAX_b3j3_hct.txt
+combine -S 1 ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+Observed Limit: r < 0.0393
+Expected  2.5%: r < 0.0279
+Expected 16.0%: r < 0.0367
+Expected 50.0%: r < 0.0503
+Expected 84.0%: r < 0.0700
+Expected 97.5%: r < 0.0930
+input_MVAHctMAX_b3j4_hct.txt
+combine -S 1 ../cards/input_MVAHctMAX_b3j4_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+Observed Limit: r < 0.0130
+Expected  2.5%: r < 0.0285
+Expected 16.0%: r < 0.0418
+Expected 50.0%: r < 0.0578
+Expected 84.0%: r < 0.0721
+Expected 97.5%: r < 0.1065
+input_MVAHctMAX_b4j4_hct.txt
+combine -S 1 ../cards/input_MVAHctMAX_b4j4_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+Observed Limit: r < 0.0548
+Expected  2.5%: r < 0.0112
+Expected 16.0%: r < 0.0144
+Expected 50.0%: r < 0.0184
+Expected 84.0%: r < 0.0246
+Expected 97.5%: r < 0.0320
+input_MVAHctMAX_comb_hct.txt
+combine -S 1 ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.0044 --rMax=0.0044
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.0004
+Expected 16.0%: r < 0.0008
+Expected 50.0%: r < 0.0501
+Expected 84.0%: r < 0.0504
+Expected 97.5%: r < 0.0508
+input_MVAHutMAX_b2j3_hut.txt
+combine -S 1 ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+Observed Limit: r < 0.0295
+Expected  2.5%: r < 0.0151
+Expected 16.0%: r < 0.0196
+Expected 50.0%: r < 0.0262
+Expected 84.0%: r < 0.0366
+Expected 97.5%: r < 0.0484
+input_MVAHutMAX_b2j4_hut.txt
+combine -S 1 ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+Observed Limit: r < 0.0127
+Expected  2.5%: r < 0.0208
+Expected 16.0%: r < 0.0236
+Expected 50.0%: r < 0.0272
+Expected 84.0%: r < 0.0337
+Expected 97.5%: r < 0.0417
+input_MVAHutMAX_b3j3_hut.txt
+combine -S 1 ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+Observed Limit: r < 0.0260
+Expected  2.5%: r < 0.0210
+Expected 16.0%: r < 0.0276
+Expected 50.0%: r < 0.0379
+Expected 84.0%: r < 0.0521
+Expected 97.5%: r < 0.0694
+input_MVAHutMAX_b3j4_hut.txt
+combine -S 1 ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+Observed Limit: r < 0.1903
+Expected  2.5%: r < 0.0156
+Expected 16.0%: r < 0.0195
+Expected 50.0%: r < 0.0270
+Expected 84.0%: r < 0.0334
+Expected 97.5%: r < 0.0429
+input_MVAHutMAX_b4j4_hut.txt
+combine -S 1 ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+Observed Limit: r < 0.0354
+Expected  2.5%: r < 0.0345
+Expected 16.0%: r < 0.0453
+Expected 50.0%: r < 0.0621
+Expected 84.0%: r < 0.0854
+Expected 97.5%: r < 0.1141
+input_MVAHutMAX_comb_hut.txt
+combine -S 1 ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.0005 --rMax=0.0005
+Observed Limit: r < 0.0022
+Expected  2.5%: r < 0.0324
+Expected 16.0%: r < 0.0338
+Expected 50.0%: r < 0.0361
+Expected 84.0%: r < 0.0393
+Expected 97.5%: r < 0.0450

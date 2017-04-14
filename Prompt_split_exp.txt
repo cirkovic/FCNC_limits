@@ -1,0 +1,220 @@
+combine -S 1 ../cards/input_MVAHctMAX_b2j3_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0825195
+Sigma  for expected limits: 0.0421026
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0474
+Expected 16.0%: r < 0.0614
+Expected 50.0%: r < 0.0825
+Expected 84.0%: r < 0.1118
+Expected 97.5%: r < 0.1449
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHctMAX_b2j4_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0541992
+Sigma  for expected limits: 0.0276532
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0301
+Expected 16.0%: r < 0.0395
+Expected 50.0%: r < 0.0542
+Expected 84.0%: r < 0.0736
+Expected 97.5%: r < 0.0961
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0581055
+Sigma  for expected limits: 0.0296462
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0322
+Expected 16.0%: r < 0.0423
+Expected 50.0%: r < 0.0581
+Expected 84.0%: r < 0.0790
+Expected 97.5%: r < 0.1061
+
+Done in 0.01 min (cpu), 0.03 min (real)
+combine -S 1 ../cards/input_MVAHctMAX_b3j4_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0327148
+Sigma  for expected limits: 0.0166916
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0161
+Expected 16.0%: r < 0.0236
+Expected 50.0%: r < 0.0327
+Expected 84.0%: r < 0.0476
+Expected 97.5%: r < 0.0650
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHctMAX_b4j4_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.159668
+Sigma  for expected limits: 0.0814648
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0639
+Expected 16.0%: r < 0.0965
+Expected 50.0%: r < 0.1597
+Expected 84.0%: r < 0.2469
+Expected 97.5%: r < 0.3578
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0131836
+Sigma  for expected limits: 0.00672645
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0078
+Expected 16.0%: r < 0.0102
+Expected 50.0%: r < 0.0132
+Expected 84.0%: r < 0.0186
+Expected 97.5%: r < 0.0250
+
+Done in 0.04 min (cpu), 0.04 min (real)
+combine -S 1 ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Channel b2j3 has bin 20 fill in data but empty in all backgrounds
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0483398
+Sigma  for expected limits: 0.0246636
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0261
+Expected 16.0%: r < 0.0348
+Expected 50.0%: r < 0.0483
+Expected 84.0%: r < 0.0672
+Expected 97.5%: r < 0.0900
+
+Done in 0.01 min (cpu), 0.03 min (real)
+combine -S 1 ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.034668
+Sigma  for expected limits: 0.0176881
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0192
+Expected 16.0%: r < 0.0255
+Expected 50.0%: r < 0.0347
+Expected 84.0%: r < 0.0477
+Expected 97.5%: r < 0.0625
+
+Done in 0.01 min (cpu), 0.03 min (real)
+combine -S 1 ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Channel b3j3 has bin 4 fill in data but empty in all backgrounds
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0395508
+Sigma  for expected limits: 0.0201793
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0226
+Expected 16.0%: r < 0.0292
+Expected 50.0%: r < 0.0396
+Expected 84.0%: r < 0.0518
+Expected 97.5%: r < 0.0671
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --run expected --rMin=-0.5 --rMax=0.5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0316406
+Sigma  for expected limits: 0.0161435
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0183
+Expected 16.0%: r < 0.0237
+Expected 50.0%: r < 0.0316
+Expected 84.0%: r < 0.0425
+Expected 97.5%: r < 0.0530
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.435547
+Sigma  for expected limits: 0.222222
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.2050
+Expected 16.0%: r < 0.2888
+Expected 50.0%: r < 0.4355
+Expected 84.0%: r < 0.6664
+Expected 97.5%: r < 0.9877
+
+Done in 0.01 min (cpu), 0.03 min (real)
+combine -S 1 ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Channel b2j3 has bin 20 fill in data but empty in all backgrounds
+Channel b3j3 has bin 4 fill in data but empty in all backgrounds
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 16
+Median for expected limits: 0.0112305
+Sigma  for expected limits: 0.00572994
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0060
+Expected 16.0%: r < 0.0083
+Expected 50.0%: r < 0.0112
+Expected 84.0%: r < 0.0159
+Expected 97.5%: r < 0.0207
+
+Done in 0.04 min (cpu), 0.04 min (real)

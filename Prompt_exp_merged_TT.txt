@@ -1,0 +1,275 @@
+combine -S 1 ../cards/input_MVAHctTT_b2j3_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [Jes] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.200000 (0.010000 times rMax), while it should be at zero
+Median for expected limits: 0.219727
+Sigma  for expected limits: 0.112107
+
+ -- Asymptotic -- 
+
+Done in 0.00 min (cpu), 0.01 min (real)
+combine -S 1 ../cards/input_MVAHctTT_b2j4_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [SfLepton] at boundary. 
+  [WARNING] Found [Jes] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.200000 (0.010000 times rMax), while it should be at zero
+Median for expected limits: 0.293945
+Sigma  for expected limits: 0.149975
+
+ -- Asymptotic -- 
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHctTT_b3j3_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 0.000488281
+Sigma  for expected limits: 0.000249128
+
+ -- Asymptotic -- 
+
+Done in 0.00 min (cpu), 0.00 min (real)
+combine -S 1 ../cards/input_MVAHctTT_b3j4_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Channel b3j4 has bin 2 fill in data but empty in all backgrounds
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 0.101074
+Sigma  for expected limits: 0.0515694
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.0983
+Expected 16.0%: r < 0.0987
+Expected 50.0%: r < 0.1011
+Expected 84.0%: r < 0.1071
+Expected 97.5%: r < 0.1075
+
+Done in 0.01 min (cpu), 0.01 min (real)
+combine -S 1 ../cards/input_MVAHctTT_b4j4_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 0.00146484
+Sigma  for expected limits: 0.000747383
+
+ -- Asymptotic -- 
+
+Done in 0.00 min (cpu), 0.01 min (real)
+combine -S 1 ../cards/input_MVAHctTT_comb_hct.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Channel b3j4 has bin 2 fill in data but empty in all backgrounds
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfLepton] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.048817 (0.002441 times rMax), while it should be at zero
+Median for expected limits: 0.0493164
+Sigma  for expected limits: 0.0251619
+
+ -- Asymptotic -- 
+
+Done in 0.01 min (cpu), 0.03 min (real)
+combine -S 1 ../cards/input_MVAHutTT_b2j3_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [Jes] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.200000 (0.010000 times rMax), while it should be at zero
+Median for expected limits: 0.200195
+Sigma  for expected limits: 0.102142
+
+ -- Asymptotic -- 
+
+Done in 0.00 min (cpu), 0.01 min (real)
+combine -S 1 ../cards/input_MVAHutTT_b2j4_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [SfLepton] at boundary. 
+  [WARNING] Found [Jes] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.200000 (0.010000 times rMax), while it should be at zero
+Median for expected limits: 0.250977
+Sigma  for expected limits: 0.128052
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.2010
+Expected 16.0%: r < 0.2018
+Expected 50.0%: r < 0.2510
+Expected 84.0%: r < 0.2520
+Expected 97.5%: r < 0.2530
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHutTT_b3j3_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [SfLepton] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 0.124512
+Sigma  for expected limits: 0.0635276
+
+ -- Asymptotic -- 
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHutTT_b3j4_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [lumi] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [SfLepton] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 0.0922852
+Sigma  for expected limits: 0.0470851
+
+ -- Asymptotic -- 
+
+Done in 0.01 min (cpu), 0.02 min (real)
+combine -S 1 ../cards/input_MVAHutTT_b4j4_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+Median for expected limits: 0.000488281
+Sigma  for expected limits: 0.000249128
+
+ -- Asymptotic -- 
+
+Done in 0.00 min (cpu), 0.01 min (real)
+combine -S 1 ../cards/input_MVAHutTT_comb_hut.txt -M Asymptotic --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [Jes] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary. 
+  [WARNING] Found [SfIteraviveFitCferr2] at boundary. 
+  [WARNING] Found [SfIteraviveFitHf] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary. 
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats1] at boundary. 
+  [WARNING] Found [SfIteraviveFitLfstats2] at boundary. 
+  [WARNING] Found [SfLepton] at boundary. 
+  [WARNING] Found [SfPileup] at boundary. 
+  [WARNING] Found [lumi] at boundary. 
+Constraints of type SimpleGaussianConstraint: 14
+WARNING: Best fit of asimov dataset is at r = 0.093065 (0.004653 times rMax), while it should be at zero
+Median for expected limits: 0.0961914
+Sigma  for expected limits: 0.0490782
+
+ -- Asymptotic -- 
+
+Done in 0.01 min (cpu), 0.01 min (real)

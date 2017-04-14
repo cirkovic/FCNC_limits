@@ -1,0 +1,3139 @@
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+input_MVAHutMAX_b2j3_hut.txt
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+input_MVAHutMAX_b2j4_hut.txt
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+input_MVAHutMAX_b3j3_hut.txt
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+input_MVAHutMAX_b3j4_hut.txt
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+input_MVAHutMAX_b4j4_hut.txt
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+input_MVAHutMAX_comb_hut.txt
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_OUTPUT_20.txt
+[cirkovic@lxplus109 TrainingsFCNC]$ ls -latr
+total 434
+-rwxr-xr-x.  1 cirkovic zh    60 Feb  6 21:13 produceCards.zsh
+-rw-r--r--.  1 cirkovic zh  4750 Feb  6 21:44 produceCards.C
+drwxr-xr-x.  4 cirkovic zh  2048 Feb  7 23:29 old
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  7 23:29 inputY
+-rw-r--r--.  1 cirkovic zh  6377 Feb  8 16:09 COMBINE_OUTPUT.txt
+-rw-r--r--.  1 cirkovic zh  7031 Feb  8 16:28 COMBINE_OUTPUT_1.txt
+-rw-r--r--.  1 cirkovic zh   303 Feb  8 17:19 COMBINE_OUTPUT_2.txt
+-rwxr-xr-x.  1 cirkovic zh   579 Feb  8 17:53 make_combos.sh
+-rw-r--r--.  1 cirkovic zh  8620 Feb  8 17:57 COMBINE_OUTPUT_3.txt
+drwxr-xr-x.  3 cirkovic zh  2048 Feb  8 18:05 ORIGINAL
+-rwxr-xr-x.  1 cirkovic zh  3581 Feb  8 20:53 comb.sh
+-rwxr-xr-x.  1 cirkovic zh  4001 Feb  8 22:01 COMB.sh
+-rw-r--r--.  1 cirkovic zh 45315 Feb  9 08:57 ch
+drwxr-xr-x.  6 cirkovic zh  2048 Feb  9 09:05 limits1
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 11:09 cards_dummy
+-rwxr-xr-x.  1 cirkovic zh    67 Feb  9 11:16 produceCards_renorm.zsh
+drwxr-xr-x.  8 cirkovic zh  2048 Feb  9 13:23 .git
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 14:20 INPUT
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 14:24 CARDS
+-rw-r--r--.  1 cirkovic zh 24954 Feb  9 14:33 COMBINE_OUTPUT_8.txt
+-rw-r--r--.  1 cirkovic zh  2292 Feb  9 14:33 COMBINE_OUTPUT_9.txt
+-rw-r--r--.  1 cirkovic zh   151 Feb  9 15:21 COMBINE_OUTPUT_4.txt
+-rw-r--r--.  1 cirkovic zh    29 Feb  9 15:21 COMBINE_OUTPUT_5.txt
+-rw-r--r--.  1 cirkovic zh     0 Feb  9 15:25 COMBINE_OUTPUT_7.txt
+-rw-r--r--.  1 cirkovic zh     0 Feb  9 15:25 COMBINE_OUTPUT_6.txt
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+input_MVAHutMAX_b2j3_hut.txt
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+input_MVAHutMAX_b2j4_hut.txt
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+input_MVAHutMAX_b3j3_hut.txt
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+input_MVAHutMAX_b3j4_hut.txt
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+input_MVAHutMAX_b4j4_hut.txt
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+input_MVAHutMAX_comb_hut.txt
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+[cirkovic@lxplus109 TrainingsFCNC]$ vi INPUT_MVAHctMAX_b3j4_hct/COMBINE_OUTPUT.txt
+[cirkovic@lxplus109 TrainingsFCNC]$ ll INPUT_MVAHctMAX_b2j3_hct
+total 8
+-rw-r--r--. 1 cirkovic zh  315 Feb 10 23:41 COMBINE_OUTPUT.txt
+-rw-r--r--. 1 cirkovic zh 6459 Feb 10 23:41 higgsCombineTest.Asymptotic.mH120.root
+[cirkovic@lxplus109 TrainingsFCNC]$ ll INPUT_MVAHctMAX_b2j3_hct/^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ll INPUT_MVAHutMAX_b3j4_hut
+total 8
+-rw-r--r--. 1 cirkovic zh  315 Feb 10 23:41 COMBINE_OUTPUT.txt
+-rw-r--r--. 1 cirkovic zh 6455 Feb 10 23:41 higgsCombineTest.Asymptotic.mH120.root
+[cirkovic@lxplus109 TrainingsFCNC]$ vi INPUT_MVAHutMAX_b3j4_hut/COMBINE_OUTPUT.txt
+[cirkovic@lxplus109 TrainingsFCNC]$ vi INPUT_MVAHctMAX_b3j4_hct/COMBINE_OUTPUT.txt ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_OUTPUT_20.txt
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./COMBINE_NEW.sh 20
+combine ../cards/input_MVAHctMAX_b2j3_hct.txt -M Asymptotic
+combine ../cards/input_MVAHctMAX_b2j4_hct.txt -M Asymptotic
+combine ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic
+combine ../cards/input_MVAHctMAX_b3j4_hct.txt -M Asymptotic
+combine ../cards/input_MVAHctMAX_b4j4_hct.txt -M Asymptotic
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+ERROR in cling::CIFactory::createCI(): cannot extract standard library include paths!
+Invoking:
+    echo | LC_ALL=C g++ -O2 -DNDEBUG -DNDEBUG -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fomit-frame-pointer -std=c++11 -fno-exceptions -fno-rtti -fPIC -Woverloaded-virtual -o-strict-aliasing -DNDEBUG -xc++ -E -v - 2>&1 >/dev/null | awk '/^#include </,/^End of search/{if (!/^#include </ && !/^End of search/){ print }}' | grep -E "(c|g)\+\+"
+results in
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1/x86_64-redhat-linux-gnu
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1/backward
+with exit code 0
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+ERROR in cling::CIFactory::createCI(): cannot extract standard library include paths!
+Invoking:
+    echo | LC_ALL=C g++ -O2 -DNDEBUG -DNDEBUG -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fomit-frame-pointer -std=c++11 -fno-exceptions -fno-rtti -fPIC -Woverloaded-virtual -o-strict-aliasing -DNDEBUG -xc++ -E -v - 2>&1 >/dev/null | awk '/^#include </,/^End of search/{if (!/^#include </ && !/^End of search/){ print }}' | grep -E "(c|g)\+\+"
+results in
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1/x86_64-redhat-linux-gnu
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1/backward
+with exit code 0
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+ERROR in cling::CIFactory::createCI(): cannot extract standard library include paths!
+Invoking:
+    echo | LC_ALL=C g++ -O2 -DNDEBUG -DNDEBUG -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fomit-frame-pointer -std=c++11 -fno-exceptions -fno-rtti -fPIC -Woverloaded-virtual -o-strict-aliasing -DNDEBUG -xc++ -E -v - 2>&1 >/dev/null | awk '/^#include </,/^End of search/{if (!/^#include </ && !/^End of search/){ print }}' | grep -E "(c|g)\+\+"
+results in
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1/x86_64-redhat-linux-gnu
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/gcc/4.9.1-cms/bin/../lib/gcc/x86_64-redhat-linux-gnu/4.9.1/../../../../include/c++/4.9.1/backward
+with exit code 0
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-5 --rMax=5
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=1
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.8 --rMax=0.8
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.0003125
+Sigma  for expected limits: 0.000159442
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -85485.4 (r = 6.57456e-12)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -89893.8 (r = 0.000503821)
+At r = 0.048000:        q_mu = 587.02053        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.024000:        q_mu = 321.30490        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.012000:        q_mu = 144.10386        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.006000:        q_mu = 52.02224 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003000:        q_mu = 25.86123 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001500:        q_mu = 12.92984 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000750:        q_mu = 6.44937  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000375:        q_mu = 3.21984  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.17 min (cpu), 0.17 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-2 --rMax=2
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.410937
+Sigma  for expected limits: 0.209666
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -93021.6 (r = 6.73288e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -97097.6 (r = 0.000701609)
+At r = 0.120000:        q_mu = 721.16416        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.060000:        q_mu = 264.04002        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.030000:        q_mu = 64.53988 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022500:        q_mu = 2.70779  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.020625:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.021563:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022031:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0220
+
+Done in 0.24 min (cpu), 0.26 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-3 --rMax=3
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.392578
+Sigma  for expected limits: 0.200299
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -99436.2 (r = 1.59747e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -103287 (r = 1.46958e-05)
+At r = 0.180000:        q_mu = 1247.42481       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.090000:        q_mu = 578.81681        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.045000:        q_mu = 283.46188        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.022500:        q_mu = 151.23910        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.011250:        q_mu = 462.57129        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.005625:        q_mu = 48.85835 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002813:        q_mu = 24.75716 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001406:        q_mu = 19.06249 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000703:        q_mu = 6.04931  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000352:        q_mu = 3.03293  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.21 min (cpu), 0.22 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-5 --rMax=5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.517578
+Sigma  for expected limits: 0.264075
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -112614 (r = 1.22255e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -116050 (r = 7.53017e-05)
+At r = 0.300000:        q_mu = 2410.44360       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 1508.85477       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 859.70757        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 489.36959        q_A  = 2.67270  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 355.02125        q_A  = 1.73197  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 99.48619 q_A  = 1.43531  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.32021 q_A  = 1.46867  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.16843 q_A  = 1.49876  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00004
+At r = 0.001172:        q_mu = 10.04225 q_A  = 1.61002  CLsb = 0.00000  CLb  = 0.00045  CLs  = 0.00493
+At r = 0.000586:        q_mu = 4.97923  q_A  = 1.55352  CLsb = 0.00439  CLb  = 0.08468  CLs  = 0.05182
+At r = 0.000879:        q_mu = 184.20072        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0009
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.5176
+Expected 84.0%: r < 0.5196
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.517578
+Sigma  for expected limits: 0.264075
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -112614 (r = 1.22255e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -116050 (r = 7.53017e-05)
+At r = 0.300000:        q_mu = 2410.44360       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 1508.85477       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 859.70757        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 489.36959        q_A  = 2.67270  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 355.02125        q_A  = 1.73197  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 99.48619 q_A  = 1.43531  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.32021 q_A  = 1.46867  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.16843 q_A  = 1.49876  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00004
+At r = 0.001172:        q_mu = 10.04225 q_A  = 1.61002  CLsb = 0.00000  CLb  = 0.00045  CLs  = 0.00493
+At r = 0.000586:        q_mu = 4.97923  q_A  = 1.55352  CLsb = 0.00439  CLb  = 0.08468  CLs  = 0.05182
+At r = 0.000879:        q_mu = 184.20072        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0009
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.5176
+Expected 84.0%: r < 0.5196
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.0005 --rMax=0.0005
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000005 (0.010530 times rMax), while it should be at zero
+Median for expected limits: 1.25e-05
+Sigma  for expected limits: 6.37767e-06
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -80565.6 (r = 9.38969e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85420.4 (r = 9.38969e-11)
+At r = 0.000306:        q_mu = 1.23735  q_A  = 0.00177  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.53713
+At r = 0.000612:        q_mu = 0.00000  q_A  = 0.00698  CLsb = 0.50000  CLb  = 0.53329  CLs  = 0.93757
+At r = 0.001224:        q_mu = 0.00000  q_A  = 0.02772  CLsb = 0.50000  CLb  = 0.56612  CLs  = 0.88321
+At r = 0.002447:        q_mu = 0.00000  q_A  = 0.05759  CLsb = 0.50000  CLb  = 0.59483  CLs  = 0.84058
+At r = 0.004895:        q_mu = 0.00000  q_A  = 0.22708  CLsb = 0.50000  CLb  = 0.68315  CLs  = 0.73190
+At r = 0.004895:        q_mu = 0.00000  q_A  = 0.22708  CLsb = 0.50000  CLb  = 0.68315  CLs  = 0.73190
+At r = 0.007342:        q_mu = 0.00000  q_A  = 0.50676  CLsb = 0.50000  CLb  = 0.76173  CLs  = 0.65640
+At r = 0.008566:        q_mu = 0.00000  q_A  = 0.68947  CLsb = 0.50000  CLb  = 0.79683  CLs  = 0.62749
+At r = 0.009178:        q_mu = 0.00000  q_A  = 0.79241  CLsb = 0.50000  CLb  = 0.81331  CLs  = 0.61477
+At r = 0.009484:        q_mu = 0.00000  q_A  = 0.84485  CLsb = 0.50000  CLb  = 0.82099  CLs  = 0.60902
+
+ -- Asymptotic --
+Observed Limit: r < 0.0095
+
+Done in 0.14 min (cpu), 0.15 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000187 (0.037328 times rMax), while it should be at zero
+^C^C^Ccp: cannot stat `pics/LimitComp_Hut_1.png': No such file or directory
+cp: cannot stat `pics/LimitComp_Hct_1.png': No such file or directory
+^C^C[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct': Directory not empty
+mkdir: cannot create directory `INPUT_MVAHctMAX_comb_hct': File exists
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000556 (0.055640 times rMax), while it should be at zero
+Median for expected limits: 0.0562109
+Sigma  for expected limits: 0.0286796
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -81614.7 (r = 2.18004e-12)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -86164.4 (r = 0.000532507)
+At r = 0.010328:        q_mu = 43.72497 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.005164:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.007746:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.009037:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.009682:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.010005:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0100
+Expected  2.5%: r < 0.0312
+Expected 16.0%: r < 0.0558
+Expected 50.0%: r < 0.0562
+Expected 84.0%: r < 0.1131
+Expected 97.5%: r < 0.1705
+
+Done in 5.93 min (cpu), 6.11 min (real)
+Failed to delete temporary file roostats-jnmvyt.root: No such file or directory
+--
+[cirkovic@lxplus109 TrainingsFCNC]$ ./COMBINE_NEW.sh: line 49:  3602 Terminated              combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+
+[cirkovic@lxplus109 TrainingsFCNC]$ ps
+  PID TTY          TIME CMD
+12854 pts/39   00:00:00 ps
+14826 pts/39   00:00:00 vim
+29478 pts/39   00:00:12 bash
+[cirkovic@lxplus109 TrainingsFCNC]$ kill 14826
+[cirkovic@lxplus109 TrainingsFCNC]$ ps
+  PID TTY          TIME CMD
+12869 pts/39   00:00:00 ps
+14826 pts/39   00:00:00 vim
+29478 pts/39   00:00:12 bash
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+./COMBINE_NEW.sh: line 62: `$j': not a valid identifier
+
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+^Ccp: cannot stat `pics/LimitComp_Hct_1.png': No such file or directory
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+^Cmake: *** [plot.o] Interrupt
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+rm: cannot remove `INPUT_MVAHutMAX_b3j3_hut': Directory not empty
+mkdir: cannot create directory `INPUT_MVAHutMAX_b3j3_hut': File exists
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+--
+[cirkovic@lxplus109 TrainingsFCNC]$ ./COMBINE_NEW.sh: line 54: 13102 Terminated              combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+ps
+  PID TTY          TIME CMD
+14517 pts/39   00:00:00 ps
+14826 pts/39   00:00:00 vim
+29478 pts/39   00:00:12 bash
+[cirkovic@lxplus109 TrainingsFCNC]$ ls -latr
+total 435
+-rwxr-xr-x.  1 cirkovic zh    60 Feb  6 21:13 produceCards.zsh
+-rw-r--r--.  1 cirkovic zh  4750 Feb  6 21:44 produceCards.C
+drwxr-xr-x.  4 cirkovic zh  2048 Feb  7 23:29 old
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  7 23:29 inputY
+-rw-r--r--.  1 cirkovic zh  6377 Feb  8 16:09 COMBINE_OUTPUT.txt
+-rw-r--r--.  1 cirkovic zh  7031 Feb  8 16:28 COMBINE_OUTPUT_1.txt
+-rw-r--r--.  1 cirkovic zh   303 Feb  8 17:19 COMBINE_OUTPUT_2.txt
+-rwxr-xr-x.  1 cirkovic zh   579 Feb  8 17:53 make_combos.sh
+-rw-r--r--.  1 cirkovic zh  8620 Feb  8 17:57 COMBINE_OUTPUT_3.txt
+drwxr-xr-x.  3 cirkovic zh  2048 Feb  8 18:05 ORIGINAL
+-rwxr-xr-x.  1 cirkovic zh  3581 Feb  8 20:53 comb.sh
+-rwxr-xr-x.  1 cirkovic zh  4001 Feb  8 22:01 COMB.sh
+-rw-r--r--.  1 cirkovic zh 45315 Feb  9 08:57 ch
+drwxr-xr-x.  6 cirkovic zh  2048 Feb  9 09:05 limits1
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 11:09 cards_dummy
+-rwxr-xr-x.  1 cirkovic zh    67 Feb  9 11:16 produceCards_renorm.zsh
+drwxr-xr-x.  8 cirkovic zh  2048 Feb  9 13:23 .git
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 14:20 INPUT
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 14:24 CARDS
+-rw-r--r--.  1 cirkovic zh 24954 Feb  9 14:33 COMBINE_OUTPUT_8.txt
+-rw-r--r--.  1 cirkovic zh  2292 Feb  9 14:33 COMBINE_OUTPUT_9.txt
+-rw-r--r--.  1 cirkovic zh   151 Feb  9 15:21 COMBINE_OUTPUT_4.txt
+-rw-r--r--.  1 cirkovic zh    29 Feb  9 15:21 COMBINE_OUTPUT_5.txt
+-rw-r--r--.  1 cirkovic zh     0 Feb  9 15:25 COMBINE_OUTPUT_7.txt
+-rw-r--r--.  1 cirkovic zh     0 Feb  9 15:25 COMBINE_OUTPUT_6.txt
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 15:26 cards_x
+-rw-r--r--.  1 cirkovic zh  2292 Feb  9 15:52 COMBINE_OUTPUT_11.txt
+-rw-r--r--.  1 cirkovic zh 23924 Feb  9 15:52 COMBINE_OUTPUT_10.txt
+drwxr-xr-x.  6 cirkovic zh  2048 Feb  9 17:35 limits_old
+drwxr-xr-x.  2 cirkovic zh  2048 Feb  9 22:45 cardsX
+drwxr-xr-x.  2 cirkovic zh  2048 Feb 10 01:51 input_backup
+drwxr-xr-x.  2 cirkovic zh  2048 Feb 10 02:04 input_renorm1
+-rw-r--r--.  1 cirkovic zh  5088 Feb 10 02:07 produceCards_renorm.C
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+./COMBINE_NEW.sh: line 54: 14762 Killed                  combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+
+[cirkovic@lxplus109 TrainingsFCNC]$ ps
+  PID TTY          TIME CMD
+14826 pts/39   00:00:00 vim
+15557 pts/39   00:00:00 ps
+29478 pts/39   00:00:12 bash
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+combine ../cards/input_MVAHctMAX_b2j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_b2j4_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_b3j4_hct.txt -M Asymptotic --rMin=-10 --rMax=10
+combine ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+^C^CTraceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../external/python/2.7.6-cms/lib/python2.7/site.py", line 62, in <module>
+    import os
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../external/python/2.7.6-cms/lib/python2.7/os.py", line 49, in <module>
+    import posixpath as path
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../external/python/2.7.6-cms/lib/python2.7/posixpath.py", line 17, in <module>
+^C^C    import warnings
+
+^C^C^Ccp: cannot stat `pics/LimitComp_Hut_1.png': No such file or directory
+cp: cannot stat `pics/LimitComp_Hct_1.png': No such file or directory
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+--
+[cirkovic@lxplus109 TrainingsFCNC]$ ./COMBINE_NEW.sh: line 54: 27425 Killed                  combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+./COMBINE_NEW.sh: line 54: 27407 Killed                  combine ../cards/input_MVAHctMAX_b4j4_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 27467 Killed                  combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 27445 Killed                  combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 27460 Killed                  combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+./COMBINE_NEW.sh: line 54: 27432 Killed                  combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 27379 Killed                  combine ../cards/input_MVAHctMAX_b2j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 27394 Killed                  combine ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 27387 Killed                  combine ../cards/input_MVAHctMAX_b2j4_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+./COMBINE_NEW.sh: line 54: 20620 Killed                  combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+
+[cirkovic@lxplus109 TrainingsFCNC]$ ps
+  PID TTY          TIME CMD
+14826 pts/39   00:00:00 vim
+27424 pts/39   00:00:00 tee
+27466 pts/39   00:00:00 tee
+27731 pts/39   00:00:13 python
+27732 pts/39   00:00:15 python
+28440 pts/39   00:00:00 ps
+29478 pts/39   00:00:12 bash
+[cirkovic@lxplus109 TrainingsFCNC]$ ps aux | grep combine | grep -v "grep combine" | awk '{print $2}' | xargs kill -9
+kill 8604: Operation not permitted
+[cirkovic@lxplus109 TrainingsFCNC]$ ps aux | grep python | grep -v "grep python" | awk '{print $2}' | xargs kill -9
+kill 5816: Operation not permitted
+kill 8604: Operation not permitted
+kill 15694: Operation not permitted
+kill 16289: Operation not permitted
+kill 16354: Operation not permitted
+kill 16518: Operation not permitted
+[cirkovic@lxplus109 TrainingsFCNC]$ ps aux | grep tee | grep -v "grep tee" | awk '{print $2}' | xargs kill -9
+usage: kill [ -s signal | -p ] [ -a ] pid ...
+       kill -l [ signal ]
+[cirkovic@lxplus109 TrainingsFCNC]$ ps
+  PID TTY          TIME CMD
+14826 pts/39   00:00:00 vim
+29478 pts/39   00:00:12 bash
+32114 pts/39   00:00:00 ps
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+combine ../cards/input_MVAHctMAX_b2j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_b2j4_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_b3j3_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_b3j4_hct.txt -M Asymptotic --rMin=-10 --rMax=10
+combine ../cards/input_MVAHctMAX_b4j4_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+./COMBINE_NEW.sh: line 54: 32548 Terminated              combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+rm: cannot remove `pics/*': No such file or directory
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hct_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hct_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hct_1.pdf has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hut.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hut.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hut.png has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hct.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hct.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hct.png has been created
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$
+[cirkovic@lxplus109 TrainingsFCNC]$ ps
+  PID TTY          TIME CMD
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+combine ../cards/input_MVAHutMAX_b2j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b2j4_hut.txt -M Asymptotic --rMin=-0.001 --rMax=0.001
+combine ../cards/input_MVAHutMAX_b3j3_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b3j4_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+combine ../cards/input_MVAHutMAX_b4j4_hut.txt -M Asymptotic --rMin=-0.005 --rMax=0.005
+combine ../cards/input_MVAHutMAX_comb_hut.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+>>> including systematics
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.529297
+Sigma  for expected limits: 0.270054
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -223877 (r = 6.66245e-12)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -225677 (r = 0.000425991)
+At r = 1.200000:        q_mu = 9303.03127       q_A  = 1534.76438       CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.600000:        q_mu = 5030.09713       q_A  = 497.77322        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.300000:        q_mu = 2713.48227       q_A  = 210.70744        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 2682.36995       q_A  = 125.48614        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 859.62980        q_A  = 103.42076        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 530.08607        q_A  = 98.01300 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 247.84876        q_A  = 97.07032 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 100.50277        q_A  = 96.86462 CLsb = 0.00000  CLb  = 0.42668  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.31172 q_A  = 96.92067 CLsb = 0.00000  CLb  = 0.99976  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.13600 q_A  = 96.96397 CLsb = 0.00000  CLb  = 1.00000  CLs  = 0.00000
+At r = 0.001172:        q_mu = 10.01329 q_A  = 97.07384 CLsb = 0.00078  CLb  = 1.00000  CLs  = 0.00078
+At r = 0.000586:        q_mu = 4.95066  q_A  = 97.00063 CLsb = 0.01304  CLb  = 1.00000  CLs  = 0.01304
+At r = 0.000293:        q_mu = 2.51986  q_A  = 97.06138 CLsb = 0.05621  CLb  = 1.00000  CLs  = 0.05621
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0659
+Expected 16.0%: r < 0.4623
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.01 --rMax=0.01
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000556 (0.055640 times rMax), while it should be at zero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^[:q^C^CTraceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../external/python/2.7.6-cms/lib/python2.7/site.py", line 59, in <module>
+    """
+KeyboardInterrupt
+^C^Ccp: cannot stat `pics/LimitComp_Hut_1.png': No such file or directory
+cp: cannot stat `pics/LimitComp_Hct_1.png': No such file or directory
+^Cmake: *** [clean] Interrupt
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+[cirkovic@lxplus109 TrainingsFCNC]$ ^C
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000658 (0.013166 times rMax), while it should be at zero
+Median for expected limits: 0.0003125
+Sigma  for expected limits: 0.000159442
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -80867.8 (r = 7.32123e-13)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85459.4 (r = 7.17282e-05)
+At r = 0.003000:        q_mu = 28.13302 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001500:        q_mu = 12.82285 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000750:        q_mu = 6.39461  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000375:        q_mu = 3.22108  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.12 min (cpu), 0.12 min (real)
+rm: cannot remove `pics/*': No such file or directory
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.529297
+Sigma  for expected limits: 0.270054
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -223877 (r = 6.66245e-12)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -225677 (r = 0.000425991)
+At r = 1.200000:        q_mu = 9303.03127       q_A  = 1534.76438       CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.600000:        q_mu = 5030.09713       q_A  = 497.77322        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.300000:        q_mu = 2713.48227       q_A  = 210.70744        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 2682.36995       q_A  = 125.48614        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 859.62980        q_A  = 103.42076        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 530.08607        q_A  = 98.01300 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 247.84876        q_A  = 97.07032 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 100.50277        q_A  = 96.86462 CLsb = 0.00000  CLb  = 0.42668  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.31172 q_A  = 96.92067 CLsb = 0.00000  CLb  = 0.99976  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.13600 q_A  = 96.96397 CLsb = 0.00000  CLb  = 1.00000  CLs  = 0.00000
+At r = 0.001172:        q_mu = 10.01329 q_A  = 97.07384 CLsb = 0.00078  CLb  = 1.00000  CLs  = 0.00078
+At r = 0.000586:        q_mu = 4.95066  q_A  = 97.00063 CLsb = 0.01304  CLb  = 1.00000  CLs  = 0.01304
+At r = 0.000293:        q_mu = 2.51986  q_A  = 97.06138 CLsb = 0.05621  CLb  = 1.00000  CLs  = 0.05621
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0659
+Expected 16.0%: r < 0.4623
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000101 (0.001014 times rMax), while it should be at zero
+Median for expected limits: 0.0003125
+Sigma  for expected limits: 0.000159442
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -81173.4 (r = 2.5461e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85745.9 (r = 0.00162791)
+At r = 0.006000:        q_mu = 56.67973 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003000:        q_mu = 26.14411 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001500:        q_mu = 12.87096 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000750:        q_mu = 6.40344  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000375:        q_mu = 3.17477  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.13 min (cpu), 0.13 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.5 --rMax=0.5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.414062
+Sigma  for expected limits: 0.21126
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -83629.6 (r = 1.05023e-10)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -88152.8 (r = 5.27743e-05)
+At r = 0.030000:        q_mu = 385.15481        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 192.23763        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.007500:        q_mu = 65.27693 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003750:        q_mu = 32.28416 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001875:        q_mu = 16.13423 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000938:        q_mu = 8.03709  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000469:        q_mu = 3.95470  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0005
+
+Done in 0.22 min (cpu), 0.22 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-1 --rMax=1
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.000390625
+Sigma  for expected limits: 0.000199302
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -86728.9 (r = 9.17044e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -91053.3 (r = 1.5776e-05)
+At r = 0.060000:        q_mu = 302.74192        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.030000:        q_mu = 136.71616        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022500:        q_mu = 2.68024  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.020625:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.021563:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022031:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0220
+
+Done in 0.21 min (cpu), 0.21 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+^C
+ *** Break *** keyboard interrupt
+Root >
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-5 --rMax=5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.517578
+Sigma  for expected limits: 0.264075
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -112614 (r = 1.22255e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -116050 (r = 7.53017e-05)
+At r = 0.300000:        q_mu = 2410.44360       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 1508.85477       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 859.70757        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 489.36959        q_A  = 2.67270  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 355.02125        q_A  = 1.73197  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 99.48619 q_A  = 1.43531  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.32021 q_A  = 1.46867  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.16843 q_A  = 1.49876  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00004
+At r = 0.001172:        q_mu = 10.04225 q_A  = 1.61002  CLsb = 0.00000  CLb  = 0.00045  CLs  = 0.00493
+At r = 0.000586:        q_mu = 4.97923  q_A  = 1.55352  CLsb = 0.00439  CLb  = 0.08468  CLs  = 0.05182
+At r = 0.000879:        q_mu = 184.20072        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0009
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.5176
+Expected 84.0%: r < 0.5196
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-3 --rMax=3
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.392578
+Sigma  for expected limits: 0.200299
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -99436.2 (r = 1.59747e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -103287 (r = 1.46958e-05)
+At r = 0.180000:        q_mu = 1247.42481       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.090000:        q_mu = 578.81681        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.045000:        q_mu = 283.46188        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.022500:        q_mu = 151.23910        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.011250:        q_mu = 462.57129        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.005625:        q_mu = 48.85835 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002813:        q_mu = 24.75716 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001406:        q_mu = 19.06249 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000703:        q_mu = 6.04931  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000352:        q_mu = 3.03293  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.21 min (cpu), 0.21 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4 --rMax=4
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.407813
+Sigma  for expected limits: 0.208071
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -105968 (r = 1.64313e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -109872 (r = 3.8147e-06)
+At r = 0.240000:        q_mu = 1896.55790       q_A  = 617.96489        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.120000:        q_mu = 721.10219        q_A  = 562.24374        CLsb = 0.00000  CLb  = 0.00040  CLs  = 0.00000
+At r = 0.060000:        q_mu = 264.01999        q_A  = 548.22234        CLsb = 0.00000  CLb  = 1.00000  CLs  = 0.00000
+At r = 0.030000:        q_mu = 53.33855 q_A  = 545.01122        CLsb = 0.00000  CLb  = 1.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 0.00000  q_A  = 544.39273        CLsb = 0.50000  CLb  = 1.00000  CLs  = 0.50000
+At r = 0.022500:        q_mu = 2.66565  q_A  = 4.73764  CLsb = 0.05127  CLb  = 0.70676  CLs  = 0.07254
+At r = 0.026250:        q_mu = 27.90284 q_A  = 6.44522  CLsb = 0.00000  CLb  = 0.00001  CLs  = 0.00000
+At r = 0.024375:        q_mu = 15.25948 q_A  = 5.55830  CLsb = 0.00001  CLb  = 0.01982  CLs  = 0.00025
+At r = 0.023438:        q_mu = 8.95637  q_A  = 5.13969  CLsb = 0.00094  CLb  = 0.19996  CLs  = 0.00470
+At r = 0.022969:        q_mu = 5.80903  q_A  = 4.93823  CLsb = 0.00780  CLb  = 0.42233  CLs  = 0.01847
+
+ -- Asymptotic --
+Observed Limit: r < 0.0230
+
+Done in 0.24 min (cpu), 0.25 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4 --rMax=4 --robustFit=1
+Invalid options: unrecognised option '--robustFit=1'
+Invalid options: unrecognised option '--robustFit=1'
+Use combine --help to get a list of all the allowed options
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hct_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hct_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hct_1.pdf has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hut.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hut.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hut.png has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hct.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hct.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hct.png has been created
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afsB675': Device or resource busy
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afs0DF7': Device or resource busy
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afs1975': Device or resource busy
+mkdir: cannot create directory `INPUT_MVAHctMAX_comb_hct': File exists
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --justFit --rMin=-0.5 --rMax=0.5 --minimizerStrategy 1
+Invalid options: unrecognised option '--justFit'
+Invalid options: unrecognised option '--justFit'
+Use combine --help to get a list of all the allowed options
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hct_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hct_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hct_1.pdf has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+^Cmake: *** Deleting file `plot'
+make: *** [plot] Interrupt
+[cirkovic@lxplus109 TrainingsFCNC]$ pwd
+/afs/cern.ch/work/c/cirkovic/TrainingsFCNC
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afsB675': Device or resource busy
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afs0DF7': Device or resource busy
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afs1975': Device or resource busy
+mkdir: cannot create directory `INPUT_MVAHctMAX_comb_hct': File exists
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.5 --rMax=0.5 --minimizerStrategy 1
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 1 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.407813
+Sigma  for expected limits: 0.208071
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -86822.4 (r = 9.5389e-07)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -91238.8 (r = 9.5389e-07)
+At r = 0.060015:        q_mu = 424.98536        q_A  = 51.69105 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.030008:        q_mu = 206.38275        q_A  = 18.20407 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.015004:        q_mu = 101.63011        q_A  = 7.36588  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.007503:        q_mu = 50.42078 q_A  = 3.80878  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003752:        q_mu = 25.10793 q_A  = 1.60321  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001876:        q_mu = 12.52555 q_A  = 0.60505  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00174
+At r = 0.000939:        q_mu = 6.25591  q_A  = 2.16974  CLsb = 0.00212  CLb  = 0.08272  CLs  = 0.02561
+At r = 0.000470:        q_mu = 3.12060  q_A  = 0.92065  CLsb = 0.01761  CLb  = 0.12581  CLs  = 0.13994
+
+ -- Asymptotic --
+Observed Limit: r < 0.0005
+Expected  2.5%: r < 0.3967
+Expected 16.0%: r < 0.3981
+Expected 50.0%: r < 0.4078
+Expected 84.0%: r < 0.5785
+Expected 97.5%: r < 0.5811
+
+Done in 0.45 min (cpu), 0.46 min (real)
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1 --minimizerStrategy 1
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+wComputing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 1 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000101 (0.001014 times rMax), while it should be at zero
+Median for expected limits: 0.0003125
+Sigma  for expected limits: 0.000159442
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -81173.4 (r = 6.86451e-13)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85736.3 (r = 1.39863e-06)
+At r = 0.006000:        q_mu = 55.18435 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003000:        q_mu = 26.16965 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001500:        q_mu = 12.88604 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000750:        q_mu = 6.41982  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000375:        q_mu = 3.18803  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.14 min (cpu), 0.14 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05 --stepSize=0.001 --minimizerStrategy 1
+Invalid options: unrecognised option '--stepSize=0.001'
+Invalid options: unrecognised option '--stepSize=0.001'
+Use combine --help to get a list of all the allowed options
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hct_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hct_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hct_1.pdf has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hut.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hut.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hut.png has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hct.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hct.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hct.png has been created
+[cirkovic@lxplus109 TrainingsFCNC]$ vi ch
+[cirkovic@lxplus109 TrainingsFCNC]$ vi COMBINE_NEW.sh
+[cirkovic@lxplus109 TrainingsFCNC]$ ./RUN.sh
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afsB675': Device or resource busy
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afs0DF7': Device or resource busy
+rm: cannot remove `INPUT_MVAHctMAX_comb_hct/.__afs1975': Device or resource busy
+mkdir: cannot create directory `INPUT_MVAHctMAX_comb_hct': File exists
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.05 --rMax=0.05 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000658 (0.013166 times rMax), while it should be at zero
+Median for expected limits: 0.0003125
+Sigma  for expected limits: 0.000159442
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -80867.8 (r = 7.32123e-13)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85459.4 (r = 7.17282e-05)
+At r = 0.003000:        q_mu = 28.13302 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001500:        q_mu = 12.82285 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000750:        q_mu = 6.39461  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000375:        q_mu = 3.22108  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0002
+Expected 16.0%: r < 0.0002
+Expected 50.0%: r < 0.0003
+Expected 84.0%: r < 0.0005
+Expected 97.5%: r < 0.0007
+
+Done in 0.12 min (cpu), 0.13 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.1 --rMax=0.1 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000101 (0.001014 times rMax), while it should be at zero
+Median for expected limits: 0.0003125
+Sigma  for expected limits: 0.000159442
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -81173.4 (r = 2.5461e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85745.9 (r = 0.00162791)
+At r = 0.006000:        q_mu = 56.67973 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003000:        q_mu = 26.14411 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001500:        q_mu = 12.87096 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000750:        q_mu = 6.40344  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000375:        q_mu = 3.17477  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.0002
+Expected 16.0%: r < 0.0002
+Expected 50.0%: r < 0.0003
+Expected 84.0%: r < 0.0005
+Expected 97.5%: r < 0.0007
+
+Done in 0.11 min (cpu), 0.11 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-1 --rMax=1 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.000390625
+Sigma  for expected limits: 0.000199302
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -86728.9 (r = 9.17044e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -91053.3 (r = 1.5776e-05)
+At r = 0.060000:        q_mu = 302.74192        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.030000:        q_mu = 136.71616        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022500:        q_mu = 2.68024  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.020625:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.021563:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022031:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0220
+Expected  2.5%: r < 0.0002
+Expected 16.0%: r < 0.0003
+Expected 50.0%: r < 0.0004
+Expected 84.0%: r < 0.0006
+Expected 97.5%: r < 0.0009
+
+Done in 0.16 min (cpu), 0.16 min (real)
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-10 --rMax=10 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.615234
+Sigma  for expected limits: 0.313901
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -147429 (r = 1.18706e-10)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -150082 (r = 0.000381835)
+At r = 0.600000:        q_mu = 5030.05100       q_A  = 2676.81880       CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.300000:        q_mu = 2713.39487       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 1508.82099       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 864.69049        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 489.30920        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 247.87106        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 100.36700        q_A  = 14.13629 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.28556 q_A  = 16.55854 CLsb = 0.00000  CLb  = 0.00178  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.11232 q_A  = 16.62382 CLsb = 0.00000  CLb  = 0.33440  CLs  = 0.00001
+At r = 0.001172:        q_mu = 10.02240 q_A  = 16.72503 CLsb = 0.00077  CLb  = 0.82221  CLs  = 0.00094
+At r = 0.000586:        q_mu = 4.96206  q_A  = 16.66043 CLsb = 0.01295  CLb  = 0.96814  CLs  = 0.01338
+At r = 0.000293:        q_mu = 2.52658  q_A  = 16.71463 CLsb = 0.05597  CLb  = 0.99377  CLs  = 0.05632
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4975
+Expected 50.0%: r < 0.6152
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-5 --rMax=5 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.517578
+Sigma  for expected limits: 0.264075
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -112614 (r = 1.22255e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -116050 (r = 7.53017e-05)
+At r = 0.300000:        q_mu = 2410.44360       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.150000:        q_mu = 1508.85477       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.075000:        q_mu = 859.70757        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.037500:        q_mu = 489.36959        q_A  = 2.67270  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 355.02125        q_A  = 1.73197  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009375:        q_mu = 99.48619 q_A  = 1.43531  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004688:        q_mu = 40.32021 q_A  = 1.46867  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002344:        q_mu = 20.16843 q_A  = 1.49876  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00004
+At r = 0.001172:        q_mu = 10.04225 q_A  = 1.61002  CLsb = 0.00000  CLb  = 0.00045  CLs  = 0.00493
+At r = 0.000586:        q_mu = 4.97923  q_A  = 1.55352  CLsb = 0.00439  CLb  = 0.08468  CLs  = 0.05182
+At r = 0.000879:        q_mu = 184.20072        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0009
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.5176
+Expected 84.0%: r < 0.5196
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=4 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.407813
+Sigma  for expected limits: 0.208071
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -105968 (r = 1.64313e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -109872 (r = 3.8147e-06)
+At r = 0.240000:        q_mu = 1896.55790       q_A  = 617.96489        CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.120000:        q_mu = 721.10219        q_A  = 562.24374        CLsb = 0.00000  CLb  = 0.00040  CLs  = 0.00000
+At r = 0.060000:        q_mu = 264.01999        q_A  = 548.22234        CLsb = 0.00000  CLb  = 1.00000  CLs  = 0.00000
+At r = 0.030000:        q_mu = 53.33855 q_A  = 545.01122        CLsb = 0.00000  CLb  = 1.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 0.00000  q_A  = 544.39273        CLsb = 0.50000  CLb  = 1.00000  CLs  = 0.50000
+At r = 0.022500:        q_mu = 2.66565  q_A  = 4.73764  CLsb = 0.05127  CLb  = 0.70676  CLs  = 0.07254
+At r = 0.026250:        q_mu = 27.90284 q_A  = 6.44522  CLsb = 0.00000  CLb  = 0.00001  CLs  = 0.00000
+At r = 0.024375:        q_mu = 15.25948 q_A  = 5.55830  CLsb = 0.00001  CLb  = 0.01982  CLs  = 0.00025
+At r = 0.023438:        q_mu = 8.95637  q_A  = 5.13969  CLsb = 0.00094  CLb  = 0.19996  CLs  = 0.00470
+At r = 0.022969:        q_mu = 5.80903  q_A  = 4.93823  CLsb = 0.00780  CLb  = 0.42233  CLs  = 0.01847
+
+ -- Asymptotic --
+Observed Limit: r < 0.0230
+Expected  2.5%: r < 0.4062
+Expected 16.0%: r < 0.4070
+Expected 50.0%: r < 0.4078
+Expected 84.0%: r < 0.4094
+Expected 97.5%: r < 0.4111
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=1 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.000390625
+Sigma  for expected limits: 0.000199302
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -86728.9 (r = 9.17044e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -91053.3 (r = 1.5776e-05)
+At r = 0.060000:        q_mu = 302.74192        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.030000:        q_mu = 136.71616        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.015000:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022500:        q_mu = 2.68024  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018750:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.020625:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.021563:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+At r = 0.022031:        q_mu = 0.00000  q_A  = 0.00000  CLsb = 0.50000  CLb  = 0.50000  CLs  = 1.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0220
+Expected  2.5%: r < 0.0002
+Expected 16.0%: r < 0.0003
+Expected 50.0%: r < 0.0004
+Expected 84.0%: r < 0.0006
+Expected 97.5%: r < 0.0009
+
+Done in 0.16 min (cpu), 0.16 min (real)
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=3 --strictBounds
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.392578
+Sigma  for expected limits: 0.200299
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -99436.2 (r = 1.59747e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -103287 (r = 1.46958e-05)
+At r = 0.180000:        q_mu = 1247.42481       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.090000:        q_mu = 578.81681        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.045000:        q_mu = 283.46188        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.022500:        q_mu = 151.23910        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.011250:        q_mu = 462.57129        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.005625:        q_mu = 48.85835 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002813:        q_mu = 24.75716 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001406:        q_mu = 19.06249 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000703:        q_mu = 6.04931  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000352:        q_mu = 3.03293  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+Expected  2.5%: r < 0.3910
+Expected 16.0%: r < 0.3918
+Expected 50.0%: r < 0.3926
+Expected 84.0%: r < 0.3941
+Expected 97.5%: r < 0.3957
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=3
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.392578
+Sigma  for expected limits: 0.200299
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -99436.2 (r = 1.59747e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -103287 (r = 1.46958e-05)
+At r = 0.180000:        q_mu = 1247.42481       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.090000:        q_mu = 578.81681        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.045000:        q_mu = 283.46188        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.022500:        q_mu = 151.23910        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.011250:        q_mu = 462.57129        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.005625:        q_mu = 48.85835 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002813:        q_mu = 24.75716 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001406:        q_mu = 19.06249 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000703:        q_mu = 6.04931  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000352:        q_mu = 3.03293  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.24 min (cpu), 0.24 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-3.5 --rMax=3.5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.411523
+Sigma  for expected limits: 0.209965
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -102688 (r = 2.53858e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -106428 (r = 1.10495e-06)
+At r = 0.210000:        q_mu = 1559.96536       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.105000:        q_mu = 809.09052        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.052500:        q_mu = 536.22297        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.026250:        q_mu = 354.19212        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.013125:        q_mu = 161.90215        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.006563:        q_mu = 56.84092 q_A  = 1.99902  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.003281:        q_mu = 28.21630 q_A  = 8.56932  CLsb = 0.00000  CLb  = 0.00040  CLs  = 0.00000
+At r = 0.001641:        q_mu = 14.09555 q_A  = 8.57662  CLsb = 0.00005  CLb  = 0.17303  CLs  = 0.00031
+At r = 0.000820:        q_mu = 7.03818  q_A  = 8.59665  CLsb = 0.00399  CLb  = 0.60990  CLs  = 0.00654
+At r = 0.000410:        q_mu = 3.46948  q_A  = 8.63089  CLsb = 0.03126  CLb  = 0.85885  CLs  = 0.03639
+
+ -- Asymptotic --
+Observed Limit: r < 0.0004
+
+Done in 0.23 min (cpu), 0.23 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4.5 --rMax=4.5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.338379
+Sigma  for expected limits: 0.172645
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -109277 (r = 6.04516e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -112821 (r = 8.08249e-05)
+At r = 0.270000:        q_mu = 2033.50356       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.135000:        q_mu = 1052.62824       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.067500:        q_mu = 1486.42175       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.033750:        q_mu = 445.17333        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.016875:        q_mu = 220.16303        q_A  = 23.50391 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.008438:        q_mu = 85.02559 q_A  = 23.37535 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004219:        q_mu = 36.28931 q_A  = 23.36737 CLsb = 0.00000  CLb  = 0.09068  CLs  = 0.00000
+At r = 0.002109:        q_mu = 18.09442 q_A  = 23.41975 CLsb = 0.00001  CLb  = 0.72094  CLs  = 0.00001
+At r = 0.001055:        q_mu = 8.98515  q_A  = 23.49640 CLsb = 0.00136  CLb  = 0.96783  CLs  = 0.00141
+At r = 0.000527:        q_mu = 4.45153  q_A  = 23.46896 CLsb = 0.01743  CLb  = 0.99688  CLs  = 0.01749
+At r = 0.000264:        q_mu = 2.24366  q_A  = 23.52019 CLsb = 0.06708  CLb  = 0.99960  CLs  = 0.06711
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.0007
+Expected 50.0%: r < 0.3384
+Expected 84.0%: r < 0.3397
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0 --rMax=4.5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.338379
+Sigma  for expected limits: 0.172645
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -109277 (r = 6.04516e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -112821 (r = 8.08249e-05)
+At r = 0.270000:        q_mu = 2033.50356       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.135000:        q_mu = 1052.62824       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.067500:        q_mu = 1486.42175       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.033750:        q_mu = 445.17333        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.016875:        q_mu = 220.16303        q_A  = 23.50391 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.008438:        q_mu = 85.02559 q_A  = 23.37535 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004219:        q_mu = 36.28931 q_A  = 23.36737 CLsb = 0.00000  CLb  = 0.09068  CLs  = 0.00000
+At r = 0.002109:        q_mu = 18.09442 q_A  = 23.41975 CLsb = 0.00001  CLb  = 0.72094  CLs  = 0.00001
+At r = 0.001055:        q_mu = 8.98515  q_A  = 23.49640 CLsb = 0.00136  CLb  = 0.96783  CLs  = 0.00141
+At r = 0.000527:        q_mu = 4.45153  q_A  = 23.46896 CLsb = 0.01743  CLb  = 0.99688  CLs  = 0.01749
+At r = 0.000264:        q_mu = 2.24366  q_A  = 23.52019 CLsb = 0.06708  CLb  = 0.99960  CLs  = 0.06711
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.0007
+Expected 50.0%: r < 0.3384
+Expected 84.0%: r < 0.3397
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=0.000001 --rMax=4.5
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.338379
+Sigma  for expected limits: 0.172645
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -109277 (r = 6.04516e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -112821 (r = 8.08249e-05)
+At r = 0.270000:        q_mu = 2033.50356       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.135000:        q_mu = 1052.62824       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.067500:        q_mu = 1486.42175       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.033750:        q_mu = 445.17333        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.016875:        q_mu = 220.16303        q_A  = 23.50391 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.008438:        q_mu = 85.02559 q_A  = 23.37535 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004219:        q_mu = 36.28931 q_A  = 23.36737 CLsb = 0.00000  CLb  = 0.09068  CLs  = 0.00000
+At r = 0.002109:        q_mu = 18.09442 q_A  = 23.41975 CLsb = 0.00001  CLb  = 0.72094  CLs  = 0.00001
+At r = 0.001055:        q_mu = 8.98515  q_A  = 23.49640 CLsb = 0.00136  CLb  = 0.96783  CLs  = 0.00141
+At r = 0.000527:        q_mu = 4.45153  q_A  = 23.46896 CLsb = 0.01743  CLb  = 0.99688  CLs  = 0.01749
+At r = 0.000264:        q_mu = 2.24366  q_A  = 23.52019 CLsb = 0.06708  CLb  = 0.99960  CLs  = 0.06711
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.0007
+Expected 50.0%: r < 0.3384
+Expected 84.0%: r < 0.3397
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4.6 --rMax=4.6
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.472578
+Sigma  for expected limits: 0.241116
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -109943 (r = 1.93812e-13)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -113457 (r = 5.35546e-07)
+At r = 0.276000:        q_mu = 2231.01826       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.138000:        q_mu = 1406.25517       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.069000:        q_mu = 1059.00554       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.034500:        q_mu = 454.30389        q_A  = 1.12046  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.017250:        q_mu = 226.30026        q_A  = 5.09232  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.008625:        q_mu = 87.53320 q_A  = 5.02611  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004312:        q_mu = 37.14462 q_A  = 5.06436  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002156:        q_mu = 18.54401 q_A  = 5.05709  CLsb = 0.00000  CLb  = 0.00136  CLs  = 0.00006
+At r = 0.001078:        q_mu = 9.23160  q_A  = 5.13327  CLsb = 0.00076  CLb  = 0.18288  CLs  = 0.00417
+At r = 0.000539:        q_mu = 4.57157  q_A  = 5.09439  CLsb = 0.01625  CLb  = 0.54734  CLs  = 0.02970
+At r = 0.000270:        q_mu = 2.33667  q_A  = 5.14728  CLsb = 0.06318  CLb  = 0.77039  CLs  = 0.08201
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0005
+Expected 16.0%: r < 0.4560
+Expected 50.0%: r < 0.4726
+Expected 84.0%: r < 0.5498
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4.7 --rMax=4.7
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.405742
+Sigma  for expected limits: 0.207015
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -110609 (r = 5.33506e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -114105 (r = 0.000151959)
+At r = 0.282000:        q_mu = 2171.79875       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.141000:        q_mu = 1042.40442       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.070500:        q_mu = 1541.69365       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.035250:        q_mu = 463.33029        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.017625:        q_mu = 336.61368        q_A  = 7.91115  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.008812:        q_mu = 92.22672 q_A  = 7.73960  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004406:        q_mu = 37.93270 q_A  = 7.64708  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002203:        q_mu = 18.94759 q_A  = 7.80158  CLsb = 0.00000  CLb  = 0.02301  CLs  = 0.00004
+At r = 0.001102:        q_mu = 9.46833  q_A  = 7.88822  CLsb = 0.00100  CLb  = 0.38924  CLs  = 0.00257
+At r = 0.000551:        q_mu = 4.66961  q_A  = 7.84157  CLsb = 0.01535  CLb  = 0.73870  CLs  = 0.02078
+At r = 0.000275:        q_mu = 2.38735  q_A  = 7.90171  CLsb = 0.06116  CLb  = 0.89722  CLs  = 0.06817
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+
+Done in 0.26 min (cpu), 0.27 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.276 --rMax=0.276
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.00043125
+Sigma  for expected limits: 0.00022003
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -82251.6 (r = 1.09749e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -87031.3 (r = 2.63214e-07)
+At r = 0.016560:        q_mu = 0.00000  q_A  = 2.57398  CLsb = 0.50000  CLb  = 0.94568  CLs  = 0.52872
+At r = 0.033120:        q_mu = 74.64059 q_A  = 10.25792 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.016560:        q_mu = 0.00000  q_A  = 2.57345  CLsb = 0.50000  CLb  = 0.94566  CLs  = 0.52873
+At r = 0.024840:        q_mu = 18.38103 q_A  = 5.78051  CLsb = 0.00000  CLb  = 0.00439  CLs  = 0.00006
+At r = 0.020700:        q_mu = 0.00000  q_A  = 4.01747  CLsb = 0.50000  CLb  = 0.97748  CLs  = 0.51152
+At r = 0.022770:        q_mu = 4.46522  q_A  = 4.85916  CLsb = 0.01730  CLb  = 0.53635  CLs  = 0.03225
+At r = 0.021735:        q_mu = 0.00000  q_A  = 4.42836  CLsb = 0.50000  CLb  = 0.98233  CLs  = 0.50900
+At r = 0.022252:        q_mu = 0.99708  q_A  = 4.64096  CLsb = 0.15901  CLb  = 0.87611  CLs  = 0.18149
+At r = 0.022511:        q_mu = 2.73006  q_A  = 4.75091  CLsb = 0.04924  CLb  = 0.70103  CLs  = 0.07024
+
+ -- Asymptotic --
+Observed Limit: r < 0.0225
+
+Done in 0.15 min (cpu), 0.15 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-0.0005 --rMax=0.0005
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.000005 (0.010530 times rMax), while it should be at zero
+Median for expected limits: 1.25e-05
+Sigma  for expected limits: 6.37767e-06
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -80565.6 (r = 9.38969e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -85420.4 (r = 9.38969e-11)
+At r = 0.000306:        q_mu = 1.23735  q_A  = 0.00177  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.53713
+At r = 0.000612:        q_mu = 0.00000  q_A  = 0.00698  CLsb = 0.50000  CLb  = 0.53329  CLs  = 0.93757
+At r = 0.001224:        q_mu = 0.00000  q_A  = 0.02772  CLsb = 0.50000  CLb  = 0.56612  CLs  = 0.88321
+At r = 0.002447:        q_mu = 0.00000  q_A  = 0.05759  CLsb = 0.50000  CLb  = 0.59483  CLs  = 0.84058
+At r = 0.004895:        q_mu = 0.00000  q_A  = 0.22708  CLsb = 0.50000  CLb  = 0.68315  CLs  = 0.73190
+At r = 0.004895:        q_mu = 0.00000  q_A  = 0.22708  CLsb = 0.50000  CLb  = 0.68315  CLs  = 0.73190
+At r = 0.007342:        q_mu = 0.00000  q_A  = 0.50676  CLsb = 0.50000  CLb  = 0.76173  CLs  = 0.65640
+At r = 0.008566:        q_mu = 0.00000  q_A  = 0.68947  CLsb = 0.50000  CLb  = 0.79683  CLs  = 0.62749
+At r = 0.009178:        q_mu = 0.00000  q_A  = 0.79241  CLsb = 0.50000  CLb  = 0.81331  CLs  = 0.61477
+At r = 0.009484:        q_mu = 0.00000  q_A  = 0.84485  CLsb = 0.50000  CLb  = 0.82099  CLs  = 0.60902
+
+ -- Asymptotic --
+Observed Limit: r < 0.0095
+
+Done in 0.13 min (cpu), 0.13 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4.8 --rMax=4.8
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.406875
+Sigma  for expected limits: 0.207593
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -111276 (r = 7.38076e-14)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -114755 (r = 0.00044211)
+At r = 0.288000:        q_mu = 2213.09869       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.144000:        q_mu = 1139.86061       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.072000:        q_mu = 690.66121        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.036000:        q_mu = 472.17361        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018000:        q_mu = 422.72598        q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009000:        q_mu = 93.69040 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004500:        q_mu = 39.08628 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.002250:        q_mu = 19.73513 q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.001125:        q_mu = 9.65322  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000563:        q_mu = 4.81310  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.000281:        q_mu = 2.47408  q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+
+Done in 0.18 min (cpu), 0.19 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-4.9 --rMax=4.9
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.537852
+Sigma  for expected limits: 0.274419
+Constraints of type SimpleGaussianConstraint: 13
+Constraints of type SimpleGaussianConstraint: 13
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -111945 (r = 5.93471e-11)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -115410 (r = 5.54382e-05)
+At r = 0.294000:        q_mu = 2249.39299       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.147000:        q_mu = 1133.17731       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.073500:        q_mu = 1587.32209       q_A  = 0.00000  CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.036750:        q_mu = 480.65555        q_A  = 23.16587 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.018375:        q_mu = 348.89445        q_A  = 22.19474 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.009188:        q_mu = 98.50774 q_A  = 22.07063 CLsb = 0.00000  CLb  = 0.00000  CLs  = 0.00000
+At r = 0.004594:        q_mu = 39.41556 q_A  = 22.01529 CLsb = 0.00000  CLb  = 0.03185  CLs  = 0.00000
+At r = 0.002297:        q_mu = 19.67950 q_A  = 22.11882 CLsb = 0.00000  CLb  = 0.60523  CLs  = 0.00001
+At r = 0.001148:        q_mu = 9.79675  q_A  = 22.22153 CLsb = 0.00087  CLb  = 0.94340  CLs  = 0.00093
+At r = 0.000574:        q_mu = 4.79673  q_A  = 22.16443 CLsb = 0.01426  CLb  = 0.99409  CLs  = 0.01434
+At r = 0.000287:        q_mu = 2.41230  q_A  = 22.13754 CLsb = 0.06019  CLb  = 0.99919  CLs  = 0.06024
+
+ -- Asymptotic --
+Observed Limit: r < 0.0003
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.0336
+Expected 50.0%: r < 0.5379
+Expected 84.0%: r < 0.5400
+--
+combine ../cards/input_MVAHctMAX_comb_hct.txt -M Asymptotic --rMin=-5 --rMax=5 --run expected
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+Computing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitCferr1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats1] at boundary.
+  [WARNING] Found [SfIteraviveFitHfstats2] at boundary.
+  [WARNING] Found [SfIteraviveFitLf] at boundary.
+  [WARNING] Found [SfPileup] at boundary.
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.517578
+Sigma  for expected limits: 0.264075
+
+ -- Asymptotic --
+Expected  2.5%: r < 0.0003
+Expected 16.0%: r < 0.4469
+Expected 50.0%: r < 0.5176
+Expected 84.0%: r < 0.5196
+Expected 97.5%: r < 0.5217
+
+Done in 0.22 min (cpu), 0.23 min (real)
+root [0]
+Processing limitXsecCat.C("Hut", 0, 45)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hut_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hut_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hut_1.pdf has been created
+root [0]
+Processing limitXsecCat.C("Hct", 0, 30)...
+Info in <TCanvas::Print>: eps file pics/LimitComp_Hct_1.eps has been created
+Info in <TCanvas::Print>: png file pics/LimitComp_Hct_1.png has been created
+Info in <TCanvas::Print>: pdf file pics/LimitComp_Hct_1.pdf has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+g++ -g   plot.o PlotStyle.o  -L/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -o plot
+Info in <TCanvas::Print>: eps file limit_Hut.eps has been created
+Info in <TCanvas::Print>: pdf file limit_Hut.pdf has been created
+Info in <TCanvas::Print>: png file limit_Hut.png has been created
+g++ -g -c -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/cvmfs/cms.cern.ch/slc6_amd64_gcc491/cms/cmssw/CMSSW_7_4_7/external/slc6_amd64_gcc491/bin/../../../../../../lcg/root/6.02.00-odfocd5/include  plot.cxx PlotStyle.cxx
+In file included from plot.cxx:35:0:
+limitsHct.h: In function 'int main()':

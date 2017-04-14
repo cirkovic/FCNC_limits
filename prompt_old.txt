@@ -1,0 +1,630 @@
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b2j3_hct/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -2365.47, estimated distance to minimum: 1.29332e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -1.6204e-01 +/-  1.13e-01
+                   Jes   -9.8255e-02 +/-  7.05e-02
+  SfIteraviveFitCferr1   -1.5594e+00 +/-  6.89e-02
+  SfIteraviveFitCferr2    4.1698e-02 +/-  7.50e-02
+      SfIteraviveFitHf   -2.3215e-01 +/-  8.00e-02
+  SfIteraviveFitHfstats1   -7.6891e-02 +/-  7.71e-02
+  SfIteraviveFitHfstats2    6.2218e-02 +/-  7.66e-02
+      SfIteraviveFitLf    8.3583e-01 +/-  5.18e-02
+  SfIteraviveFitLfstats1   -6.2561e-02 +/-  7.56e-02
+  SfIteraviveFitLfstats2   -1.1676e-02 +/-  7.50e-02
+              SfLepton    2.1535e-02 +/-  4.10e-02
+              SfPileup    8.6138e-02 +/-  7.58e-02
+               SfTopPt    0.0000e+00 +/-  7.54e-02
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b2j3_hct/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -4.27116e-10, estimated distance to minimum: 1.40053e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -1.0520e-06 +/-  4.28e-01
+                   Jes   -8.1233e-08 +/-  1.85e-01
+  SfIteraviveFitCferr1    2.5146e-07 +/-  4.33e-01
+  SfIteraviveFitCferr2    1.9580e-06 +/-  7.18e-01
+      SfIteraviveFitHf    1.1980e-07 +/-  6.14e-01
+  SfIteraviveFitHfstats1   -4.1969e-07 +/-  9.85e-01
+  SfIteraviveFitHfstats2    4.7879e-07 +/-  9.23e-01
+      SfIteraviveFitLf    1.1900e-07 +/-  4.15e-01
+  SfIteraviveFitLfstats1    2.7443e-07 +/-  9.78e-01
+  SfIteraviveFitLfstats2    3.0673e-06 +/-  9.63e-01
+              SfLepton    2.9164e-07 +/-  3.87e-01
+              SfPileup   -9.8498e-07 +/-  4.57e-01
+               SfTopPt    0.0000e+00 +/-  9.94e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b2j4_hct/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -4473.39, estimated distance to minimum: 3.19239e-06
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    6.9792e-02 +/-  7.40e-02
+                   Jes    1.3819e+00 +/-  9.24e-02
+  SfIteraviveFitCferr1   -1.2139e+00 +/-  4.07e-02
+  SfIteraviveFitCferr2   -8.6885e-03 +/-  5.85e-02
+      SfIteraviveFitHf   -2.0737e-01 +/-  6.10e-02
+  SfIteraviveFitHfstats1   -6.8625e-02 +/-  5.91e-02
+  SfIteraviveFitHfstats2    4.5183e-02 +/-  5.89e-02
+      SfIteraviveFitLf    3.1161e-01 +/-  6.42e-02
+  SfIteraviveFitLfstats1   -4.4925e-02 +/-  5.91e-02
+  SfIteraviveFitLfstats2   -6.4390e-03 +/-  5.89e-02
+              SfLepton    1.8305e-02 +/-  3.71e-02
+              SfPileup    8.2108e-02 +/-  5.98e-02
+               SfTopPt    0.0000e+00 +/-  5.93e-02
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b2j4_hct/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 8.31703e-07
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    0.0000e+00 +/-  3.87e-01
+                   Jes    0.0000e+00 +/-  1.97e-01
+  SfIteraviveFitCferr1    0.0000e+00 +/-  8.12e-02
+  SfIteraviveFitCferr2    0.0000e+00 +/-  2.47e-01
+      SfIteraviveFitHf    0.0000e+00 +/-  1.63e-01
+  SfIteraviveFitHfstats1    0.0000e+00 +/-  1.97e-01
+  SfIteraviveFitHfstats2    0.0000e+00 +/-  2.15e-01
+      SfIteraviveFitLf    0.0000e+00 +/-  6.58e-02
+  SfIteraviveFitLfstats1    0.0000e+00 +/-  5.56e-01
+  SfIteraviveFitLfstats2    0.0000e+00 +/-  8.51e-01
+              SfLepton    0.0000e+00 +/-  2.94e-01
+              SfPileup    0.0000e+00 +/-  2.79e-01
+               SfTopPt    0.0000e+00 +/-  9.54e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b3j3_hct/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -1795.19, estimated distance to minimum: nan
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    5.2945e-01 +/-  0.00e+00
+                   Jes   -3.2588e-01 +/-  0.00e+00
+  SfIteraviveFitCferr1    3.1436e-01 +/-  0.00e+00
+  SfIteraviveFitCferr2    2.7355e-02 +/-  0.00e+00
+      SfIteraviveFitHf    1.3143e+00 +/-  0.00e+00
+  SfIteraviveFitHfstats1   -1.2564e+00 +/-  0.00e+00
+  SfIteraviveFitHfstats2    1.1707e+00 +/-  0.00e+00
+      SfIteraviveFitLf    4.6776e+00 +/-  0.00e+00
+  SfIteraviveFitLfstats1    4.5213e-01 +/-  0.00e+00
+  SfIteraviveFitLfstats2   -2.7906e-02 +/-  0.00e+00
+              SfLepton   -1.2942e-01 +/-  0.00e+00
+              SfPileup   -1.8367e-01 +/-  0.00e+00
+               SfTopPt    4.5166e-02 +/-  0.00e+00
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b3j3_hct/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -7.9212e-13, estimated distance to minimum: 1.72055e-10
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    4.8667e-07 +/-  4.68e-01
+                   Jes    3.4949e-07 +/-  4.06e-01
+  SfIteraviveFitCferr1   -6.1896e-08 +/-  5.64e-01
+  SfIteraviveFitCferr2    3.4698e-07 +/-  9.62e-01
+      SfIteraviveFitHf   -9.5439e-08 +/-  5.98e-01
+  SfIteraviveFitHfstats1   -2.2915e-07 +/-  9.91e-01
+  SfIteraviveFitHfstats2    2.1056e-07 +/-  9.59e-01
+      SfIteraviveFitLf    6.1214e-08 +/-  4.52e-01
+  SfIteraviveFitLfstats1   -3.6873e-07 +/-  1.02e+00
+  SfIteraviveFitLfstats2    5.0939e-07 +/-  9.94e-01
+              SfLepton    2.1214e-07 +/-  8.46e-01
+              SfPileup    3.9133e-07 +/-  8.76e-01
+               SfTopPt    0.0000e+00 +/-  9.94e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b3j4_hct/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -1.04756e-10, estimated distance to minimum: 1.80468e-10
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    2.9972e-07 +/-  3.60e-01
+                   Jes   -1.3707e-08 +/-  4.38e-01
+  SfIteraviveFitCferr1    1.0568e-08 +/-  3.72e-01
+  SfIteraviveFitCferr2   -9.3339e-08 +/-  9.22e-01
+      SfIteraviveFitHf    1.8276e-08 +/-  6.51e-01
+  SfIteraviveFitHfstats1    2.2421e-08 +/-  9.70e-01
+  SfIteraviveFitHfstats2   -1.1732e-08 +/-  9.45e-01
+      SfIteraviveFitLf   -6.4140e-09 +/-  4.11e-01
+  SfIteraviveFitLfstats1    7.5479e-08 +/-  9.77e-01
+  SfIteraviveFitLfstats2   -2.2178e-07 +/-  9.81e-01
+              SfLepton   -1.0466e-08 +/-  5.88e-01
+              SfPileup   -4.9845e-07 +/-  9.07e-01
+               SfTopPt    0.0000e+00 +/-  9.94e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b3j4_hct/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -5141.08, estimated distance to minimum: 0.563051
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -9.7753e-02 +/-  7.14e-02
+                   Jes    7.1102e-02 +/-  6.53e-02
+  SfIteraviveFitCferr1   -1.1029e-01 +/-  6.35e-02
+  SfIteraviveFitCferr2   -5.5171e-02 +/-  6.36e-02
+      SfIteraviveFitHf    1.7151e+00 +/-  1.33e-01
+  SfIteraviveFitHfstats1   -2.1037e-01 +/-  6.82e-02
+  SfIteraviveFitHfstats2    2.4869e-01 +/-  7.03e-02
+      SfIteraviveFitLf    6.7781e+00 +/-  8.55e-01
+  SfIteraviveFitLfstats1    4.6139e-02 +/-  6.38e-02
+  SfIteraviveFitLfstats2   -8.7362e-02 +/-  6.43e-02
+              SfLepton   -1.0055e-01 +/-  4.65e-02
+              SfPileup   -2.7243e-02 +/-  6.28e-02
+               SfTopPt   -1.2111e-02 +/-  6.27e-02
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b4j4_hct/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 2.0091e-10
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    0.0000e+00 +/-  5.10e-01
+                   Jes    0.0000e+00 +/-  3.15e-01
+  SfIteraviveFitCferr1    0.0000e+00 +/-  5.45e-01
+  SfIteraviveFitCferr2    0.0000e+00 +/-  9.59e-01
+      SfIteraviveFitHf    0.0000e+00 +/-  4.91e-01
+  SfIteraviveFitHfstats1    0.0000e+00 +/-  9.73e-01
+  SfIteraviveFitHfstats2    0.0000e+00 +/-  9.26e-01
+      SfIteraviveFitLf    0.0000e+00 +/-  7.82e-01
+  SfIteraviveFitLfstats1    0.0000e+00 +/-  9.55e-01
+  SfIteraviveFitLfstats2    0.0000e+00 +/-  1.00e+00
+              SfLepton    0.0000e+00 +/-  7.63e-01
+              SfPileup    0.0000e+00 +/-  7.45e-01
+               SfTopPt    0.0000e+00 +/-  9.94e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_b4j4_hct/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -999.262, estimated distance to minimum: 10.8299
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    4.3111e-02 +/-  1.05e-01
+                   Jes   -1.2757e+00 +/-  2.43e-01
+  SfIteraviveFitCferr1    8.8210e-01 +/-  1.34e+00
+  SfIteraviveFitCferr2    5.5231e-02 +/-  1.92e-01
+      SfIteraviveFitHf   -3.8934e+00 +/-  4.86e-01
+  SfIteraviveFitHfstats1   -5.7443e-03 +/-  1.93e-01
+  SfIteraviveFitHfstats2    7.6759e-02 +/-  1.95e-01
+      SfIteraviveFitLf    1.3679e+00 +/-  9.01e-01
+  SfIteraviveFitLfstats1    1.2908e-01 +/-  2.01e-01
+  SfIteraviveFitLfstats2    1.6241e-01 +/-  2.03e-01
+              SfLepton   -1.0452e-01 +/-  1.34e-01
+              SfPileup    9.4115e-02 +/-  1.96e-01
+               SfTopPt   -1.7529e-01 +/-  2.03e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_comb_hct/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 5.74933e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=1 MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -1.1894e-07 +/-  1.96e-01
+                   Jes    4.9559e-08 +/-  7.45e-02
+  SfIteraviveFitCferr1    7.0024e-10 +/-  1.21e-01
+  SfIteraviveFitCferr2    1.2242e-07 +/-  3.33e-01
+      SfIteraviveFitHf   -3.9371e-09 +/-  3.01e-01
+  SfIteraviveFitHfstats1   -9.6085e-08 +/-  8.34e-01
+  SfIteraviveFitHfstats2    1.0463e-07 +/-  6.96e-01
+      SfIteraviveFitLf    2.8882e-08 +/-  2.97e-01
+  SfIteraviveFitLfstats1   -2.8036e-08 +/-  1.03e+00
+  SfIteraviveFitLfstats2   -1.1089e-07 +/-  8.63e-01
+              SfLepton    5.9988e-08 +/-  1.37e-01
+              SfPileup   -5.2875e-08 +/-  3.58e-01
+               SfTopPt    0.0000e+00 +/-  9.93e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHctMAX_comb_hct/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -13302.4, estimated distance to minimum: 0.000102425
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    3.5562e-02 +/-  3.14e-02
+                   Jes    2.4961e-01 +/-  2.33e-02
+  SfIteraviveFitCferr1   -1.3358e+00 +/-  2.53e-02
+  SfIteraviveFitCferr2    3.4315e-03 +/-  3.03e-02
+      SfIteraviveFitHf   -1.5626e-01 +/-  2.98e-02
+  SfIteraviveFitHfstats1   -3.4067e-02 +/-  3.08e-02
+  SfIteraviveFitHfstats2    7.7944e-02 +/-  3.10e-02
+      SfIteraviveFitLf    1.4728e+00 +/-  3.36e-02
+  SfIteraviveFitLfstats1   -3.7349e-02 +/-  3.08e-02
+  SfIteraviveFitLfstats2   -2.5999e-02 +/-  3.07e-02
+              SfLepton   -2.4874e-01 +/-  2.18e-02
+              SfPileup    7.1802e-02 +/-  3.07e-02
+               SfTopPt    0.0000e+00 +/-  3.09e-02
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b2j3_hut/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -3680.07, estimated distance to minimum: 1.78233e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -1.0279e+00 +/-  2.29e-01
+                   Jes    1.2533e+00 +/-  2.26e-01
+  SfIteraviveFitCferr1   -2.6336e+00 +/-  1.06e-01
+  SfIteraviveFitCferr2    1.5522e-01 +/-  1.88e-01
+      SfIteraviveFitHf   -8.2436e-02 +/-  1.77e-01
+  SfIteraviveFitHfstats1   -1.0351e-01 +/-  1.88e-01
+  SfIteraviveFitHfstats2    5.0322e-02 +/-  1.84e-01
+      SfIteraviveFitLf    7.2973e-01 +/-  9.58e-02
+  SfIteraviveFitLfstats1   -1.1739e-02 +/-  1.82e-01
+  SfIteraviveFitLfstats2    1.9671e-02 +/-  1.81e-01
+              SfLepton    3.2381e-02 +/-  8.11e-02
+              SfPileup   -1.8882e-01 +/-  1.92e-01
+               SfTopPt    0.0000e+00 +/-  1.83e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b2j3_hut/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -6.17053e-10, estimated distance to minimum: 1.41171e-09
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -3.9480e-07 +/-  4.58e-01
+                   Jes   -5.0066e-08 +/-  2.35e-01
+  SfIteraviveFitCferr1   -2.1302e-08 +/-  3.75e-01
+  SfIteraviveFitCferr2    4.6569e-07 +/-  8.52e-01
+      SfIteraviveFitHf   -1.6378e-07 +/-  8.27e-01
+  SfIteraviveFitHfstats1   -1.5367e-07 +/-  9.67e-01
+  SfIteraviveFitHfstats2    1.6567e-07 +/-  8.94e-01
+      SfIteraviveFitLf    4.7849e-08 +/-  4.03e-01
+  SfIteraviveFitLfstats1   -5.5555e-07 +/-  9.87e-01
+  SfIteraviveFitLfstats2    1.1477e-06 +/-  9.73e-01
+              SfLepton    8.3007e-08 +/-  4.71e-01
+              SfPileup   -4.3496e-07 +/-  7.67e-01
+               SfTopPt    0.0000e+00 +/-  9.91e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b2j4_hut/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -5558.19, estimated distance to minimum: 2.18682e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    1.3449e-01 +/-  1.66e-01
+                   Jes    2.2239e+00 +/-  1.28e-01
+  SfIteraviveFitCferr1   -3.2167e-01 +/-  8.59e-02
+  SfIteraviveFitCferr2   -1.2601e-04 +/-  1.09e-01
+      SfIteraviveFitHf   -2.9156e+00 +/-  2.67e-01
+  SfIteraviveFitHfstats1    3.8135e-02 +/-  1.13e-01
+  SfIteraviveFitHfstats2   -3.5358e-02 +/-  1.13e-01
+      SfIteraviveFitLf    2.9924e-02 +/-  9.67e-02
+  SfIteraviveFitLfstats1   -6.2964e-02 +/-  1.16e-01
+  SfIteraviveFitLfstats2   -5.8994e-02 +/-  1.15e-01
+              SfLepton    1.8000e-01 +/-  1.08e-01
+              SfPileup    3.4398e-01 +/-  1.42e-01
+               SfTopPt    0.0000e+00 +/-  1.13e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b2j4_hut/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 1.40361e-06
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=1 MINIMIZE=1 HESSE=1 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -2.1925e-07 +/-  4.99e-01
+                   Jes    3.2108e-08 +/-  1.96e-01
+  SfIteraviveFitCferr1   -3.9682e-09 +/-  2.11e-01
+  SfIteraviveFitCferr2    5.3902e-08 +/-  5.83e-01
+      SfIteraviveFitHf   -3.1901e-08 +/-  5.63e-01
+  SfIteraviveFitHfstats1   -8.7782e-08 +/-  4.72e-01
+  SfIteraviveFitHfstats2    9.0638e-08 +/-  5.06e-01
+      SfIteraviveFitLf    2.4997e-08 +/-  1.67e-01
+  SfIteraviveFitLfstats1   -1.3726e-07 +/-  9.34e-01
+  SfIteraviveFitLfstats2   -6.4583e-07 +/-  9.64e-01
+              SfLepton    3.9103e-08 +/-  2.24e-01
+              SfPileup   -1.0519e-09 +/-  6.16e-01
+               SfTopPt    0.0000e+00 +/-  9.89e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b3j3_hut/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b3j3_hut/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 9.20964e-09
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    0.0000e+00 +/-  2.68e-02
+                   Jes    0.0000e+00 +/-  6.87e-02
+  SfIteraviveFitCferr1    0.0000e+00 +/-  3.04e-01
+  SfIteraviveFitCferr2    0.0000e+00 +/-  1.18e+00
+      SfIteraviveFitHf    0.0000e+00 +/-  6.04e-01
+  SfIteraviveFitHfstats1    0.0000e+00 +/-  1.89e+00
+  SfIteraviveFitHfstats2    0.0000e+00 +/-  1.12e+00
+      SfIteraviveFitLf    0.0000e+00 +/-  3.57e-01
+  SfIteraviveFitLfstats1    0.0000e+00 +/-  8.68e-01
+  SfIteraviveFitLfstats2    0.0000e+00 +/-  9.92e-01
+              SfLepton    0.0000e+00 +/-  7.02e-01
+              SfPileup    0.0000e+00 +/-  8.06e-01
+               SfTopPt    0.0000e+00 +/-  9.79e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b3j4_hut/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -2.04187e-11, estimated distance to minimum: 1.60481e-09
+                covariance matrix quality: Full matrix, but forced positive-definite
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer   -2.8370e-07 +/-  6.16e-01
+                   Jes    3.2266e-08 +/-  2.32e-01
+  SfIteraviveFitCferr1   -2.4646e-08 +/-  1.12e-01
+  SfIteraviveFitCferr2    1.3017e-07 +/-  7.89e-01
+      SfIteraviveFitHf   -3.6002e-08 +/-  2.09e-01
+  SfIteraviveFitHfstats1   -8.8054e-08 +/-  9.28e-01
+  SfIteraviveFitHfstats2    9.7621e-08 +/-  7.80e-01
+      SfIteraviveFitLf    2.8010e-08 +/-  1.93e-01
+  SfIteraviveFitLfstats1   -1.6125e-07 +/-  7.80e-01
+  SfIteraviveFitLfstats2    2.9566e-07 +/-  1.01e+00
+              SfLepton    3.9737e-08 +/-  3.92e-01
+              SfPileup    9.0264e-08 +/-  1.01e+00
+               SfTopPt    0.0000e+00 +/-  9.80e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b3j4_hut/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b4j4_hut/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -150.52, estimated distance to minimum: 8.76585e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    6.7064e-02 +/-  2.50e-01
+                   Jes    2.7618e-02 +/-  2.66e-01
+  SfIteraviveFitCferr1   -9.0751e-01 +/-  6.23e-01
+  SfIteraviveFitCferr2    1.5146e-01 +/-  8.43e-01
+      SfIteraviveFitHf    5.9877e-01 +/-  5.60e-01
+  SfIteraviveFitHfstats1   -1.5432e-01 +/-  8.62e-01
+  SfIteraviveFitHfstats2    2.6170e-01 +/-  8.77e-01
+      SfIteraviveFitLf    8.3879e-01 +/-  8.65e-01
+  SfIteraviveFitLfstats1    1.1376e-01 +/-  8.64e-01
+  SfIteraviveFitLfstats2   -2.6714e-02 +/-  8.70e-01
+              SfLepton   -1.0121e-01 +/-  5.02e-01
+              SfPileup   -1.4646e-01 +/-  7.69e-01
+               SfTopPt    1.0914e-04 +/-  8.65e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_b4j4_hut/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 3.52885e-10
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    0.0000e+00 +/-  4.07e-01
+                   Jes    0.0000e+00 +/-  4.18e-01
+  SfIteraviveFitCferr1    0.0000e+00 +/-  1.01e+00
+  SfIteraviveFitCferr2    0.0000e+00 +/-  9.89e-01
+      SfIteraviveFitHf    0.0000e+00 +/-  5.84e-01
+  SfIteraviveFitHfstats1    0.0000e+00 +/-  1.29e+00
+  SfIteraviveFitHfstats2    0.0000e+00 +/-  1.37e+00
+      SfIteraviveFitLf    0.0000e+00 +/-  1.65e+00
+  SfIteraviveFitLfstats1    0.0000e+00 +/-  9.79e-01
+  SfIteraviveFitLfstats2    0.0000e+00 +/-  9.91e-01
+              SfLepton    0.0000e+00 +/-  8.39e-01
+              SfPileup    0.0000e+00 +/-  8.85e-01
+               SfTopPt    0.0000e+00 +/-  9.94e-01
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_comb_hut/mlfit_1.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: -15183.3, estimated distance to minimum: 8.23086e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    5.4275e-02 +/-  5.58e-02
+                   Jes    3.1794e-01 +/-  2.98e-02
+  SfIteraviveFitCferr1   -2.3663e+00 +/-  5.33e-02
+  SfIteraviveFitCferr2    2.2867e-02 +/-  4.88e-02
+      SfIteraviveFitHf    2.8857e+00 +/-  1.08e-01
+  SfIteraviveFitHfstats1    5.2017e-02 +/-  5.18e-02
+  SfIteraviveFitHfstats2    1.2683e-01 +/-  5.25e-02
+      SfIteraviveFitLf    2.2865e+00 +/-  4.20e-02
+  SfIteraviveFitLfstats1    5.6403e-02 +/-  5.19e-02
+  SfIteraviveFitLfstats2   -1.5480e-01 +/-  5.31e-02
+              SfLepton   -4.1095e-01 +/-  2.75e-02
+              SfPileup    8.0681e-02 +/-  5.14e-02
+               SfTopPt    0.0000e+00 +/-  5.19e-02
+
+
+Processing test.C("backup_270217_231346/INPUT_MVAHutMAX_comb_hut/mlfit_0.root");...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+  RooFitResult: minimized FCN value: 0, estimated distance to minimum: 6.05335e-08
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                   Jer    0.0000e+00 +/-  2.54e-02
+                   Jes    0.0000e+00 +/-  4.60e-02
+  SfIteraviveFitCferr1    0.0000e+00 +/-  1.05e-01
+  SfIteraviveFitCferr2    0.0000e+00 +/-  2.58e-01
+      SfIteraviveFitHf    0.0000e+00 +/-  2.95e-01
+  SfIteraviveFitHfstats1    0.0000e+00 +/-  8.78e-01
+  SfIteraviveFitHfstats2    0.0000e+00 +/-  8.23e-01
+      SfIteraviveFitLf    0.0000e+00 +/-  3.58e-01
+  SfIteraviveFitLfstats1    0.0000e+00 +/-  9.62e-01
+  SfIteraviveFitLfstats2    0.0000e+00 +/-  8.40e-01
+              SfLepton    0.0000e+00 +/-  1.64e-01
+              SfPileup    0.0000e+00 +/-  4.10e-01
+               SfTopPt    0.0000e+00 +/-  9.94e-01
+

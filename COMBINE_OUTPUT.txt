@@ -1,0 +1,180 @@
+input_MVAHctMAX_b2j3_hct.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfPileup] at boundary. 
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.199983 (0.009999 times rMax), while it should be at zero
+Median for expected limits: 1.43359
+Sigma  for expected limits: 0.731439
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.7644
+Expected 16.0%: r < 1.0180
+Expected 50.0%: r < 1.4336
+Expected 84.0%: r < 2.0679
+Expected 97.5%: r < 2.7213
+
+Done in 0.01 min (cpu), 0.01 min (real)
+input_MVAHctMAX_b2j4_hct.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.638672
+Sigma  for expected limits: 0.325859
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.3455
+Expected 16.0%: r < 0.4623
+Expected 50.0%: r < 0.6387
+Expected 84.0%: r < 0.8958
+Expected 97.5%: r < 1.1533
+
+Done in 0.01 min (cpu), 0.01 min (real)
+input_MVAHctMAX_b3j3_hct.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.560547
+Sigma  for expected limits: 0.285999
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.2879
+Expected 16.0%: r < 0.3912
+Expected 50.0%: r < 0.5605
+Expected 84.0%: r < 0.7728
+Expected 97.5%: r < 0.8856
+
+Done in 0.02 min (cpu), 0.02 min (real)
+input_MVAHctMAX_b3j4_hct.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.266602
+Sigma  for expected limits: 0.136024
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.1843
+Expected 16.0%: r < 0.2261
+Expected 50.0%: r < 0.2666
+Expected 84.0%: r < 0.4037
+Expected 97.5%: r < 0.6088
+
+Done in 0.02 min (cpu), 0.02 min (real)
+input_MVAHctMAX_b4j4_hct.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.759766
+Sigma  for expected limits: 0.387643
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.3636
+Expected 16.0%: r < 0.5075
+Expected 50.0%: r < 0.7598
+Expected 84.0%: r < 1.1747
+Expected 97.5%: r < 1.8046
+
+Done in 0.01 min (cpu), 0.01 min (real)
+input_MVAHutMAX_b2j3_hut.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.996094
+Sigma  for expected limits: 0.50822
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.5175
+Expected 16.0%: r < 0.6988
+Expected 50.0%: r < 0.9961
+Expected 84.0%: r < 1.4368
+Expected 97.5%: r < 1.9530
+
+Done in 0.01 min (cpu), 0.01 min (real)
+input_MVAHutMAX_b2j4_hut.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.022231 (0.001112 times rMax), while it should be at zero
+Median for expected limits: 0.580078
+Sigma  for expected limits: 0.295964
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.3388
+Expected 16.0%: r < 0.4613
+Expected 50.0%: r < 0.5801
+Expected 84.0%: r < 0.5824
+Expected 97.5%: r < 1.2332
+
+Done in 0.03 min (cpu), 0.03 min (real)
+input_MVAHutMAX_b3j3_hut.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 0.466797
+Sigma  for expected limits: 0.238166
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.2453
+Expected 16.0%: r < 0.3327
+Expected 50.0%: r < 0.4668
+Expected 84.0%: r < 0.6398
+Expected 97.5%: r < 0.8317
+
+Done in 0.01 min (cpu), 0.01 min (real)
+input_MVAHutMAX_b3j4_hut.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+  [WARNING] Found [SfIteraviveFitLf] at boundary. 
+Constraints of type SimpleGaussianConstraint: 13
+WARNING: Best fit of asimov dataset is at r = 0.199964 (0.009998 times rMax), while it should be at zero
+Median for expected limits: 0.000488281
+Sigma  for expected limits: 0.000249128
+
+ -- Asymptotic -- 
+
+Done in 0.01 min (cpu), 0.01 min (real)
+input_MVAHutMAX_b4j4_hut.txt
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute expected limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 13
+Median for expected limits: 1.67969
+Sigma  for expected limits: 0.856999
+
+ -- Asymptotic -- 
+Expected  2.5%: r < 0.8562
+Expected 16.0%: r < 1.1683
+Expected 50.0%: r < 1.6797
+Expected 84.0%: r < 2.4496
+Expected 97.5%: r < 3.4568
+
+Done in 0.01 min (cpu), 0.01 min (real)
