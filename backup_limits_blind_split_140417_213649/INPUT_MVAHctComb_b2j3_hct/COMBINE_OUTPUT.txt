@@ -1,0 +1,39 @@
+combine -S 1 ../cards/input_MVAHctComb_b2j3_hct.txt -M Asymptotic --run both --expectSignal 0.1 --rMin=-0.1 --rMax=0.1
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 21
+WARNING: Best fit of asimov dataset is at r = 0.000882 (0.008821 times rMax), while it should be at zero
+Median for expected limits: 0.249766
+Sigma  for expected limits: 0.127434
+Constraints of type SimpleGaussianConstraint: 21
+Constraints of type SimpleGaussianConstraint: 21
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -286.491 (r = 7.38456e-07)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -278.185 (r = 0.000118232)
+At r = 0.076691:	q_mu = 3.21440	q_A  = 0.40120	CLsb = 0.00216	CLb  = 0.01319	CLs  = 0.16366
+At r = 0.153382:	q_mu = 7.11628	q_A  = 1.53777	CLsb = 0.00024	CLb  = 0.01225	CLs  = 0.01977
+At r = 0.076691:	q_mu = 3.21845	q_A  = 0.40019	CLsb = 0.00212	CLb  = 0.01296	CLs  = 0.16343
+At r = 0.115036:	q_mu = 5.09682	q_A  = 0.88188	CLsb = 0.00073	CLb  = 0.01241	CLs  = 0.05867
+At r = 0.127215:	q_mu = 5.72487	q_A  = 1.07161	CLsb = 0.00051	CLb  = 0.01230	CLs  = 0.04178
+At r = 0.122062:	q_mu = 5.45727	q_A  = 0.98895	CLsb = 0.00060	CLb  = 0.01233	CLs  = 0.04828
+At r = 0.119647:	q_mu = 5.33296	q_A  = 0.95134	CLsb = 0.00064	CLb  = 0.01235	CLs  = 0.05164
+At r = 0.121056:	q_mu = 5.40532	q_A  = 0.97308	CLsb = 0.00061	CLb  = 0.01233	CLs  = 0.04966
+At r = 0.120576:	q_mu = 5.38060	q_A  = 0.96561	CLsb = 0.00062	CLb  = 0.01234	CLs  = 0.05032
+At r = 0.120858:	q_mu = 5.39511	q_A  = 0.96998	CLsb = 0.00062	CLb  = 0.01233	CLs  = 0.04993
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.1209
+Expected  2.5%: r < 0.1307
+Expected 16.0%: r < 0.1758
+Expected 50.0%: r < 0.2498
+Expected 84.0%: r < 0.3623
+Expected 97.5%: r < 0.5159
+
+Done in 0.02 min (cpu), 0.02 min (real)

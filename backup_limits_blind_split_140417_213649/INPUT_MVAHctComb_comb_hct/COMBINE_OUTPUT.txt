@@ -1,0 +1,35 @@
+combine -S 1 ../cards/input_MVAHctComb_comb_hct.txt -M Asymptotic --run both --expectSignal 0.1 --rMin=-0.1 --rMax=0.1
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 21
+Median for expected limits: 0.0159375
+Sigma  for expected limits: 0.00813153
+Constraints of type SimpleGaussianConstraint: 21
+Constraints of type SimpleGaussianConstraint: 21
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -1295.63 (r = 0.035771)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -1263.01 (r = 9.73058e-05)
+At r = 0.061953:	q_mu = 8.14309	q_A  = 48.02234	CLsb = 0.00216	CLb  = 0.99998	CLs  = 0.00216
+At r = 0.048862:	q_mu = 2.11508	q_A  = 31.81684	CLsb = 0.07293	CLb  = 0.99999	CLs  = 0.07293
+At r = 0.055408:	q_mu = 4.66264	q_A  = 39.63181	CLsb = 0.01541	CLb  = 0.99998	CLs  = 0.01541
+At r = 0.051443:	q_mu = 3.00522	q_A  = 34.82347	CLsb = 0.04150	CLb  = 0.99998	CLs  = 0.04150
+At r = 0.050244:	q_mu = 2.57207	q_A  = 33.41490	CLsb = 0.05438	CLb  = 0.99999	CLs  = 0.05438
+At r = 0.050782:	q_mu = 2.76213	q_A  = 34.04403	CLsb = 0.04826	CLb  = 0.99998	CLs  = 0.04826
+At r = 0.050547:	q_mu = 2.67805	q_A  = 33.76793	CLsb = 0.05087	CLb  = 0.99999	CLs  = 0.05087
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.0505
+Expected  2.5%: r < 0.0085
+Expected 16.0%: r < 0.0108
+Expected 50.0%: r < 0.0159
+Expected 84.0%: r < 0.0223
+Expected 97.5%: r < 0.0301
+
+Done in 0.07 min (cpu), 0.07 min (real)

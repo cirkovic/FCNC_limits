@@ -1,2 +1,8 @@
 *.root
-
+*.png
+*.pdf
+LSFJOB_*/
+MVAH*/
+INPUT_MVAH*/
+TRASH/
+TRASH1/

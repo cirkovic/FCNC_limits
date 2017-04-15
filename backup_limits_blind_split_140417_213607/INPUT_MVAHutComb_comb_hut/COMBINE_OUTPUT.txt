@@ -1,0 +1,39 @@
+combine -S 1 ../cards/input_MVAHutComb_comb_hut.txt -M Asymptotic --run both
+>>> including systematics
+>>> method used to compute upper limit is Asymptotic
+>>> random number generator seed is 123456
+[?1034hComputing limit starting from observation
+Will compute both limit(s) using minimizer Minuit2 with strategy 0 and tolerance 0.01
+Constraints of type SimpleGaussianConstraint: 21
+Median for expected limits: 0.0297852
+Sigma  for expected limits: 0.0151968
+Constraints of type SimpleGaussianConstraint: 21
+Constraints of type SimpleGaussianConstraint: 21
+Restricting r to positive values.
+
+Make global fit of real data
+NLL at global minimum of data: -8943.31 (r = 0.0552002)
+
+Make global fit of asimov data
+NLL at global minimum of asimov: -9008.44 (r = 0.000117155)
+At r = 1.255200:	q_mu = 814.08582	q_A  = 1075.37824	CLsb = 0.00000	CLb  = 0.99999	CLs  = 0.00000
+At r = 0.655200:	q_mu = 402.32956	q_A  = 483.09688	CLsb = 0.00000	CLb  = 0.97265	CLs  = 0.00000
+At r = 0.355200:	q_mu = 163.92370	q_A  = 247.18779	CLsb = 0.00000	CLb  = 0.99824	CLs  = 0.00000
+At r = 0.205200:	q_mu = 57.98507	q_A  = 111.39137	CLsb = 0.00000	CLb  = 0.99836	CLs  = 0.00000
+At r = 0.130200:	q_mu = 17.65213	q_A  = 53.93660	CLsb = 0.00001	CLb  = 0.99916	CLs  = 0.00001
+At r = 0.092700:	q_mu = 4.87344	q_A  = 30.05773	CLsb = 0.01364	CLb  = 0.99947	CLs  = 0.01364
+At r = 0.073950:	q_mu = 1.28152	q_A  = 20.07760	CLsb = 0.12881	CLb  = 0.99959	CLs  = 0.12886
+At r = 0.083325:	q_mu = 2.81276	q_A  = 24.88211	CLsb = 0.04676	CLb  = 0.99954	CLs  = 0.04678
+At r = 0.080958:	q_mu = 2.37197	q_A  = 23.62823	CLsb = 0.06177	CLb  = 0.99955	CLs  = 0.06179
+At r = 0.082399:	q_mu = 2.63552	q_A  = 24.38760	CLsb = 0.05225	CLb  = 0.99954	CLs  = 0.05227
+At r = 0.082881:	q_mu = 2.72676	q_A  = 24.64239	CLsb = 0.04934	CLb  = 0.99954	CLs  = 0.04936
+
+ -- Asymptotic -- 
+Observed Limit: r < 0.0829
+Expected  2.5%: r < 0.0154
+Expected 16.0%: r < 0.0212
+Expected 50.0%: r < 0.0298
+Expected 84.0%: r < 0.0426
+Expected 97.5%: r < 0.0580
+
+Done in 0.14 min (cpu), 0.14 min (real)
