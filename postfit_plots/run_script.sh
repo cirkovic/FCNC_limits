@@ -12,6 +12,7 @@ OUT=~/www/31-03-2017_postfit
 OUT=~/www/04-04-2017_postfit
 OUT=~/www/05-04-2017_postfit
 OUT=~/www/10-04-2017_postfit
+OUT=~/www/20-04-2017_postfit
 
 #cp -f /afs/cern.ch/work/c/cirkovic/TrainingsFCNC_loose/cards/* aux
 #cp -f /afs/cern.ch/work/c/cirkovic/TrainingsFCNC_medium/cards/* aux

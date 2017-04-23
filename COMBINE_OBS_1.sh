@@ -17,7 +17,7 @@ fi
 
 OPTIONS=""
 OPTIONS="$OPTIONS --run both"
-OPTIONS="$OPTIONS --expectSignal 0.0525"
+OPTIONS="$OPTIONS --expectSignal 0.0225"
 OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
 
 PS=""

@@ -422,9 +422,12 @@ void produceCards()
          }
          else {
          */
-             fc << "lumi lnN 1.026 - - - -" << std::endl;
+             //fc << "lumi lnN 1.026 - - - -" << std::endl;
+             fc << "lumi lnN 1.026 1.026 1.026 1.026 1.026" << std::endl;
              fc << "tt_norm lnN - 1.055 1.055 1.055 -" << std::endl;
-             fc << "tt_additional lnN - 1.5 1.5 - -" << std::endl;
+             //fc << "tt_additional lnN - 1.5 1.5 - -" << std::endl;
+             fc << "tt_addbb lnN - 1.5 - - -" << std::endl;
+             fc << "tt_addcc lnN - - 1.5 - -" << std::endl;
              fc << "other_norm lnN - - - - 1.1" << std::endl;
              fc << "SfIteraviveFitLf shape 1 1 1 1 1" << std::endl;
              fc << "SfIteraviveFitHf shape 1 1 1 1 1" << std::endl;
@@ -436,7 +439,8 @@ void produceCards()
              fc << "SfIteraviveFitCferr2 shape 1 1 1 1 1" << std::endl;
              fc << "SfPileup shape 1 1 1 1 1" << std::endl;
              fc << "SfLepton shape 1 1 1 1 1" << std::endl;
-             fc << "SfTopPt shape 1 1 1 1 1" << std::endl;
+             //fc << "SfTopPt shape 1 1 1 1 1" << std::endl;
+             fc << "SfTopPt shape - 1 1 1 -" << std::endl;
              fc << "Jes shape 1 1 1 1 1" << std::endl;
              fc << "Jer shape 1 1 1 1 1" << std::endl;
              fc << "hdamp shape 0 1 1 1 0" << std::endl;

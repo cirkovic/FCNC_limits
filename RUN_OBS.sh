@@ -7,6 +7,8 @@ OUTDIR=~/www/11-04-2017/limits
 OUTDIR=~/www/12-04-2017/limits
 OUTDIR=~/www/13-04-2017/limits
 OUTDIR=~/www/14-04-2017/limits
+OUTDIR=~/www/20-04-2017/limits
+OUTDIR=~/www/21-04-2017/limits
 THIS=`pwd`
 cd /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src
 eval `scramv1 runtime -sh`
