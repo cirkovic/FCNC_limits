@@ -10,6 +10,7 @@ OUTDIR=~/www/14-04-2017/limits
 OUTDIR=~/www/14-04-2017/limits_noSyst
 OUTDIR=~/www/20-04-2017/limits_noSyst
 OUTDIR=~/www/21-04-2017/limits_noSyst
+OUTDIR=${1}/limits_noSyst
 THIS=`pwd`
 cd /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src
 eval `scramv1 runtime -sh`
@@ -71,11 +72,11 @@ if [[ "${N}" == "combSTandTT" ]]; then
 #./runShowWob4j4_small.sh $OUTPUT 1.0 1.0
 #./runShow_small_new.sh $OUTPUT 5.0 5.0
 #./runShow_wohutb4j4.sh $OUTPUT 5.0 5.0
-./runShow_wohutb4j4_obs.sh $OUTPUT 10.0 10.0 true
+./runShow_wohutb4j4_obs.sh $OUTPUT 10.0 10.0 false
 fi
 cd plot
 #./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
-./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
+./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 0
 cd ../..
 
 DATE=`date +%d%m%y_%H%M%S`

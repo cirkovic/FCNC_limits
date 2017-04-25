@@ -1,10 +1,12 @@
-./RUN_OBS_STTT.sh
+OUTPUT=~/www/24-04-2017
 
-./RUN_OBS_noSyst.sh
+./RUN_OBS_STTT.sh $OUTPUT
+
+./RUN_OBS_noSyst.sh $OUTPUT
 
 
-./RUN_OBS_woTTadd.sh
+./RUN_OBS_woTTadd.sh $OUTPUT
 
 
-./RUN_OBS.sh
+./RUN_OBS.sh $OUTPUT
 

@@ -1126,6 +1126,7 @@ void limitXsecCatShow_small_obs(std::string coup = "Hut", double ymin = 0.0, dou
    leg->AddEntry(line[0],"Expected","l");
    leg->AddEntry(s1[0],"68\%","f");
    leg->AddEntry(s2[0],"95\%","f");
+   leg->AddEntry(lineObs[0],"Observed","l");
    
    c1->RedrawAxis("g");
    

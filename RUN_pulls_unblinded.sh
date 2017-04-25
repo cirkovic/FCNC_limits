@@ -32,6 +32,7 @@ OUTPUT=~/www/10-04-2017/1/TrainingsWithTightEID_exp_${CASE}/${N}
 OUTPUT=~/www/14-04-2017/1/TrainingsWithTightEID_OBS_${CASE}/${N}
 OUTPUT=~/www/20-04-2017/1/TrainingsWithTightEID_OBS_${CASE}/${N}
 OUTPUT=~/www/21-04-2017/1/TrainingsWithTightEID_OBS_${CASE}/${N}
+OUTPUT=${1}/1/TrainingsWithTightEID_OBS_${CASE}/${N}
 
 
 #unlink input
@@ -147,6 +148,7 @@ OUT=~/www/10-04-2017/pulls
 OUT=~/www/14-04-2017/pulls_unblinded
 OUT=~/www/20-04-2017/pulls_unblinded
 OUT=~/www/21-04-2017/pulls_unblinded
+OUT=${1}/pulls_unblinded
 
 #L=0
 #L=1

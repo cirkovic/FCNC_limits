@@ -1,0 +1,5 @@
+[?1034h[['s+b', <ROOT.TObject object at 0x(nil)>], ['b-only', <ROOT.RooFitResult object at 0x41be660>]]
+Traceback (most recent call last):
+  File "mlfitConvergenceCheck.py", line 26, in <module>
+    quality=fr[1].covQual() 
+AttributeError: 'TObject' object has no attribute 'covQual'

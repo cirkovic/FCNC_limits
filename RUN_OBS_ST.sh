@@ -63,12 +63,12 @@ if [[ "${N}" == "combSTandTT" ]]; then
 #./runShow_small_new.sh $OUTPUT 5.0 5.0
 #./runShow_wohutb4j4.sh $OUTPUT 5.0 5.0
 #/runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
-./runShow_wohutb4j4_obs.sh $OUTPUT 30.0 600.0 true
+./runShow_wohutb4j4_obs.sh $OUTPUT 30.0 600.0 false
 fi
 cd plot
 #./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
-./runShow_small_2_obs.sh $OUTPUT 1000.0 0.1 1000.0 0.1 1
+./runShow_small_2_obs.sh $OUTPUT 1000.0 0.1 1000.0 0.1 0
 cd ../..
 
 DATE=`date +%d%m%y_%H%M%S`

@@ -229,7 +229,7 @@ int main(int argc, const char *argv[])
 
    if (true) {
    bool DRAW_NUMS = false;
-   DRAW_NUMS = std::stoi(std::string(argv[1]));
+   DRAW_NUMS = std::stoi(std::string(argv[3]));
 
    std::ofstream myfile;
    myfile.open((std::string("../limitNums_Hct")+std::string(".txt")).c_str(), std::ofstream::out | std::ofstream::app);
