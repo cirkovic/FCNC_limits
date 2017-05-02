@@ -1,11 +1,14 @@
-OUTPUT=~/www/24-04-2017
+#OUTPUT=~/www/24-04-2017
+OUTPUT=~/www/25-04-2017
+OUTPUT=~/www/26-04-2017
+OUTPUT=~/www/28-04-2017_limits
 
 ./RUN_OBS_STTT.sh $OUTPUT
 
-./RUN_OBS_noSyst.sh $OUTPUT
+#./RUN_OBS_noSyst.sh $OUTPUT
 
 
-./RUN_OBS_woTTadd.sh $OUTPUT
+#./RUN_OBS_woTTadd.sh $OUTPUT
 
 
 ./RUN_OBS.sh $OUTPUT

@@ -34,29 +34,29 @@ for j in `ls cards`; do
     cd ${FOLDER}
     if [ "$CASE" == "split" ]; then
         if   [[ "$i" == "input_MVAHut${LABEL}_b2j3_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHut${LABEL}_b3j3_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHut${LABEL}_b2j4_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHut${LABEL}_b3j4_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHut${LABEL}_b4j4_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHut${LABEL}_comb_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHct${LABEL}_b2j3_hct.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.225 --rMin=-1.0 --rMax=1.0"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHct${LABEL}_b3j3_hct.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.225 --rMin=-1.0 --rMax=1.0"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHct${LABEL}_b2j4_hct.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.225 --rMin=-1.0 --rMax=1.0"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHct${LABEL}_b3j4_hct.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.225 --rMin=-1.0 --rMax=1.0"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHct${LABEL}_b4j4_hct.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.225 --rMin=-1.0 --rMax=1.0"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         elif [[ "$i" == "input_MVAHct${LABEL}_comb_hct.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} --expectSignal 0.225 --rMin=-1.0 --rMax=1.0"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic ${OPTIONS} "
         fi
     fi
     echo $COMMAND 2>&1 | tee COMBINE_OUTPUT.txt

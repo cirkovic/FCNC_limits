@@ -9,6 +9,8 @@
 #include "TLatex.h"
 #include "TLegend.h"
 #include "TH1D.h"
+#include "TF1.h"
+#include <math.h>
 
 #include "PlotStyle.h"
 
@@ -24,8 +26,11 @@ int main(int argc, const char *argv[])
    const int nMax = 1000;
    double co[nMax];
 
-   double xsecAtT = 38.88;
-   double xsecAt1 = 38.88;
+   //double xsecAtT = 38.88;
+   double xsecAtT = 38.88*sqrt(0.1);
+   //double xsecAtT = 1.0;
+   //double xsecAt1 = 38.88;
+   double xsecAt1 = 1.0;
    //double xsecAtT = 1.0;
    //double xsecAtT = 0.1;
 //   double xsecAtT = 10.;
@@ -227,6 +232,10 @@ int main(int argc, const char *argv[])
 
    ////////////////////////////////////////////////////////////////////
 
+   TF1 *fa1 = new TF1("fa1", (std::to_string(xsecAtT)+"*x*x").c_str(), 0, 0.2);
+   double intersect1 = fa1->GetX(mel2[0]);
+   double intersect2 = fa1->GetX(data2[0]);
+
    if (true) {
    bool DRAW_NUMS = false;
    DRAW_NUMS = std::stoi(std::string(argv[3]));
@@ -287,6 +296,24 @@ int main(int argc, const char *argv[])
    limLab.str("");
    limLab << y2_n[0];
    if (DRAW_NUMS) limLabm2.DrawLatex(0.45,0.50,limLab.str().c_str());
+
+   TLatex lCLimit;
+   lCLimit.SetTextSize(0.044);
+   lCLimit.SetNDC();
+   lCLimit.SetTextColor(kBlack);
+   limLab.str("");
+   limLab << (intersect1);
+   limLab << " (" << intersect2 << ")";
+   if (DRAW_NUMS) lLimit.DrawLatex(0.45,0.30,limLab.str().c_str());
+
+   TLatex lBRLimit;
+   lBRLimit.SetTextSize(0.044);
+   lBRLimit.SetNDC();
+   lBRLimit.SetTextColor(kBlack);
+   limLab.str("");
+   limLab << (0.1836*intersect1*intersect1/1.4);
+   limLab << " (" << (0.1836*intersect2*intersect2/1.4) << ")";
+   if (DRAW_NUMS) lLimit.DrawLatex(0.45,0.25,limLab.str().c_str());
 
    limLine = limLab.str()+std::string(" & ")+limLine;
    limLine = "        comb"+std::string(" & ")+limLine;

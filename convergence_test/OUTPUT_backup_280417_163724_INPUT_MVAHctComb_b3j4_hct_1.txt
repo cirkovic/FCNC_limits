@@ -1,0 +1,7 @@
+[?1034h[['s+b', <ROOT.RooFitResult object at 0x3e73970>], ['b-only', <ROOT.TObject object at 0x(nil)>]]
+2
+s+b Full matrix, but forced positive-definite
+Traceback (most recent call last):
+  File "mlfitConvergenceCheck.py", line 26, in <module>
+    quality=fr[1].covQual() 
+AttributeError: 'TObject' object has no attribute 'covQual'

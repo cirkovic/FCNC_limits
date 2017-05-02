@@ -38,7 +38,9 @@ rm -rf cards
 mkdir cards
 #cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}/produceCards_TT.C produceCards.C
 #cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_TT.C produceCards.C
-cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_TT.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_TT.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_TT.C produceCards.C
+cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_TT.C produceCards.C
 ./produceCards.zsh
 cd cards
 sh ../make_combos_${N}.sh
@@ -60,11 +62,11 @@ if [[ "${N}" == "combSTandTT" ]]; then
 #./runShow_small_new.sh $OUTPUT 5.0 5.0
 #./runShow_wohutb4j4.sh $OUTPUT 5.0 5.0
 #./runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
-./runShow_wohutb4j4_obs.sh $OUTPUT 30.0 30.0 false
+./runShow_wohutb4j4_obs.sh $OUTPUT 30.0 30.0 true
 fi
 cd plot
 #./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
-./runShow_small_2_obs.sh $OUTPUT 1000.0 0.1 1000.0 0.1 0
+./runShow_small_2_obs.sh $OUTPUT 1000.0 0.1 1000.0 0.1 1
 cd ../..
 
 DATE=`date +%d%m%y_%H%M%S`
@@ -73,34 +75,4 @@ mkdir backup_limits_blind_${CASE}_${DATE}
 cp limits/limits.h limits/plot/limitsHut.h limits/plot/limitsHct.h limits/limitNums_Hut.txt limits/limitNums_Hct.txt backup_limits_blind_${CASE}_${DATE}
 cp -r produceCards.C cards INPUT_MVAH*t${LABEL}_*_h*t COMBINE_OUTPUT_${N}.txt backup_limits_blind_${CASE}_${DATE}
 
-
-exit
-
-python parse_combine_output_${N}.py COMBINE_OUTPUT_${N}.txt
-#cd limits
-#if   [ "${N}" == "ST" ]; then
-#    ./runShowST.sh $OUTPUT 25 25
-#elif [ "${N}" == "TT" ]; then
-#    ./runShowTT.sh $OUTPUT 40 20
-#fi
-#cd plot
-#if   [ "${N}" == "ST" ]; then
-#    ./runShowST.sh $OUTPUT 5e-3 1e3
-#elif [ "${N}" == "TT" ]; then
-#    ./runShowTT.sh $OUTPUT 5e-3 1e3
-#fi
-#cd ../..
-cd limits
-if [[ "${N}" == "combSTandTT" ]]; then
-./runShow_small.sh $OUTPUT 10.0 10.0
-fi
-cd plot
-./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
-cd ../..
-
-DATE=`date +%d%m%y_%H%M%S`
-rm -rf backup_limits_blind_${CASE}_${DATE}
-mkdir backup_limits_blind_${CASE}_${DATE}
-cp limits/limits.h limits/plot/limitsHut.h limits/plot/limitsHct.h limits/limitNums_Hut.txt limits/limitNums_Hct.txt backup_limits_blind_${CASE}_${DATE}
-cp -r produceCards.C cards INPUT_MVAH*t${LABEL}_*_h*t COMBINE_OUTPUT_${N}.txt backup_limits_blind_${CASE}_${DATE}
 

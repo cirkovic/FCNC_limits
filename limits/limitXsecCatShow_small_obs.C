@@ -13,9 +13,11 @@ void limitXsecCatShow_small_obs(std::string coup = "Hut", double ymin = 0.0, dou
    const int nChan = 6;
 
    //std::string coup = "Hct";
-   float xsec = 50.82;
+   //float xsec = 50.82;
+   float xsec = 1.0;
    //float xsec = 1.0;
-   if( coup == "Hct" ) xsec = 38.88;
+   //if( coup == "Hct" ) xsec = 38.88;
+   if( coup == "Hct" ) xsec = 1.0;
    //float xsec = 0.88+2*4.892;
    //if( coup == "Hct" ) xsec = 0.11+2*4.892;
    

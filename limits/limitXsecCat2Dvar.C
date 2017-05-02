@@ -3,6 +3,7 @@ TStyle* PlotStyleCMS();
 void SetPlotStyle();
 
 #include <math.h>
+#include <fstream>
 #include "TF2.h"
 
 Double_t g2(Double_t *x, Double_t *par) {
@@ -37,7 +38,7 @@ std::string to_string_with_precision(const T a_value, const int n = 6)
 //}
 
 //void limitXsecCat()
-void limitXsecCat2Dvar(std::string coup = "2D", std::string type = "med", float max = 0.2, int nChan = 50, float limit = 1.0)
+void limitXsecCat2Dvar(std::string coup = "2D", std::string name = "combSTandTT", std::string type = "med", float max = 0.2, int nChan = 50, float limit = 1.0)
 {
    gROOT->SetBatch(1);
 
@@ -173,7 +174,30 @@ void limitXsecCat2Dvar(std::string coup = "2D", std::string type = "med", float 
    //TGraph* gr = new TGraph(h2->GetXaxis()->GetNbins(), cx, cy);
    //TGraph* gr = new TGraph(8, cx, cy);
    //TGraph* gr = new TGraph(67, cx, cy);
-   TGraph* gr = new TGraph(27, cx, cy);
+   //TGraph* gr = new TGraph(27, cx, cy);
+   int ic = 1, nc;
+   for (ic = 0; ic < h2->GetXaxis()->GetNbins(); ic++) {
+    std::cout << ic << " " << cx[ic] << " " << cy[ic] << std::endl;
+    nc=ic;
+    if (cy[ic] == h2->GetYaxis()->GetBinCenter(1)) break; }
+   //nc = ic;
+   TGraph* gr = new TGraph(nc, cx, cy);
+
+   ofstream myfile;
+   //myfile.open((std::string("CS_")+coup+type+"_"+std::to_string(max)+"_"+std::to_string(nChan)+"_"+std::to_string(limit)+"_"+std::string(".txt")).c_str(), std::fstream::in | std::fstream::out | std::fstream::app);
+   if (type == std::string("s1m")) {
+       myfile.open((std::string("CS_")+name+"_"+std::to_string(max)+"_"+std::to_string(nChan)+"_"+std::to_string(limit)+"_"+std::string(".txt")).c_str(), std::ofstream::out | std::ofstream::trunc);
+       myfile.close();
+   }
+   myfile.open((std::string("CS_")+name+"_"+std::to_string(max)+"_"+std::to_string(nChan)+"_"+std::to_string(limit)+"_"+std::string(".txt")).c_str(), std::fstream::in | std::fstream::out | std::fstream::app);
+   for (ic = 0; ic < nc; ic++)
+    myfile << cx[ic] << "\t";
+   myfile << std::endl;
+   for (ic = 0; ic < nc; ic++)
+    myfile << cy[ic] << "\t";
+   myfile << std::endl << std::endl;
+   myfile.close();
+
    gr->SetLineWidth(3);
    //gr->Draw("SAME C");
    gr->Draw("SAME L");
