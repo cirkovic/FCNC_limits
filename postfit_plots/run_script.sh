@@ -13,6 +13,7 @@ OUT=~/www/04-04-2017_postfit
 OUT=~/www/05-04-2017_postfit
 OUT=~/www/10-04-2017_postfit
 OUT=~/www/20-04-2017_postfit
+OUT=~/www/03-05-2017_postfit
 
 #cp -f /afs/cern.ch/work/c/cirkovic/TrainingsFCNC_loose/cards/* aux
 #cp -f /afs/cern.ch/work/c/cirkovic/TrainingsFCNC_medium/cards/* aux
@@ -20,6 +21,7 @@ OUT=~/www/20-04-2017_postfit
 
 #./run_postfit.sh 0  0 0 $OUT 120
 ./run_postfit.sh 0  0 0 $OUT 125
+#exit
 ./run_postfit.sh 1  -0.001 0.001 $OUT 125
 ./run_postfit.sh 2  -0.005 0.005 $OUT 125
 ./run_postfit.sh 3  -0.01 0.01 $OUT 125

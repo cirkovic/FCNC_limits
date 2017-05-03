@@ -16,9 +16,10 @@ fi
 #echo "RM: ${RM}" >> COMBINE_OUTPUT_${N1}.txt
 
 OPTIONS=""
-OPTIONS="$OPTIONS --run both"
-OPTIONS="$OPTIONS --expectSignal 0.0225"
-OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
+#OPTIONS="$OPTIONS --run both"
+#OPTIONS="$OPTIONS --expectSignal 0.0225"
+#OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
+OPTIONS=" --minimizerStrategy 0 --minimizerTolerance 0.1"
 
 PS=""
 
@@ -44,7 +45,7 @@ for j in `ls cards`; do
         elif [[ "$i" == "input_MVAHut${LABEL}_b4j4_hut.txt" ]]; then
             COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic $OPTIONS"
         elif [[ "$i" == "input_MVAHut${LABEL}_comb_hut.txt" ]]; then
-            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic --run both --expectSignal 0.0225 --rMin=-0.1 --rMax=0.1"
+            COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic $OPTIONS"
         elif [[ "$i" == "input_MVAHct${LABEL}_b2j3_hct.txt" ]]; then
             COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic $OPTIONS"
         elif [[ "$i" == "input_MVAHct${LABEL}_b3j3_hct.txt" ]]; then

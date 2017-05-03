@@ -26,11 +26,12 @@ int main(int argc, const char *argv[])
    const int nMax = 1000;
    double co[nMax];
 
-   //double xsecAtT = 38.88;
-   double xsecAtT = 38.88*sqrt(0.1);
+   double xsecAtT = 38.88;
+   //double xsecAtT = 38.88*sqrt(0.1);
    //double xsecAtT = 1.0;
    //double xsecAt1 = 38.88;
-   double xsecAt1 = 1.0;
+   double xsecAt1 = 38.88/10;
+   //double xsecAt1 = 1.0;
    //double xsecAtT = 1.0;
    //double xsecAtT = 0.1;
 //   double xsecAtT = 10.;

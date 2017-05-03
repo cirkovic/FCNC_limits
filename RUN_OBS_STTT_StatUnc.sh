@@ -13,8 +13,6 @@ OUTDIR=${1}/STTT
 
 ./RUN_OBS_ST_StatUnc.sh ${OUTDIR}
 
-exit
-
 ./RUN_OBS_TT_StatUnc.sh ${OUTDIR}
 
 #./RUN_OBS_ST_wob4j4.sh ${OUTDIR}

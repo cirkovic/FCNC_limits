@@ -44,20 +44,20 @@ elif [[ "${N}" == "combSTandTT" ]]; then
     LABEL=Comb
 fi
 
-#rm -rf cards
-#mkdir cards
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_limits_rescaled1/produceCards_${N}.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_${N}.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_${N}.C produceCards.C
-#./produceCards.zsh
-#cd cards
-#sh ../make_combos_${N}_new.sh
-#cd ..
-
 rm -rf cards
-cp -r CARDS_StatUnc cards
+mkdir cards
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_limits_rescaled1/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_${N}.C produceCards.C
+cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_${N}.C produceCards.C
+./produceCards.zsh
+cd cards
+sh ../make_combos_${N}_new.sh
+cd ..
+
+#rm -rf cards
+#cp -r CARDS_StatUnc cards
 
 #rm -rf cards
 ##cp -r /afs/cern.ch/user/k/kderoove/public/Trainings_2017_04_24_statBinUnc_corrected/cards_StatUnc/ CARDS_StatUnc
@@ -83,12 +83,14 @@ if [[ "${N}" == "combSTandTT" ]]; then
 #./runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
 #./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 true
 #./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 false
-./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 true
+#./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 true
+./runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
 fi
 cd plot
 #./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 0
+#./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 ./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 cd ../..
 

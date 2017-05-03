@@ -34,21 +34,21 @@ elif [[ "${N}" == "combSTandTT" ]]; then
     LABEL=Comb
 fi
 
-#rm -rf cards
-#mkdir cards
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}/produceCards_ST.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}/produceCards_ST.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_ST.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_ST.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_ST.C produceCards.C
-##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_ST.C produceCards.C
-#./produceCards.zsh
-#cd cards
-#sh ../make_combos_${N}.sh
-#cd ..
-
 rm -rf cards
-cp -r CARDS_StatUnc cards
+mkdir cards
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}/produceCards_ST.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}/produceCards_ST.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_ST.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_ST.C produceCards.C
+cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_ST.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_ST.C produceCards.C
+./produceCards.zsh
+cd cards
+sh ../make_combos_${N}.sh
+cd ..
+
+#rm -rf cards
+#cp -r CARDS_StatUnc cards
 
 #./COMBINE_NEW_OBS_${N}.sh ${N} ${S} ${CASE}
 #./COMBINE_NEW_OBS.sh ${N} ${S} ${CASE}
@@ -70,14 +70,14 @@ if [[ "${N}" == "combSTandTT" ]]; then
 #/runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
 #./runShow_wohutb4j4_obs.sh $OUTPUT 30.0 600.0 true
 #./runShow_wohutb4j4_obs.sh $OUTPUT 10.0 160.0 false
-./runShow_wohutb4j4_obs.sh $OUTPUT 10.0 10.0 true
+./runShow_wohutb4j4_obs.sh $OUTPUT 40.0 600.0 true
 fi
 cd plot
 #./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 #./runShow_small_2_obs.sh $OUTPUT 1000.0 0.1 1000.0 0.1 1
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 0
-./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
+./runShow_small_2_obs.sh $OUTPUT 1000.0 0.1 1000.0 0.1 1
 cd ../..
 
 DATE=`date +%d%m%y_%H%M%S`

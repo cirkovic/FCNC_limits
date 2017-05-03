@@ -72,7 +72,7 @@ OPTIONS=""
 #OPTIONS="--keepFailures $OPTIONS"
 #OPTIONS="$OPTIONS --expectSignal 0.01"
 #OPTIONS="$OPTIONS --rMin=0.0 --rMax=5.0"
-OPTIONS="$OPTIONS -t -1"
+#OPTIONS="$OPTIONS -t -1"
 if [[ "${RMIN}" == "0" ]] && [[ "${RMAX}" == "0" ]] ; then
     #COMMAND="combine input_${category}.txt -M MaxLikelihoodFit -m ${M} --saveShapes --saveOverallShapes --saveWithUncertainties --saveNormalizations --plots --robustFit 1"
     #COMMAND="combine input_${category}.txt -M MaxLikelihoodFit -m ${M} --saveShapes --saveOverallShapes --saveWithUncertainties --saveNormalizations --plots --robustFit 1 --signalPdfNames=sig_stop,sig_ttbar --backgroundPdfNames=ttbb,ttcc,ttlf,stop,wjets,zjets,other --justFit --skipBOnlyFit"

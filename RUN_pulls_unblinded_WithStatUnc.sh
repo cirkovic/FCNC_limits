@@ -52,24 +52,27 @@ mkdir -p ${OUTPUT}
 S=0
 S=1
 
+#rm -rf cards
+#mkdir cards
+#rm -f produceCards.C
+##cp -f produceCards_medium.C produceCards.C
+##cp -f produce_cards/medium/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID_sig/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID_sig_merged/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_limits_rescaled1_pulls/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_combSTandTT_1/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_combSTandTT_1_ttAdd/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
+##cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_${N}.C produceCards.C
+#./produceCards.zsh
+#cd cards
+##sh ../make_combos_${N}.sh
+#sh ../make_combos_${N}_new.sh
+#cd ..
+
 rm -rf cards
-mkdir cards
-rm -f produceCards.C
-#cp -f produceCards_medium.C produceCards.C
-#cp -f produce_cards/medium/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_sig/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_sig_merged/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_limits_rescaled1_pulls/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_combSTandTT_1/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_combSTandTT_1_ttAdd/produceCards_${N}.C produceCards.C
-cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
-#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_${N}.C produceCards.C
-./produceCards.zsh
-cd cards
-#sh ../make_combos_${N}.sh
-sh ../make_combos_${N}_new.sh
-cd ..
+cp -r CARDS_StatUnc cards
 
 #exit
 
@@ -101,7 +104,8 @@ fi
 #for i in 05 01 005 001; do
 #for i in 10 1 01 001 0; do
 #for i in 1 01 001 0; do
-for i in 1 0; do
+#for i in 1 0; do
+for i in 1; do
     rm -f ${OUTPUT}/Closure_OUTPUT_${i}.txt
     for h in u c; do
         for c in b2j3 b3j3 b2j4 b3j4 b4j4 comb; do
@@ -190,7 +194,8 @@ for i in "${!outputs[@]}"; do
             #for s in 1 0; do
             #for s in 10 1 0 01 001 0; do
             #for s in 1 0 01 001 0; do
-            for s in 1 0; do
+            #for s in 1 0; do
+            for s in 1; do
                 OUTPUT=$OUT/${outputs[$i]}/h${h}t/${c}/${s}
                 mkdir -p $OUTPUT
                 COMMAND="python drawNusancesPlots_1.py $INP/$i/INPUT_MVAH${h}t${labels[$i]}_${c}_h${h}t/plots_${s}.root $OUTPUT"

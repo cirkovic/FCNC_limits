@@ -16,9 +16,10 @@ fi
 #echo "RM: ${RM}" >> COMBINE_OUTPUT_${N1}.txt
 
 OPTIONS=""
-OPTIONS="$OPTIONS --run both"
+#OPTIONS="$OPTIONS --run both"
 #OPTIONS="$OPTIONS --expectSignal 0.0225"
 #OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
+OPTIONS="$OPTIONS --minimizerStrategy 0 --minimizerTolerance 0.1"
 
 PS=""
 

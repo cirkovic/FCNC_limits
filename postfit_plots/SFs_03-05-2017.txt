@@ -1,0 +1,349 @@
+MVAS/MVAHctComb_b2j3_hct_0_125/LSFJOB_18231293/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10196   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.02231   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.20369   
+b2j3                      sig                  0.00000   
+b2j3                      ttbb                 0.99727   
+b2j3                      ttcc                 1.13417   
+b2j3                      ttlf                 0.99625   
+
+
+
+Job finished at Wed May  3 06:33:41 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:02:10 KSI2K hours (130 KSI2K seconds)
+                 This process corresponds to     : 0:08:27 HS06  hours (507 HS06  seconds)
+
+MVAS/MVAHctComb_b2j4_hct_0_125/LSFJOB_18231296/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j4                      0.12382   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j4                      0.02871   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j4                      other                0.96730   
+b2j4                      sig                  0.27349   
+b2j4                      ttbb                 1.10034   
+b2j4                      ttcc                 0.98438   
+b2j4                      ttlf                 0.92841   
+
+
+
+Job finished at Wed May  3 06:33:45 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:02:17 KSI2K hours (137 KSI2K seconds)
+                 This process corresponds to     : 0:08:55 HS06  hours (535 HS06  seconds)
+
+MVAS/MVAHctComb_b3j3_hct_0_125/LSFJOB_18231294/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j3                      0.21644   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j3                      0.02554   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j3                      other                0.86533   
+b3j3                      sig                  0.00000   
+b3j3                      ttbb                 1.67258   
+b3j3                      ttcc                 1.20530   
+b3j3                      ttlf                 0.93713   
+
+
+
+Job finished at Wed May  3 06:33:23 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:02:07 KSI2K hours (127 KSI2K seconds)
+                 This process corresponds to     : 0:08:16 HS06  hours (496 HS06  seconds)
+
+MVAS/MVAHctComb_b3j4_hct_0_125/LSFJOB_18231298/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j4                      0.22368   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j4                      0.00623   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j4                      other                0.88024   
+b3j4                      sig                  0.19405   
+b3j4                      ttbb                 1.45535   
+b3j4                      ttcc                 0.71048   
+b3j4                      ttlf                 0.81467   
+
+
+
+Job finished at Wed May  3 06:33:20 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:34 KSI2K hours (94 KSI2K seconds)
+                 This process corresponds to     : 0:06:09 HS06  hours (369 HS06  seconds)
+
+MVAS/MVAHctComb_b4j4_hct_0_125/LSFJOB_18231299/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b4j4                      0.36255   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b4j4                      0.09300   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b4j4                      other                1.00332   
+b4j4                      sig                  0.35640   
+b4j4                      ttbb                 1.01214   
+b4j4                      ttcc                 0.84567   
+b4j4                      ttlf                 0.92624   
+
+
+
+Job finished at Wed May  3 06:33:12 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:08 KSI2K hours (68 KSI2K seconds)
+                 This process corresponds to     : 0:04:28 HS06  hours (268 HS06  seconds)
+
+MVAS/MVAHctComb_comb_hct_0_125/LSFJOB_18231300/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10196   
+b2j4                      0.12382   
+b3j3                      0.21644   
+b3j4                      0.22368   
+b4j4                      0.36255   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.00610   
+b2j4                      0.00539   
+b3j3                      0.01319   
+b3j4                      0.01129   
+b4j4                      0.02418   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.40752   
+b2j3                      sig                  0.25245   
+b2j3                      ttbb                 1.23614   
+b2j3                      ttcc                 0.66657   
+b2j3                      ttlf                 0.98691   
+b2j4                      other                1.42345   
+b2j4                      sig                  0.24838   
+b2j4                      ttbb                 1.14704   
+b2j4                      ttcc                 0.63244   
+b2j4                      ttlf                 0.93653   
+b3j3                      other                1.43382   
+b3j3                      sig                  0.25842   
+b3j3                      ttbb                 1.22019   
+b3j3                      ttcc                 0.63917   
+b3j3                      ttlf                 0.94788   
+b3j4                      other                1.46548   
+b3j4                      sig                  0.24746   
+b3j4                      ttbb                 1.16575   
+b3j4                      ttcc                 0.59189   
+b3j4                      ttlf                 0.88371   
+b4j4                      other                1.57951   
+b4j4                      sig                  0.24292   
+b4j4                      ttbb                 1.11378   
+b4j4                      ttcc                 0.53112   
+b4j4                      ttlf                 0.77713   
+
+
+
+Job finished at Wed May  3 06:50:41 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:46:15 KSI2K hours (2775 KSI2K seconds)
+                 This process corresponds to     : 3:00:23 HS06  hours (10823 HS06  seconds)
+
+MVAS/MVAHutComb_b2j3_hut_0_125/LSFJOB_18231276/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10141   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.01649   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                0.93736   
+b2j3                      sig                  0.63403   
+b2j3                      ttbb                 1.02936   
+b2j3                      ttcc                 1.09792   
+b2j3                      ttlf                 1.03766   
+
+
+
+Job finished at Wed May  3 06:32:55 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:02:10 KSI2K hours (130 KSI2K seconds)
+                 This process corresponds to     : 0:08:30 HS06  hours (510 HS06  seconds)
+
+MVAS/MVAHutComb_b2j4_hut_0_125/LSFJOB_18231287/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j4                      0.12378   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j4                      0.02262   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j4                      other                0.90337   
+b2j4                      sig                  0.00000   
+b2j4                      ttbb                 1.01399   
+b2j4                      ttcc                 1.13456   
+b2j4                      ttlf                 0.91934   
+
+
+
+Job finished at Wed May  3 06:33:35 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:43 KSI2K hours (103 KSI2K seconds)
+                 This process corresponds to     : 0:06:43 HS06  hours (403 HS06  seconds)
+
+MVAS/MVAHutComb_b3j3_hut_0_125/LSFJOB_18231281/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j3                      0.21722   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j3                      0.03436   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j3                      other                1.00009   
+b3j3                      sig                  0.19305   
+b3j3                      ttbb                 1.00460   
+b3j3                      ttcc                 1.07290   
+b3j3                      ttlf                 1.00024   
+
+
+
+Job finished at Wed May  3 06:32:57 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:02:15 KSI2K hours (135 KSI2K seconds)
+                 This process corresponds to     : 0:08:47 HS06  hours (527 HS06  seconds)
+
+MVAS/MVAHutComb_b3j4_hut_0_125/LSFJOB_18231288/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j4                      0.22303   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j4                      0.03830   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j4                      other                0.91552   
+b3j4                      sig                  0.31413   
+b3j4                      ttbb                 0.91511   
+b3j4                      ttcc                 1.26052   
+b3j4                      ttlf                 0.82689   
+
+
+
+Job finished at Wed May  3 06:33:26 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:50 KSI2K hours (110 KSI2K seconds)
+                 This process corresponds to     : 0:07:11 HS06  hours (431 HS06  seconds)
+
+MVAS/MVAHutComb_b4j4_hut_0_125/LSFJOB_18231289/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b4j4                      0.35664   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b4j4                      0.07112   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b4j4                      other                1.08018   
+b4j4                      sig                  0.00000   
+b4j4                      ttbb                 1.00184   
+b4j4                      ttcc                 0.99171   
+b4j4                      ttlf                 0.97904   
+
+
+
+Job finished at Wed May  3 06:33:30 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:56 KSI2K hours (116 KSI2K seconds)
+                 This process corresponds to     : 0:07:32 HS06  hours (452 HS06  seconds)
+
+MVAS/MVAHutComb_comb_hut_0_125/LSFJOB_18231290/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10141   
+b2j4                      0.12378   
+b3j3                      0.21722   
+b3j4                      0.22303   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.00456   
+b2j4                      0.00471   
+b3j3                      0.01043   
+b3j4                      0.01013   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.23193   
+b2j3                      sig                  0.09828   
+b2j3                      ttbb                 1.18725   
+b2j3                      ttcc                 0.69053   
+b2j3                      ttlf                 1.02092   
+b2j4                      other                1.19029   
+b2j4                      sig                  0.09192   
+b2j4                      ttbb                 1.07841   
+b2j4                      ttcc                 0.64368   
+b2j4                      ttlf                 0.96791   
+b3j3                      other                1.30119   
+b3j3                      sig                  0.10573   
+b3j3                      ttbb                 1.23138   
+b3j3                      ttcc                 0.64636   
+b3j3                      ttlf                 0.98820   
+b3j4                      other                1.24162   
+b3j4                      sig                  0.10060   
+b3j4                      ttbb                 1.16177   
+b3j4                      ttcc                 0.60601   
+b3j4                      ttlf                 0.92554   
+
+
+
+Job finished at Wed May  3 06:48:40 CEST 2017 on node 
+ under linux version Scientific Linux CERN SLC release 6.9 (Carbon)
+
+CERN statistics: This process used approximately : 0:40:48 KSI2K hours (2448 KSI2K seconds)
+                 This process corresponds to     : 2:39:10 HS06  hours (9550 HS06  seconds)
+

@@ -6,7 +6,8 @@ S=${2}
 
 OPTIONS=""
 #OPTIONS="$OPTIONS -t -1"
-OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
+#OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
+OPTIONS="$OPTIONS --minimizerStrategy 0 --minimizerTolerance 0.1"
 #OPTIONS="$OPTIONS --rMin=-5.0 --rMax=5.0"
 #OPTIONS="$OPTIONS --freezeNuisanceGroups *StatBin*"
 #OPTIONS="$OPTIONS --freezeNuisances lumi,tt_norm,tt_addbb,tt_addcc,other_norm,SfIteraviveFitLf,SfIteraviveFitHf,SfIteraviveFitLfstats1,SfIteraviveFitLfstats2,SfIteraviveFitHfstats1,SfIteraviveFitHfstats2,SfIteraviveFitCferr1,SfIteraviveFitCferr2,SfPileup,SfLepton,SfTopPt,Jes,Jer,hdamp,scaleEnvelope,UE,PDFEnvelope"
@@ -28,14 +29,28 @@ for j in `ls cards`; do
 #    eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_10.txt &
 #    PS="$PS $!"
 
-    #COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 1.0 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
-    COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 0.0225 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+#    #COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 1.0 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+#    #COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 0.0225 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+#    COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 1.0 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+##    if [[ "$i" == *"b3j4_hut"* ]]; then
+##        COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 0.04 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+##    fi
+##    if [[ "$i" == *"b3j4_hct"* ]]; then
+##        COMMAND="combine -S ${S} -M MaxLikelihoodFit --rMin=-2.0 --rMax=2.0 --expectSignal 0.023 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+##    fi
+#    echo $COMMAND 2>&1 | tee COMBINE_OUTPUT_1.txt
+#    eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_1.txt &
+#    PS="$PS $!"
+
+    COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
 #    if [[ "$i" == *"b3j4_hut"* ]]; then
 #        COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 0.04 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
 #    fi
-#    if [[ "$i" == *"b3j4_hct"* ]]; then
-#        COMMAND="combine -S ${S} -M MaxLikelihoodFit --rMin=-2.0 --rMax=2.0 --expectSignal 0.023 ../cards/${i} -n _1 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
-#    fi
+    if [[ "$i" == *"b3j4_hct"* ]]; then
+        #COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} --rMin=-5.0 --rMax=5.0 -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+        COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} --rMin=-3.0 --rMax=3.0 -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+        #COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} --rMin=-1.0 --rMax=1.0 -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
+    fi
     echo $COMMAND 2>&1 | tee COMBINE_OUTPUT_1.txt
     eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_1.txt &
     PS="$PS $!"
@@ -60,16 +75,16 @@ for j in `ls cards`; do
 #    eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_001.txt &
 #    PS="$PS $!"
 
-    COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 0.0 ../cards/${i} -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_0.root -g plots_0.root"
-#    if [[ "$i" == *"b3j4_hut"* ]]; then
-#        COMMAND="combine -S ${S} -M MaxLikelihoodFit --rMin=-1.0 --rMax=1.0 --expectSignal 0.0 ../cards/${i} -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_0.root -g plots_0.root"
-#    fi
-#    if [[ "$i" == *"b3j4_hct"* ]]; then
-#        COMMAND="combine -S ${S} -M MaxLikelihoodFit --rMin=-2.0 --rMax=2.0 --expectSignal 0.023 ../cards/${i} -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_0.root -g plots_0.root"
-#    fi
-    echo $COMMAND 2>&1 | tee COMBINE_OUTPUT_0.txt
-    eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_0.txt &
-    PS="$PS $!"
+#    COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} --expectSignal 0.0 ../cards/${i} -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_0.root -g plots_0.root"
+##    if [[ "$i" == *"b3j4_hut"* ]]; then
+##        COMMAND="combine -S ${S} -M MaxLikelihoodFit --rMin=-1.0 --rMax=1.0 --expectSignal 0.0 ../cards/${i} -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_0.root -g plots_0.root"
+##    fi
+##    if [[ "$i" == *"b3j4_hct"* ]]; then
+##        COMMAND="combine -S ${S} -M MaxLikelihoodFit --rMin=-2.0 --rMax=2.0 --expectSignal 0.023 ../cards/${i} -n _0 --minos=all && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_0.root -g plots_0.root"
+##    fi
+#    echo $COMMAND 2>&1 | tee COMBINE_OUTPUT_0.txt
+#    eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_0.txt &
+#    PS="$PS $!"
 
     cd ..
 done

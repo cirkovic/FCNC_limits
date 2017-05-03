@@ -4,6 +4,7 @@ output=~/www/04-04-2017/2
 output=~/www/05-04-2017/2
 output=~/www/10-04-2017/2
 output=~/www/14-04-2017/2
+output=~/www/03-05-2017/2
 
 find $output -name "*.png" | xargs rm
 find $output -name "*.pdf" | xargs rm
@@ -16,7 +17,8 @@ find $output -name "*.pdf" | xargs rm
 #for i in `seq 0 0`; do
 #for i in `seq 0 2`; do
 #for i in `seq 0 8`; do
-for i in `seq 0 11`; do
+#for i in `seq 0 11`; do
+for i in `seq 0 0`; do
     rm -rf ${output}/${i}
     mkdir -p ${output}/${i}
     #for m in 120 125 130; do
