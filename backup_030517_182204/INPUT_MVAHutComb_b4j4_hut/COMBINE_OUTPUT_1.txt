@@ -1,0 +1,63 @@
+combine -S 1 -M MaxLikelihoodFit --minimizerStrategy 0 --minimizerTolerance 0.1 ../cards/input_MVAHutComb_b4j4_hut.txt -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-Cj4hZl.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from observation
+Created Branches
+Constraints of type SimpleGaussianConstraint: 73
+Constraints of type SimpleGaussianConstraint: 73
+Running Minos for POI 
+Real time 0:00:04, CP time 0.510
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.000263424  -0.000263424/+0.965859  (68% CL)
+nll S+B -> -3.45973  nll B -> -3.43817
+Done in 0.03 min (cpu), 0.25 min (real)
+[?1034hnuisance to plot: Jer
+nuisance to plot: Jes
+nuisance to plot: PDFEnvelope
+nuisance to plot: SfIteraviveFitCferr1
+nuisance to plot: SfIteraviveFitCferr2
+nuisance to plot: SfIteraviveFitHf
+nuisance to plot: SfIteraviveFitHfstats1
+nuisance to plot: SfIteraviveFitHfstats2
+nuisance to plot: SfIteraviveFitLf
+nuisance to plot: SfIteraviveFitLfstats1
+nuisance to plot: SfIteraviveFitLfstats2
+nuisance to plot: SfLepton
+nuisance to plot: SfPileup
+nuisance to plot: SfTopPt
+nuisance to plot: UE
+nuisance to plot: hdamp
+nuisance to plot: lumi
+nuisance to plot: other_norm
+nuisance to plot: scaleEnvelope
+nuisance to plot: tt_add_bb
+nuisance to plot: tt_add_cc
+nuisance to plot: tt_norm
+name                                              b-only fit            s+b fit         rho
+Jer                                           * -0.33, 0.59*     * -0.34, 0.58*       +0.00
+Jes                                           * -0.29, 0.73*     * -0.30, 0.71*       -0.01
+PDFEnvelope                                      +0.01, 0.97        +0.00, 0.96       -0.00
+SfIteraviveFitCferr1                          * -0.27, 0.84*     * -0.29, 0.84*       +0.02
+SfIteraviveFitCferr2                             -0.02, 0.99        -0.03, 0.99       +0.00
+SfIteraviveFitHf                              * -0.07, 0.88*     * -0.05, 0.88*       +0.00
+SfIteraviveFitHfstats1                           +0.00, 0.99        +0.00, 0.99       +0.00
+SfIteraviveFitHfstats2                           -0.01, 0.99        -0.01, 0.99       -0.00
+SfIteraviveFitLf                                 -0.03, 0.94        -0.02, 0.94       -0.01
+SfIteraviveFitLfstats1                           -0.02, 0.99        -0.01, 0.99       -0.00
+SfIteraviveFitLfstats2                           -0.00, 1.00        +0.00, 1.00       +0.00
+SfLepton                                         +0.14, 0.95        +0.15, 0.95       +0.01
+SfPileup                                         -0.04, 0.97        -0.04, 0.97       +0.01
+SfTopPt                                          +0.06, 1.09        +0.06, 1.09       +0.00
+UE                                            * +0.54, 0.53*     * +0.53, 0.52*       -0.03
+hdamp                                         * -0.09, 0.61*     * -0.06, 0.66*       +0.04
+lumi                                             +0.01, 0.99        +0.01, 0.99       -0.00
+other_norm                                       +0.01, 0.99        +0.01, 0.99       +0.00
+scaleEnvelope                                 ! -0.36, 0.38!     ! -0.36, 0.38!       -0.00
+tt_add_bb                                     * +0.11, 0.75*     * +0.10, 0.76*       -0.01
+tt_add_cc                                        -0.05, 0.97        -0.05, 0.97       -0.00
+tt_norm                                          +0.02, 0.98        +0.01, 0.98       -0.00

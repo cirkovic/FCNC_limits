@@ -1,0 +1,66 @@
+combine -S 1 -M MaxLikelihoodFit --minimizerStrategy 0 --minimizerTolerance 0.1 ../cards/input_MVAHctComb_b4j4_hct.txt -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-ATq9bn.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Computing limit starting from observation
+Created Branches
+Constraints of type SimpleGaussianConstraint: 75
+Constraints of type SimpleGaussianConstraint: 75
+Running Minos for POI 
+Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
+Error in <Minuit2>: Minuit2Minimizer::MINOS failed due to invalid function minimum
+Error in <ROOT::Math::Fitter::CalculateMinosErrors>: Minos error calculation failed for all parameters
+Real time 0:00:01, CP time 0.310
+
+
+ --- MaxLikelihoodFit ---
+Best fit r: 0.392753  -0.392753/+0.141013  (68% CL)
+nll S+B -> -4.22619  nll B -> -4.13037
+Done in 0.02 min (cpu), 0.18 min (real)
+[?1034hnuisance to plot: Jer
+nuisance to plot: Jes
+nuisance to plot: PDFEnvelope
+nuisance to plot: SfIteraviveFitCferr1
+nuisance to plot: SfIteraviveFitCferr2
+nuisance to plot: SfIteraviveFitHf
+nuisance to plot: SfIteraviveFitHfstats1
+nuisance to plot: SfIteraviveFitHfstats2
+nuisance to plot: SfIteraviveFitLf
+nuisance to plot: SfIteraviveFitLfstats1
+nuisance to plot: SfIteraviveFitLfstats2
+nuisance to plot: SfLepton
+nuisance to plot: SfPileup
+nuisance to plot: SfTopPt
+nuisance to plot: UE
+nuisance to plot: hdamp
+nuisance to plot: lumi
+nuisance to plot: other_norm
+nuisance to plot: scaleEnvelope
+nuisance to plot: tt_add_bb
+nuisance to plot: tt_add_cc
+nuisance to plot: tt_norm
+name                                              b-only fit            s+b fit         rho
+Jer                                           * -0.04, 0.60*     ! -0.22, 0.19!       -0.09
+Jes                                           ! -0.33, 0.41!     ! -0.27, 0.12!       -0.18
+PDFEnvelope                                      -0.00, 0.98     ! +0.00, 0.37!       -0.04
+SfIteraviveFitCferr1                          * +0.10, 0.76*     ! +0.36, 0.07!       +0.05
+SfIteraviveFitCferr2                             +0.06, 0.99     ! +0.07, 0.33!       -0.07
+SfIteraviveFitHf                              * -0.33, 0.79*     ! -0.08, 0.06!       +0.07
+SfIteraviveFitHfstats1                           +0.00, 0.99     ! +0.01, 0.22!       +0.09
+SfIteraviveFitHfstats2                           +0.01, 0.99     ! +0.00, 0.24!       -0.08
+SfIteraviveFitLf                                 +0.00, 0.95     ! -0.05, 0.09!       -0.09
+SfIteraviveFitLfstats1                           -0.07, 0.98     ! -0.01, 0.22!       +0.07
+SfIteraviveFitLfstats2                           +0.04, 0.99     ! +0.01, 0.34!       -0.04
+SfLepton                                         +0.13, 0.91     ! +0.11, 0.25!       -0.11
+SfPileup                                         -0.23, 0.95     ! -0.20, 0.34!       -0.12
+SfTopPt                                          +0.07, 1.08     ! +0.01, 0.41!       +0.05
+UE                                            ! +0.41, 0.39!     * +0.55, 1.21*       -0.27
+hdamp                                         ! -0.18, 0.39!     ! +0.32, 1.80!       +0.27
+lumi                                             +0.00, 0.99     ! -0.01, 0.25!       -0.08
+other_norm                                       -0.00, 0.99     ! -0.01, 0.37!       -0.05
+scaleEnvelope                                 * +0.38, 0.68*     ! +0.13, 0.10!       -0.12
+tt_add_bb                                     * -0.14, 0.66*     ! +0.05, 0.04!       -0.10
+tt_add_cc                                        -0.02, 0.97     ! -0.04, 0.14!       -0.10
+tt_norm                                          +0.01, 0.98     ! -0.01, 0.16!       -0.09
