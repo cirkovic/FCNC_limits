@@ -1162,7 +1162,8 @@ void limitXsecCatShowWob4j4_small_obs(std::string coup = "Hut", double ymin = 0.
 
    //TLatex *text1 = new TLatex(0.98,0.95125,"12.9 fb^{-1}, #sqrt{s} = 13 TeV");
    //TLatex *text1 = new TLatex(0.98,0.95125,"36.8 fb^{-1}, #sqrt{s} = 13 TeV");
-   TLatex *text1 = new TLatex(0.98,0.95125,"36 fb^{-1}, #sqrt{s} = 13 TeV");
+   //TLatex *text1 = new TLatex(0.98,0.95125,"36 fb^{-1}, #sqrt{s} = 13 TeV");
+   TLatex *text1 = new TLatex(0.98,0.95125,"36 fb^{-1} (13 TeV)");
    text1->SetNDC();
    text1->SetTextAlign(31);
    text1->SetTextFont(42);

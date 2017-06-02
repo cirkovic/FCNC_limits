@@ -18,7 +18,8 @@ for line in f:
 #N = 100
 #N =50
 
-with open('limits/limits.h', 'w') as incf:
+#with open('limits/limits.h', 'w') as incf:
+with open('limits/limits_2D.h', 'w') as incf:
     #incf.write('   {\n')
     #for n, c in enumerate(['b2j3', 'b3j3', 'b2j4', 'b3j4', 'b4j4']):
     #for n, c in enumerate(['b2j3', 'b2j4', 'b3j3', 'b3j4', 'b4j4']):

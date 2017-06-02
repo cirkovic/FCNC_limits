@@ -9,10 +9,14 @@ N=${1}
 #N=ST
 #N=TT
 
+pm=_{2}
+
 OUTPUT=~/www/30-04-2017/${N}
 OUTPUT=~/www/01-05-2017/${N}
 OUTPUT=~/www/02-05-2017/${N}
 OUTPUT=~/www/03-05-2017/${N}
+OUTPUT=~/www/04-05-2017/${N}
+OUTPUT=~/www/06-05-2017/${N}
 
 CASE=split
 #n=10
@@ -37,17 +41,17 @@ mkdir -p $OUTPUT
 
 #exit
 
-grep "CIRKOVIC \|Expected \|Observed " COMBINE_OUTPUT_${N}_ALL_${n}_${m}.txt > COMBINE_OUTPUT_${N}_xALL.txt
-mv COMBINE_OUTPUT_${N}_xALL.txt COMBINE_OUTPUT_${N}_ALL_${n}_${m}.txt
+grep "CIRKOVIC \|Expected \|Observed " COMBINE_OUTPUT_${N}_ALL_${pm}_${n}_${m}.txt > COMBINE_OUTPUT_${N}_xALL.txt
+mv COMBINE_OUTPUT_${N}_xALL.txt COMBINE_OUTPUT_${N}_ALL_${pm}_${n}_${m}.txt
 
 #exit
 
-#python parse_combine_output.py COMBINE_OUTPUT_${N}_ALL_${n}_${m}.txt $n
+#python parse_combine_output.py COMBINE_OUTPUT_${N}_ALL_${pm}_${n}_${m}.txt $n
 #cd limits
 #./plot2D_var.sh ${n} ${m} $OUTPUT
 #cd ..
 
-python parse_combine_output.py COMBINE_OUTPUT_${N}_ALL_${n}_${m}.txt $n
+python parse_combine_output.py COMBINE_OUTPUT_${N}_ALL_${pm}_${n}_${m}.txt $n
 cd limits
 ./plot2D_var.sh ${N} ${n} ${m} $OUTPUT
 cd ..

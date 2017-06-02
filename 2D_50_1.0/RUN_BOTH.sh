@@ -54,12 +54,17 @@ for N in combSTandTT ST TT; do
     #cp -f ../produce_cards/TrainingsWithTightEID_NEW_${CASE}_2D_50/produceCards_${N}.C produceCards.C
     #cp -f ../produce_cards/TrainingsWithTightEID_NEW_${CASE}_2D_100_1/produceCards_${N}.C produceCards.C
     #cp -f ../produce_cards/TrainingsWithTightEID_NEW_${CASE}_2D_50_1/produceCards_${N}.C produceCards.C
-    cp -f ../../../produce_cards/2D/produceCards_${N}.C produceCards.C
+    #cp -f ../../../produce_cards/2D/produceCards_${N}.C produceCards.C
+    cp -f ../../../produce_cards/2D_StatUnc/produceCards_${N}.C produceCards.C
     #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_18-04-2017_5_50_0.2 ${Y}_${X}
     #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z_50_0.2 ${Y}_${X}
     #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z_50_1.0 ${Y}_${X}
     #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z1_50_1.0 ${Y}_${X}
-    ./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z2_50_1.0 ${Y}_${X}
+    #/../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z2_50_1.0 ${Y}_${X}
+    #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z5_50_1.0 ${Y}_${X}
+    #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z6_50_1.0 ${Y}_${X}
+    #./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z7_50_1.0 ${Y}_${X}
+    ./../../produceCardsXY.zsh root://eoscms.cern.ch//eos/cms/store/caf/user/mdjordje/Cirkovic/rescaling_z8_50_1.0 ${Y}_${X}
     cd cards
     #sh ../../make_2D_combos_${N}.sh
     sh ../../../make_2D_combos.sh

@@ -112,6 +112,7 @@ void plotLimitXsecCat2Dvar(std::string coup = "2D", std::string name = "combSTan
          float Y = y*step;
          //h2->SetBinContent(x+1, y+1, med[x][y]*(hutXsec*pow(X, 2)+hctXsec*pow(Y, 2)));
          //h2->SetBinContent(x+1, y+1, med[x][y]*xsec);
+         /*
          if (type == "med")
              h2->SetBinContent(x+1, y+1, med[y][x]);
          else if (type == "s1p")
@@ -122,6 +123,43 @@ void plotLimitXsecCat2Dvar(std::string coup = "2D", std::string name = "combSTan
              h2->SetBinContent(x+1, y+1, obs[y][x]);
          else if (type == "all")
              h2->SetBinContent(x+1, y+1, 0.0);
+         */
+         if (name == "ST") {
+             if (type == "med")
+                 h2->SetBinContent(x+1, y+1, med[y][x]*(50.82/10+38.88/10));
+             else if (type == "s1p")
+                 h2->SetBinContent(x+1, y+1, s1p[y][x]*(50.82/10+38.88/10));
+             else if (type == "s1m")
+                 h2->SetBinContent(x+1, y+1, s1m[y][x]*(50.82/10+38.88/10));
+             else if (type == "obs")
+                 h2->SetBinContent(x+1, y+1, obs[y][x]*(50.82/10+38.88/10));
+             else if (type == "all")
+                 h2->SetBinContent(x+1, y+1, 0.0);
+         }
+         else if (name == "TT") {
+             if (type == "med")
+                 h2->SetBinContent(x+1, y+1, med[y][x]*(50.82/10+38.88/10));
+             else if (type == "s1p")
+                 h2->SetBinContent(x+1, y+1, s1p[y][x]*(50.82/10+38.88/10));
+             else if (type == "s1m")
+                 h2->SetBinContent(x+1, y+1, s1m[y][x]*(50.82/10+38.88/10));
+             else if (type == "obs")
+                 h2->SetBinContent(x+1, y+1, obs[y][x]*(50.82/10+38.88/10));
+             else if (type == "all")
+                 h2->SetBinContent(x+1, y+1, 0.0);
+         }
+         else {
+             if (type == "med")
+                 h2->SetBinContent(x+1, y+1, med[y][x]*(50.82/10+38.88/10));
+             else if (type == "s1p")
+                 h2->SetBinContent(x+1, y+1, s1p[y][x]*(50.82/10+38.88/10));
+             else if (type == "s1m")
+                 h2->SetBinContent(x+1, y+1, s1m[y][x]*(50.82/10+38.88/10));
+             else if (type == "obs")
+                 h2->SetBinContent(x+1, y+1, obs[y][x]*(50.82/10+38.88/10));
+             else if (type == "all")
+                 h2->SetBinContent(x+1, y+1, 0.0);
+         }
       }
    }
    TCanvas *c1 = new TCanvas("c1", "c1");
@@ -262,6 +300,7 @@ void plotLimitXsecCat2Dvar(std::string coup = "2D", std::string name = "combSTan
        for (ic = 0; ic < h2->GetXaxis()->GetNbins(); ic++)
         if (cy[ic] == h2->GetYaxis()->GetBinCenter(1)) break;
        nc = ic+1;
+       //nc = ic;
        gr1 = new TGraph(nc1, cx1, cy1);
        gr2 = new TGraph(nc2, cx2, cy2);
        gr3 = new TGraph(nc3, cx3, cy3);
@@ -272,6 +311,7 @@ void plotLimitXsecCat2Dvar(std::string coup = "2D", std::string name = "combSTan
        for (ic = 0; ic < h2->GetXaxis()->GetNbins(); ic++)
         if (cy[ic] == h2->GetYaxis()->GetBinCenter(1)) break;
        nc = ic+1;
+       //nc = ic;
        gr = new TGraph(nc, cx, cy);
    }
 

@@ -40,7 +40,9 @@ for j in `ls cards/input_MVAHuctComb_comb_huct.txt`; do
     #COMMAND="combine -S ${S} cards/${i} -M Asymptotic --run both -n ${FOLDER}"
     #COMMAND="combine -S ${S} cards/${i} -M Asymptotic --run both -n ${FOLDER}"
     #COMMAND="combine -S ${S} cards/${i} -M Asymptotic --rMin=-5 --rMax=5 --run both -n ${FOLDER}"
-    COMMAND="combine -S ${S} cards/${i} -M Asymptotic -n ${FOLDER}"
+    #COMMAND="combine -S ${S} cards/${i} -M Asymptotic -n ${FOLDER}"
+    COMMAND="combine -S ${S} cards/${i} -M Asymptotic --rMin=-1 --rMax=1 -n ${FOLDER}"
+    #COMMAND="combine -S ${S} cards/${i} -M Asymptotic -n ${FOLDER}"
     #COMMAND="combine -S ${S} ../cards/${i} -M Asymptotic --run blind --rMin=-10 --rMax=10"
 #    if [[ "$CASE" == "split" ]]; then
 #        if   [[ "$i" == "input_MVAHuct${LABEL}_b2j3_huct.txt" ]]; then

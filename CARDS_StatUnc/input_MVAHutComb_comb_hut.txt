@@ -3,10 +3,10 @@ imax 4 number of bins
 jmax 4 number of processes minus 1
 kmax 337 number of nuisance parameters
 ----------------------------------------------------------------------------------------------------------------------------------
-shapes *     b2j3  /afs/cern.ch/work/c/cirkovic/FCNC_limits/input/input_MVAHutComb_b2j3_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
-shapes *     b2j4  /afs/cern.ch/work/c/cirkovic/FCNC_limits/input/input_MVAHutComb_b2j4_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
-shapes *     b3j3  /afs/cern.ch/work/c/cirkovic/FCNC_limits/input/input_MVAHutComb_b3j3_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
-shapes *     b3j4  /afs/cern.ch/work/c/cirkovic/FCNC_limits/input/input_MVAHutComb_b3j4_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
+shapes *     b2j3  /user/kderoove/FCNC/TopTreeFramework_Run2/LimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/FCNC_limits/input/input_MVAHutComb_b2j3_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
+shapes *     b2j4  /user/kderoove/FCNC/TopTreeFramework_Run2/LimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/FCNC_limits/input/input_MVAHutComb_b2j4_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
+shapes *     b3j3  /user/kderoove/FCNC/TopTreeFramework_Run2/LimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/FCNC_limits/input/input_MVAHutComb_b3j3_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
+shapes *     b3j4  /user/kderoove/FCNC/TopTreeFramework_Run2/LimitSetting/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/FCNC_limits/input/input_MVAHutComb_b3j4_hut_Mergedbackgrounds.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
 ----------------------------------------------------------------------------------------------------------------------------------
 bin          b2j3      b2j4      b3j3      b3j4    
 observation  405474.0  611853.0  15000.0   56523.0 

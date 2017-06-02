@@ -13,6 +13,8 @@ OUTPUT=~/www/30-04-2017/${N}
 OUTPUT=~/www/01-05-2017/${N}
 OUTPUT=~/www/02-05-2017/${N}
 OUTPUT=~/www/03-05-2017/${N}
+OUTPUT=~/www/04-05-2017/${N}
+OUTPUT=~/www/06-05-2017/${N}
 
 CASE=split
 #n=10
@@ -25,7 +27,7 @@ n=50
 
 m=${3}
 m=1.0
-m=0.01
+#m=0.01
 #m=0.2
 
 #rm -rf input_TrainingsWithTightEID/TrainingsWithTightEID_NEW/${N}_2D/

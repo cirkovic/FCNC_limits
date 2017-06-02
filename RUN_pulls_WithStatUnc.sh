@@ -3,6 +3,9 @@ OUTPUT=~/www/26-04-2017
 OUTPUT=~/www/27-04-2017
 OUTPUT=~/www/28-04-2017_WithStatUnc
 OUTPUT=~/www/02-05-2017/WithStatUnc
+OUTPUT=~/www/06-05-2017/WithStatUnc
+OUTPUT=~/www/15-05-2017/WithStatUnc
+OUTPUT=~/www/20-05-2017/WithStatUnc
 
 #find ${OUTPUT}/pulls_blind -name "*.png" | xargs rm
 #find ${OUTPUT}/pulls_blind -name "*.pdf" | xargs rm

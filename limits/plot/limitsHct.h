@@ -1,6 +1,6 @@
-   double obsAt1 = 0.2686;
-   double s2mAt1 = 0.1249;
-   double s1mAt1 = 0.1707;
-   double medAt1 = 0.2422;
-   double s1pAt1 = 0.3416;
-   double s2pAt1 = 0.4635;
+   double obsAt1 = 0.3471;
+   double s2mAt1 = 0.1549;
+   double s1mAt1 = 0.2060;
+   double medAt1 = 0.2832;
+   double s1pAt1 = 0.3927;
+   double s2pAt1 = 0.5226;

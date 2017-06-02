@@ -21,7 +21,12 @@ OUT=~/www/03-05-2017_postfit
 
 #./run_postfit.sh 0  0 0 $OUT 120
 ./run_postfit.sh 0  0 0 $OUT 125
-#exit
+./run_postfit.sh 1  -1 1 $OUT 125
+./run_postfit.sh 2  -2 2 $OUT 125
+./run_postfit.sh 3  -3 3 $OUT 125
+./run_postfit.sh 4  -4 4 $OUT 125
+./run_postfit.sh 5  -5 5 $OUT 125
+exit
 ./run_postfit.sh 1  -0.001 0.001 $OUT 125
 ./run_postfit.sh 2  -0.005 0.005 $OUT 125
 ./run_postfit.sh 3  -0.01 0.01 $OUT 125

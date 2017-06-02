@@ -1,0 +1,278 @@
+MVAsSEL/MVAHutComb_comb_hut_3_125/LSFJOB_24464808/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10292   
+b2j4                      0.12389   
+b3j3                      0.21458   
+b3j4                      0.22449   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.00335   
+b2j4                      0.00449   
+b3j3                      0.00999   
+b3j4                      0.00906   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.08081   
+b2j3                      sig                  0.10546   
+b2j3                      ttbb                 1.11795   
+b2j3                      ttcc                 0.95647   
+b2j3                      ttlf                 1.02383   
+b2j4                      other                1.05463   
+b2j4                      sig                  0.10235   
+b2j4                      ttbb                 1.06177   
+b2j4                      ttcc                 0.92678   
+b2j4                      ttlf                 0.98632   
+b3j3                      other                1.08944   
+b3j3                      sig                  0.10731   
+b3j3                      ttbb                 1.13503   
+b3j3                      ttcc                 0.84657   
+b3j3                      ttlf                 1.00095   
+b3j4                      other                1.04781   
+b3j4                      sig                  0.10352   
+b3j4                      ttbb                 1.09578   
+b3j4                      ttcc                 0.83238   
+b3j4                      ttlf                 0.95574   
+
+
+
+MVAsSEL/MVAHutComb_b2j4_hut_0_125/LSFJOB_24468167/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j4                      0.12389   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j4                      0.03073   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j4                      other                0.98556   
+b2j4                      sig                  0.00002   
+b2j4                      ttbb                 1.08225   
+b2j4                      ttcc                 1.00484   
+b2j4                      ttlf                 0.98237   
+
+
+
+
+MVAsSEL/MVAHutComb_b3j3_hut_0_125/LSFJOB_24468166/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j3                      0.21458   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j3                      0.04021   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j3                      other                1.02229   
+b3j3                      sig                  0.14594   
+b3j3                      ttbb                 1.04082   
+b3j3                      ttcc                 0.94585   
+b3j3                      ttlf                 1.00262   
+
+
+
+MVAsSEL/MVAHutComb_b3j4_hut_0_125/LSFJOB_24468172/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j4                      0.22449   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j4                      0.02744   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j4                      other                0.96810   
+b3j4                      sig                  0.00016   
+b3j4                      ttbb                 1.19883   
+b3j4                      ttcc                 0.84382   
+b3j4                      ttlf                 0.94362   
+
+
+
+MVAsSEL/MVAHutComb_b4j4_hut_0_125/LSFJOB_24464710/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b4j4                      0.36124   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b4j4                      0.06048   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b4j4                      other                1.09379   
+b4j4                      sig                  0.00000   
+b4j4                      ttbb                 0.92661   
+b4j4                      ttcc                 1.20977   
+b4j4                      ttlf                 1.19894   
+
+
+
+MVAsSEL/MVAHctComb_b2j3_hct_0_125/LSFJOB_24464714/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10121   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.02176   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.17386   
+b2j3                      sig                  0.14394   
+b2j3                      ttbb                 1.03520   
+b2j3                      ttcc                 1.12451   
+b2j3                      ttlf                 0.99254   
+
+
+
+MVAsSEL/MVAHctComb_b2j4_hct_0_125/LSFJOB_24464721/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j4                      0.12460   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j4                      0.00176   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j4                      other                0.96319   
+b2j4                      sig                  0.00000   
+b2j4                      ttbb                 0.97901   
+b2j4                      ttcc                 1.10285   
+b2j4                      ttlf                 0.97520   
+
+
+
+MVAsSEL/MVAHctComb_b3j3_hct_0_125/LSFJOB_24464718/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j3                      0.21472   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j3                      0.05203   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j3                      other                0.94326   
+b3j3                      sig                  0.11527   
+b3j3                      ttbb                 1.15498   
+b3j3                      ttcc                 0.94562   
+b3j3                      ttlf                 1.00762   
+
+
+
+MVAsSEL/MVAHctComb_b3j4_hct_0_125/LSFJOB_24464723/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b3j4                      0.22296   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b3j4                      0.05902   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b3j4                      other                0.87902   
+b3j4                      sig                  0.00003   
+b3j4                      ttbb                 1.30966   
+b3j4                      ttcc                 0.86293   
+b3j4                      ttlf                 0.90669   
+
+
+
+MVAsSEL/MVAHctComb_b4j4_hct_0_125/LSFJOB_24464725/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b4j4                      0.35909   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b4j4                      0.00710   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b4j4                      other                1.05259   
+b4j4                      sig                  0.00694   
+b4j4                      ttbb                 1.05392   
+b4j4                      ttcc                 1.03637   
+b4j4                      ttlf                 1.03615   
+
+
+
+MVAsSEL/MVAHctComb_comb_hct_0_125/LSFJOB_24464728/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10121   
+b2j4                      0.12460   
+b3j3                      0.21472   
+b3j4                      0.22296   
+b4j4                      0.35909   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.00337   
+b2j4                      0.01046   
+b3j3                      0.00806   
+b3j4                      0.01216   
+b4j4                      0.01471   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.35703   
+b2j3                      sig                  0.07382   
+b2j3                      ttbb                 1.14718   
+b2j3                      ttcc                 0.75217   
+b2j3                      ttlf                 0.98639   
+b2j4                      other                1.30562   
+b2j4                      sig                  0.07224   
+b2j4                      ttbb                 1.13340   
+b2j4                      ttcc                 0.75273   
+b2j4                      ttlf                 0.98397   
+b3j3                      other                1.32124   
+b3j3                      sig                  0.07555   
+b3j3                      ttbb                 1.19062   
+b3j3                      ttcc                 0.72782   
+b3j3                      ttlf                 0.97108   
+b3j4                      other                1.22276   
+b3j4                      sig                  0.07391   
+b3j4                      ttbb                 1.16521   
+b3j4                      ttcc                 0.72229   
+b3j4                      ttlf                 0.94518   
+b4j4                      other                1.31905   
+b4j4                      sig                  0.07182   
+b4j4                      ttbb                 1.18889   
+b4j4                      ttcc                 0.62635   
+b4j4                      ttlf                 0.89960   
+
+
+
+MVAsSEL/MVAHutComb_b2j3_hut_3_125/LSFJOB_24464796/STDOUT
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+b2j3                      0.10292   
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+b2j3                      0.00209   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+b2j3                      other                1.00366   
+b2j3                      sig                  0.30477   
+b2j3                      ttbb                 0.96908   
+b2j3                      ttcc                 0.97249   
+b2j3                      ttlf                 1.03616   
+
+
+

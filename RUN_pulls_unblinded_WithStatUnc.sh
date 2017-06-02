@@ -71,8 +71,23 @@ S=1
 #sh ../make_combos_${N}_new.sh
 #cd ..
 
+#rm -rf cards
+#cp -r CARDS_StatUnc cards
+
 rm -rf cards
-cp -r CARDS_StatUnc cards
+mkdir cards
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_limits_rescaled1/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc_1/produceCards_${N}.C produceCards.C
+cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc_2/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_${N}.C produceCards.C
+./produceCards.zsh
+cd cards
+sh ../make_combos_${N}_new.sh
+cd ..
+
 
 #exit
 
@@ -88,7 +103,9 @@ cp -r CARDS_StatUnc cards
 #./COMBINE_pulls_minosAll_exp.sh ${N} ${S}
 #./COMBINE_pulls_minosAll_exp_new.sh ${N} ${S}
 #./COMBINE_pulls_OBS.sh ${N} ${S}
-./COMBINE_pulls_OBS_unblinded.sh ${N} ${S}
+#./COMBINE_pulls_OBS_unblinded.sh ${N} ${S}
+#./COMBINE_pulls_OBS_unblinded_MIN.sh ${N} ${S}
+./COMBINE_pulls_OBS_unblinded_NEW.sh ${N} ${S}
 
 if [[ "${N}" == "maxSTandTT" ]]; then
     LABEL=MAX
@@ -109,6 +126,7 @@ for i in 1; do
     rm -f ${OUTPUT}/Closure_OUTPUT_${i}.txt
     for h in u c; do
         for c in b2j3 b3j3 b2j4 b3j4 b4j4 comb; do
+        #for c in b2j3; do
             echo "=====> " INPUT_MVAH${h}t${LABEL}_${c}_h${h}t/*_${i}.txt >> ${OUTPUT}/Closure_OUTPUT_${i}.txt
             grep "=====> \|Best fit r: " INPUT_MVAH${h}t${LABEL}_${c}_h${h}t/*_${i}.txt >> ${OUTPUT}/Closure_OUTPUT_${i}.txt
             grep "hname" -A 13 INPUT_MVAH${h}t${LABEL}_${c}_h${h}t/*_${i}.txt >> ${OUTPUT}/Closure_OUTPUT_${i}.txt
@@ -186,6 +204,7 @@ for i in "${!outputs[@]}"; do
             PS=""
         fi
         for c in b2j3 b3j3 b2j4 b3j4 b4j4 comb; do
+        #for c in b2j3; do
             if [[ "$L" == "1" ]]; then
                 PS=""
             fi

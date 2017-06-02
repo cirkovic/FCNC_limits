@@ -81,7 +81,7 @@ int main(int argc, const char *argv[])
    double s2pAt1 = 0.0478;*/
 
    double coupMin = 0.01;
-   double coupMax = 0.2;
+   double coupMax = 0.3;
    const int nrm = 30;
 
    double med[nMax],s2p[nMax],s1p[nMax],s1m[nMax],s2m[nMax],obs[nMax],
@@ -142,6 +142,7 @@ int main(int argc, const char *argv[])
    y1_n[int(nrm*2)] = sig1_n[0] * xsecAt1;
    
    TCanvas *c1 = new TCanvas();
+   c1->SetTopMargin(c1->GetTopMargin()*1.2);
 
    TGraph *g_mel = new TGraph(nrm,coup,mel2);
    g_mel->SetTitle("");
@@ -184,7 +185,8 @@ int main(int argc, const char *argv[])
    g_mel->Draw("L");
    g_mel->GetXaxis()->SetTitle("#font[52]{#kappa_{Hct}}");
 //   g_mel->GetXaxis()->SetTitle("#font[52]{#kappa_{Hct}}");
-   g_mel->GetYaxis()->SetTitle("#sigma [pb]");
+   //g_mel->GetYaxis()->SetTitle("#sigma [pb]");
+  g_mel->GetYaxis()->SetTitle("#sigma (95\% CL) [pb]");
 
    if( drawObs )
      g_data->Draw("L");
@@ -203,16 +205,18 @@ int main(int argc, const char *argv[])
      l1->AddEntry(g_data,"Observed","l");
    
    l1->SetFillColor(0);
-   std::string intLLab = "#intLdt = "+intL+" fb^{-1}";
-   l1->SetHeader(intLLab.c_str());
+   //std::string intLLab = "#intLdt = "+intL+" fb^{-1}";
+   //l1->SetHeader(intLLab.c_str());
    l1->Draw("SAME");
 
+   /*
    TLatex lEner;
    lEner.SetTextSize(0.044);
    lEner.SetNDC();
    lEner.SetTextColor(kBlack);
    std::string enerLab = "#font[42]{#sqrt[]{s} = "+ener+" TeV}";
    lEner.DrawLatex(0.45,0.75,enerLab.c_str());
+   */
 
    //lEner.DrawLatex(0.50,0.83, "Hct");
    TLatex *ctex = new TLatex(0.50, 0.87, "Hct");
@@ -231,11 +235,26 @@ int main(int argc, const char *argv[])
    tex->SetLineWidth(2);
    tex->Draw();
 
+   TLatex *text1 = new TLatex(0.98,0.95125,"36 fb^{-1} (13 TeV)");
+   text1->SetNDC();
+   text1->SetTextAlign(31);
+   text1->SetTextFont(42);
+   text1->SetTextSize(0.04875);
+   text1->SetLineWidth(2);
+   text1->Draw();
+
    ////////////////////////////////////////////////////////////////////
 
-   TF1 *fa1 = new TF1("fa1", (std::to_string(xsecAtT)+"*x*x").c_str(), 0, 0.2);
-   double intersect1 = fa1->GetX(mel2[0]);
-   double intersect2 = fa1->GetX(data2[0]);
+   TF1 *fa1 = new TF1("fa1", (std::to_string(xsecAtT)+"*x*x").c_str(), 0, coupMax);
+   //double intersect1 = fa1->GetX(mel2[0]);
+   //double intersect2 = fa1->GetX(data2[0]);
+
+   double intersect2_p = fa1->GetX(y2_p[0]);
+   double intersect1_p = fa1->GetX(y1_p[0]);
+   double intersectm   = fa1->GetX(mel2[0]);
+   double intersect1_n = fa1->GetX(y1_n[0]);
+   double intersect2_n = fa1->GetX(y2_n[0]);
+   double intersecto   = fa1->GetX(data2[0]);
 
    if (true) {
    bool DRAW_NUMS = false;
@@ -246,8 +265,10 @@ int main(int argc, const char *argv[])
    std::string limLine;
    limLine = std::string(" \\\\");
 
-   std::stringstream limLab;
+   std::stringstream limLab, lCoupLim, lBrLim;
    limLab.precision(4);
+   lCoupLim.precision(4);
+   lBrLim.precision(4);
 
    TLatex limLabp2;
    limLabp2.SetTextSize(0.044);
@@ -298,6 +319,7 @@ int main(int argc, const char *argv[])
    limLab << y2_n[0];
    if (DRAW_NUMS) limLabm2.DrawLatex(0.45,0.50,limLab.str().c_str());
 
+   /*
    TLatex lCLimit;
    lCLimit.SetTextSize(0.044);
    lCLimit.SetNDC();
@@ -315,6 +337,109 @@ int main(int argc, const char *argv[])
    limLab << (0.1836*intersect1*intersect1/1.4);
    limLab << " (" << (0.1836*intersect2*intersect2/1.4) << ")";
    if (DRAW_NUMS) lLimit.DrawLatex(0.45,0.25,limLab.str().c_str());
+   */
+
+   TLatex lCoupLimp2;
+   lCoupLimp2.SetTextSize(0.044);
+   lCoupLimp2.SetNDC();
+   lCoupLimp2.SetTextColor(kBlack);
+   lCoupLim.str("");
+   lCoupLim << intersect2_p;
+   if (DRAW_NUMS) lCoupLimp2.DrawLatex(0.20,0.40,lCoupLim.str().c_str());
+
+   limLine = lCoupLim.str()+limLine;
+
+   TLatex lCoupLimp1;
+   lCoupLimp1.SetTextSize(0.044);
+   lCoupLimp1.SetNDC();
+   lCoupLimp1.SetTextColor(kBlack);
+   lCoupLim.str("");
+   lCoupLim << intersect1_p;
+   if (DRAW_NUMS) lCoupLimp1.DrawLatex(0.20,0.35,lCoupLim.str().c_str());
+
+   limLine = lCoupLim.str()+std::string(" & ")+limLine;
+
+   TLatex lCoupLimMed;
+   lCoupLimMed.SetTextSize(0.044);
+   lCoupLimMed.SetNDC();
+   lCoupLimMed.SetTextColor(kBlack);
+   lCoupLim.str("");
+   lCoupLim << intersectm;
+   lCoupLim << " (" << intersecto << ")";
+   if (DRAW_NUMS) lCoupLimMed.DrawLatex(0.20,0.30,lCoupLim.str().c_str());
+
+   limLine = lCoupLim.str()+std::string(" & ")+limLine;
+
+   TLatex lCoupLimm1;
+   lCoupLimm1.SetTextSize(0.044);
+   lCoupLimm1.SetNDC();
+   lCoupLimm1.SetTextColor(kBlack);
+   lCoupLim.str("");
+   lCoupLim << intersect1_n;
+   if (DRAW_NUMS) lCoupLimm1.DrawLatex(0.20,0.25,lCoupLim.str().c_str());
+
+   limLine = lCoupLim.str()+std::string(" & ")+limLine;
+
+   TLatex lCoupLimm2;
+   lCoupLimm2.SetTextSize(0.044);
+   lCoupLimm2.SetNDC();
+   lCoupLimm2.SetTextColor(kBlack);
+   lCoupLim.str("");
+   lCoupLim << intersect2_n;
+   if (DRAW_NUMS) lCoupLimm2.DrawLatex(0.20,0.20,lCoupLim.str().c_str());
+
+
+
+   TLatex lBrLimp2;
+   lBrLimp2.SetTextSize(0.044);
+   lBrLimp2.SetNDC();
+   lBrLimp2.SetTextColor(kBlack);
+   lBrLim.str("");
+   lBrLim << (0.1836*pow(intersect2_p, 2)/1.4);
+   if (DRAW_NUMS) lBrLimp2.DrawLatex(0.60,0.40,lBrLim.str().c_str());
+
+   limLine = lBrLim.str()+limLine;
+
+   TLatex lBrLimp1;
+   lBrLimp1.SetTextSize(0.044);
+   lBrLimp1.SetNDC();
+   lBrLimp1.SetTextColor(kBlack);
+   lBrLim.str("");
+   lBrLim << (0.1836*pow(intersect1_p, 2)/1.4);
+   if (DRAW_NUMS) lBrLimp1.DrawLatex(0.60,0.35,lBrLim.str().c_str());
+
+   limLine = lBrLim.str()+std::string(" & ")+limLine;
+
+   TLatex lBrLimMed;
+   lBrLimMed.SetTextSize(0.044);
+   lBrLimMed.SetNDC();
+   lBrLimMed.SetTextColor(kBlack);
+   lBrLim.str("");
+   lBrLim << (0.1836*pow(intersectm, 2)/1.4);
+   lBrLim << " (" << (0.1836*pow(intersecto, 2)/1.4) << ")";
+   if (DRAW_NUMS) lBrLimMed.DrawLatex(0.60,0.30,lBrLim.str().c_str());
+
+   limLine = lBrLim.str()+std::string(" & ")+limLine;
+
+   TLatex lBrLimm1;
+   lBrLimm1.SetTextSize(0.044);
+   lBrLimm1.SetNDC();
+   lBrLimm1.SetTextColor(kBlack);
+   lBrLim.str("");
+   lBrLim << (0.1836*pow(intersect1_n, 2)/1.4);
+   if (DRAW_NUMS) lBrLimm1.DrawLatex(0.60,0.25,lBrLim.str().c_str());
+
+   limLine = lBrLim.str()+std::string(" & ")+limLine;
+
+   TLatex lBrLimm2;
+   lBrLimm2.SetTextSize(0.044);
+   lBrLimm2.SetNDC();
+   lBrLimm2.SetTextColor(kBlack);
+   lBrLim.str("");
+   lBrLim << (0.1836*pow(intersect2_n, 2)/1.4);
+   if (DRAW_NUMS) lBrLimm2.DrawLatex(0.60,0.20,lBrLim.str().c_str());
+
+
 
    limLine = limLab.str()+std::string(" & ")+limLine;
    limLine = "        comb"+std::string(" & ")+limLine;

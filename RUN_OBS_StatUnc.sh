@@ -17,6 +17,7 @@ cd $THIS
 N=combSTandTT
 CASE=split
 OUTPUT=${OUTDIR}/TrainingsWithTightEID_NEW_OBS_${CASE}/${N}
+OUTPUTfalse=${OUTDIR}/TrainingsWithTightEID_NEW_OBS_${CASE}_false/${N}
 
 
 #unlink input
@@ -49,7 +50,10 @@ mkdir cards
 #cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_limits_rescaled1/produceCards_${N}.C produceCards.C
 #cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1/produceCards_${N}.C produceCards.C
 #cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd/produceCards_${N}.C produceCards.C
-cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc_1/produceCards_${N}.C produceCards.C
+cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc_2/produceCards_${N}.C produceCards.C
+#cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected_StatUnc_3/produceCards_${N}.C produceCards.C
 #cp -f produce_cards/TrainingsWithTightEID_NEW_${CASE}_${N}_1_ttAdd_statBinUnc_corrected/produceCards_${N}.C produceCards.C
 ./produceCards.zsh
 cd cards
@@ -71,7 +75,10 @@ cd ..
 #./COMBINE_BLIND_small.sh ${N} ${S} ${CASE}
 #./COMBINE_BLIND.sh ${N} ${S} ${CASE}
 ./COMBINE_OBS_1.sh ${N} ${S} ${CASE}
+#./COMBINE_OBS_1_ML.sh ${N} ${S} ${CASE}
 #python parse_combine_output_${N}_wob4j4.py COMBINE_OUTPUT_${N}.txt
+
+#if [[ "0" == "1" ]]; then
 
 python parse_combine_output_${N}_wohutb4j4_obs.py COMBINE_OUTPUT_${N}.txt
 
@@ -84,7 +91,11 @@ if [[ "${N}" == "combSTandTT" ]]; then
 #./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 true
 #./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 false
 #./runShow_wohutb4j4_obs.sh $OUTPUT 6.0 6.0 true
-./runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
+#./runShow_wohutb4j4_obs.sh $OUTPUT 25.0 25.0 true
+#./runShow_wohutb4j4_obs.sh $OUTPUT 15.0 15.0 true
+#./runShow_wohutb4j4_obs.sh $OUTPUTfalse 15.0 15.0 false
+./runShow_wohutb4j4_obs.sh $OUTPUT 15.0 15.0 true
+./runShow_wohutb4j4_obs.sh $OUTPUTfalse 15.0 15.0 false
 fi
 cd plot
 #./runShow_small_1.sh $OUTPUT 100.0 0.01 100.0 0.01
@@ -92,10 +103,13 @@ cd plot
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 0
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 ./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
+./runShow_small_2_obs.sh $OUTPUTfalse 100.0 0.01 100.0 0.01 0
 cd ../..
 
-rm -rf cards
-cp -r /afs/cern.ch/user/k/kderoove/public/Trainings_2017_04_24_statBinUnc_corrected/cards_StatUnc cards
+#rm -rf cards
+#cp -r /afs/cern.ch/user/k/kderoove/public/Trainings_2017_04_24_statBinUnc_corrected/cards_StatUnc cards
+
+#fi
 
 DATE=`date +%d%m%y_%H%M%S`
 rm -rf backup_limits_blind_${CASE}_${DATE}
