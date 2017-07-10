@@ -15,8 +15,19 @@ OPTIONS=""
 #OPTIONS="$OPTIONS --robustFit=1 --rMin=-2 --rMax=2 --stepSize=0.05 --minimizerAlgo=SeqMinimizer --minimizerTolerance 0.01"
 #OPTIONS="$OPTIONS --rMin=-2 --rMax=2 --stepSize=0.05 --minimizerAlgo=SeqMinimizer --minimizerAlgoForMinos=SeqMinimizer --minimizerToleranceForMinos 0.001 --minos=all"
 #OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.05 --minimizerTolerance 0.01" # THIS IS THE ONE FROM THE NOTE
+
 #OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.01 --minimizerTolerance 0.001"
-OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.002 --minimizerTolerance 0.0005"
+#OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.05 --minimizerTolerance 0.01" # RETURN TO THIS ONE
+
+####OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --robustFit=1 --stepSize=0.05 --minimizerTolerance 0.01" # RETURN TO THIS ONE
+#OPTIONS="$OPTIONS --rMin -10 --rMax 10" # RETURN TO THIS ONE
+#OPTIONS="$OPTIONS" # RETURN TO THIS ONE
+OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.05 --minimizerTolerance 0.01" # THIS IS THE ONE FROM THE NOTE
+
+#OPTIONS="$OPTIONS --rMin -50 --rMax 50 --robustFit=1 --stepSize=0.05 --minimizerTolerance 0.01" # TEST for comb_hut
+#OPTIONS="$OPTIONS --rMin -5 --rMax 5"
+
+#OPTIONS="$OPTIONS --minimizerAlgo=SeqMinimizer --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.002 --minimizerTolerance 0.0005"
 #OPTIONS="$OPTIONS --rMin -5 --rMax 5 --robustFit=1 --stepSize=0.05 --minimizerAlgo=SeqMinimizer --minimizerTolerance 0.001 --minimizerAlgoForMinos=SeqMinimizer --minimizerToleranceForMinos 0.001 --minos=all"
 #OPTIONS="$OPTIONS --rMin=-5.0 --rMax=5.0"
 #OPTIONS="$OPTIONS --freezeNuisanceGroups *StatBin*"
@@ -28,6 +39,9 @@ for j in `ls cards`; do
     i=$j
     FOLD=${i/input/INPUT}
     FOLDER=${FOLD/.txt/}
+
+    #if [[ ${FOLDER} != *"comb_hut"* ]]; then continue; fi
+    #if [[ ${FOLDER} != *"comb_hct"* ]]; then continue; fi
 
     rm -rf ${FOLDER}
     mkdir ${FOLDER}
@@ -70,6 +84,7 @@ for j in `ls cards`; do
     else
 #        COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat.py -a mlfit_1.root -g plots_1.root"
         COMMAND="combine -S ${S} -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat_noStatBox.py -a mlfit_1.root -g plots_1.root"
+        #COMMAND="combine -S 0 -M MaxLikelihoodFit ${OPTIONS} ../cards/${i} -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat_noStatBox.py -a mlfit_1.root -g plots_1.root"
     fi
     echo $COMMAND 2>&1 | tee COMBINE_OUTPUT_1.txt
     eval $COMMAND 2>&1 | tee -a COMBINE_OUTPUT_1.txt &

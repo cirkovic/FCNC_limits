@@ -24,6 +24,7 @@ bothGood=0
 for fr in frlist: 
   quality=-1 
   quality=fr[1].covQual() 
+  print fr[1].covarianceMatrix()
   print quality 
   if quality==-1: 
     print fr[0], "Unknown, matrix was externally provided" 

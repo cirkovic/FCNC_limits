@@ -6,7 +6,10 @@ gROOT.ProcessLine(".L plotStyle.C")
 
 SetPlotStyle()
 
-output = "~/www/26-05-2017/new/"
+#output = "~/www/26-05-2017/new/"
+#output = "~/www/14-06-2017/2Dint/"
+#output = "~/www/30-06-2017/2Dint/"
+output = "~/www/02-07-2017/2Dint/"
 
 #kappa = [
 #    [2.182,     2.032],
@@ -23,25 +26,66 @@ output = "~/www/26-05-2017/new/"
 #    #[0.0,     0.0],
 #]
 
+#kappa = [
+#    [0.2072,      0.2286],
+#    [0.1811,      0.1982],
+#    [0.1547,      0.1683],
+#    [0.132,       0.1435],
+#    [0.1146,      0.1245],
+#    [0.1898,      0.1863],
+#]
+#
+##br = []
+#
+#BR = [
+#    [0.005631,    0.006854],
+#    [0.004301,    0.00515],
+#    [0.003138,    0.003714],
+#    [0.002286,    0.002702],
+#    [0.001722,    0.002031],
+#    [0.004724,    0.004552],
+#]
+
+#kappa = [
+#    [0.2044,      0.2234],
+#    [0.1774,      0.193],
+#    [0.1502,      0.1639],
+#    [0.128,       0.1396],
+#    [0.1109,      0.121],
+#    [0.1833,      0.1867],
+#]
+
+#br = []
+
+#BR = [
+#    [0.005477,    0.006545],
+#    [0.004126,    0.004884],
+#    [0.002959,    0.003522],
+#    [0.002148,    0.002557],
+#    [0.001612,    0.001919],
+#    [0.004408,    0.00457],
+#]
+
 kappa = [
-    [0.2072,      0.2286],
-    [0.1811,      0.1982],
-    [0.1547,      0.1683],
-    [0.132,       0.1435],
-    [0.1146,      0.1245],
-    [0.1898,      0.1863],
+    [0.1978,      0.2318],
+    [0.1711,      0.198],
+    [0.1449,      0.1663],
+    [0.1233,      0.1396],
+    [0.1066,      0.1205],
+    [0.1924,      0.2277],
 ]
 
 #br = []
 
 BR = [
-    [0.005631,    0.006854],
-    [0.004301,    0.00515],
-    [0.003138,    0.003714],
-    [0.002286,    0.002702],
-    [0.001722,    0.002031],
-    [0.004724,    0.004552],
+    [0.005133,    0.007048],
+    [0.00384,     0.005141],
+    [0.002754,    0.003625],
+    [0.001993,    0.002556],
+    [0.00149,     0.001904],
+    [0.004854,    0.006797],
 ]
+
 
 cs = []
 Fs = []
@@ -67,12 +111,14 @@ for ci in xrange(0, 2):
         cs[-1].SetRightMargin(cs[-1].GetRightMargin()*1.5)
 
     fs = []
+    fdummy = None
 
     for i in xrange(0, 6):
         if ci == 0:
             #fs.append(TF1("f"+str(ci)+str(i), "[1]*sqrt(1-(x/[0])**2)", 0.0, 0.5))
             #fs.append(TF1("f"+str(ci)+str(i), "[1]*sqrt(1-(x/[0])**2)", 0.0, 2.6))
-            fs.append(TF1("f"+str(ci)+str(i), "[1]*sqrt(1-(x/[0])**2)", 0.0, 0.26))
+            #fs.append(TF1("f"+str(ci)+str(i), "[1]*sqrt(1-(x/[0])**2)", 0.0, 0.26))
+            fs.append(TF1("f"+str(ci)+str(i), "[1]*sqrt(1-(x/[0])**2)", 0.0, kappa[i][0]*1.01))
         elif ci == 1:
             #fs.append(TF1("f"+str(ci)+str(i), "(1-x/100*1.4/0.1836/[1]**2)/1.4*0.1836*[0]**2*100", 0.0, 0.15))
             #fs.append(TF1("f"+str(ci)+str(i), "sqrt(1.4*[1]/0.1836)**2 * (1 - (1.4*x/0.1836)**2/(1.4*[0]/0.1836)**2)/1.4*0.1836", 0.0, 0.15))
@@ -88,12 +134,13 @@ for ci in xrange(0, 2):
         if ci == 0:
         #if True:
             fs[-1].SetParameters(kappa[i][0], kappa[i][1])
-            fs[-1].SetParameters(kappa[i][0], kappa[i][1])
+            #fs[-1].SetParameters(kappa[i][0], kappa[i][1])
+#            fs[-1].SetRange(0, kappa[i][0])
         elif ci == 1:
         #    fs[-1].SetParameters(br[i][0], br[i][1])
         #    fs[-1].SetParameters(br[i][0], br[i][1])
             fs[-1].SetParameters(BR[i][0], BR[i][1])
-            fs[-1].SetParameters(BR[i][0], BR[i][1])
+            #fs[-1].SetParameters(BR[i][0], BR[i][1])
 
         fs[-1].SetLineWidth(3)
         if i == 1 or i == 3:
@@ -105,12 +152,27 @@ for ci in xrange(0, 2):
         else:
             fs[-1].SetLineColor(1)
 
-        if i == 0:
-            #temp.append(fs[-1].Draw("l"))
-            fs[-1].Draw("l")
+        if ci == 0:
+            if i == 0:
+                #temp.append(fs[-1].Draw("l"))
+                #fs[-1].Draw("l")
+                fdummy = TF1("fd", "0", 0.0, 0.26)
+                fdummy.SetMaximum(0.29)
+                fdummy.SetLineColor(0)
+                fdummy.GetXaxis().SetTitle("#kappa_{Hut}")
+                fdummy.GetYaxis().SetTitle("#kappa_{Hct}")
+                fdummy.Draw()
+                fs[-1].Draw("lsame")
+            else:
+                #temp.append(fs[-1].Draw("lsame"))
+                fs[-1].Draw("lsame")
         else:
-            #temp.append(fs[-1].Draw("lsame"))
-            fs[-1].Draw("lsame")
+            if i == 0:
+                #temp.append(fs[-1].Draw("l"))
+                fs[-1].Draw("l")
+            else:
+                #temp.append(fs[-1].Draw("lsame"))
+                fs[-1].Draw("lsame")
 
     minimum = 100
     maximum = 0

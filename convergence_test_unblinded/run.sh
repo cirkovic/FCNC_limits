@@ -7,7 +7,9 @@
 #for i in ~/public/20-05-2017/backup_limits_blind_split_200517_065744; do
 #for i in ~/public/20-05-2017/backup_limits_blind_split_200517_070802; do
 #for i in ~/public/20-05-2017/backup_limits_blind_split_200517_082013; do
-for i in backup_230517_203240; do
+#for i in backup_230517_203240; do
+#for i in backup_140617_122912; do
+for i in backup_020717_013624; do
     for j in INPUT_MVAHctComb_b2j3_hct INPUT_MVAHctComb_b2j4_hct INPUT_MVAHctComb_b3j3_hct INPUT_MVAHctComb_b3j4_hct INPUT_MVAHctComb_b4j4_hct INPUT_MVAHctComb_comb_hct INPUT_MVAHutComb_b2j3_hut INPUT_MVAHutComb_b2j4_hut INPUT_MVAHutComb_b3j3_hut INPUT_MVAHutComb_b3j4_hut INPUT_MVAHutComb_b4j4_hut INPUT_MVAHutComb_comb_hut ; do
         PS=""
         #for k in 0 001 01 1 10; do

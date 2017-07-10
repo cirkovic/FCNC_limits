@@ -13,6 +13,7 @@ OUTPUT=~/www/25-05-2017/WithStatUnc_mscan
 OUTPUT=~/www/26-05-2017/WithStatUnc_mscan
 OUTPUT=~/www/29-05-2017/WithStatUnc_mscan
 OUTPUT=~/www/30-05-2017/WithStatUnc_mscan
+OUTPUT=~/www/13-06-2017/WithStatUnc_mscan
 
 #find ${OUTPUT}/pulls_blind -name "*.png" | xargs rm
 #find ${OUTPUT}/pulls_blind -name "*.pdf" | xargs rm

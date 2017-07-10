@@ -1,0 +1,5 @@
+[?1034h[['s+b', <ROOT.RooFitResult object at 0x4bf3420>], ['b-only', <ROOT.RooFitResult object at 0x44b7b20>]]
+2
+s+b Full matrix, but forced positive-definite
+2
+b-only Full matrix, but forced positive-definite

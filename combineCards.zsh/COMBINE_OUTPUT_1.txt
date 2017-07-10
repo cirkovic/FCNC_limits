@@ -1,0 +1,13 @@
+combine -S 1 -M MaxLikelihoodFit ../cards/combineCards.zsh -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat_noStatBox.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hMissing background ModelConfig 'ModelConfig_bonly' in workspace 'w' in file roostats-03YpF8.root
+Will make one from the signal ModelConfig 'ModelConfig' setting signal strenth 'r' to zero
+Dataset data_obs not found.
+The signal model has no nuisance parameters. Please run the limit tool with no systematics (option -S 0).
+To make things easier, I will assume you have done it.
+ FATAL ERROR! PDF not found in ModelConfig (this could be due to having no systematics and running -M MaxLikelihood). 
+ Try to build the workspace first with text2workspace.py and run with the binary output.
+combine: /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/src/Combine.cc:665: void Combine::run(TString, const string&, double&, double&, int&, TTree*, int): Assertion `0' failed.
+./COMBINE_pulls_OBS_unblinded_NEW_mscan_01-07-2017.sh: line 90: 28580 Aborted                 (core dumped) combine -S 1 -M MaxLikelihoodFit ../cards/combineCards.zsh -n _1

@@ -1,0 +1,10 @@
+combine -S 1 -M MaxLikelihoodFit ../cards/input_cards -n _1 && python /afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/src/HiggsAnalysis/CombinedLimit/test/diffNuisances_noMCstat_noStatBox.py -a mlfit_1.root -g plots_1.root
+>>> including systematics
+>>> method used to compute upper limit is MaxLikelihoodFit
+>>> random number generator seed is 123456
+[?1034hTraceback (most recent call last):
+  File "/afs/cern.ch/work/c/cirkovic/kLimits/CombineHarvester/CMSSW_7_4_7/bin/slc6_amd64_gcc491/text2workspace.py", line 34, in <module>
+    file = open(options.fileName, "r")
+IOError: [Errno 21] Is a directory: '/afs/cern.ch/work/c/cirkovic/FCNC_limits/INPUT_cards/../cards/input_cards'
+Error when running the combination:
+	Failed to convert the input datacard from LandS to RooStats format. The lines above probably contain more information about the error.
