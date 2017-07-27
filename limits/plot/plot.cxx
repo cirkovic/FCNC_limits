@@ -1,1 +1,1 @@
-plotHctShow_small_2_obs_STTT.cxx
+plotHctShow_small_2_obs.cxx
