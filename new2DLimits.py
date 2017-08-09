@@ -9,7 +9,8 @@ SetPlotStyle()
 #output = "~/www/26-05-2017/new/"
 #output = "~/www/14-06-2017/2Dint/"
 #output = "~/www/30-06-2017/2Dint/"
-output = "~/www/02-07-2017/2Dint/"
+#output = "~/www/02-07-2017/2Dint/"
+output = "~/www/31-07-2017/2Dint/"
 
 #kappa = [
 #    [2.182,     2.032],
@@ -203,19 +204,42 @@ for ci in xrange(0, 2):
 
     #if ci == 0:
     if True:
-        leg = TLegend(0.60,0.90,0.95,0.60)
+        #leg = TLegend(0.60,0.90,0.95,0.60)
+        leg = TLegend(0.45,0.90,0.98,0.70)
+        legup = TLegend(0.45,0.91,0.98,0.71)
+        legdn = TLegend(0.45,0.89,0.98,0.69)
     #elif ci == 1:
     #    leg = TLegend(0.60,0.90,0.90,0.60)
-    leg.SetFillStyle(0)
-    leg.SetBorderSize(0)
+        leg.SetFillStyle(0)
+        leg.SetBorderSize(0)
+
+        legup.SetFillStyle(0)
+        legup.SetBorderSize(0)
+
+        legdn.SetFillStyle(0)
+        legdn.SetBorderSize(0)
 
     #if ci == 0:
     if True:
-        leg.AddEntry(fs[2],"Expected","l")
-        leg.AddEntry(fs[1],"Expected #pm 1#sigma","l")
-        leg.AddEntry(fs[0],"Expected #pm 2#sigma","l")
+#        leg.AddEntry(fs[2],"Median expected","l")
+#        leg.AddEntry(fs[1],"Expected #pm 1#sigma","l")
+#        leg.AddEntry(fs[0],"Expected #pm 2#sigma","l")
+#        leg.AddEntry(fs[5],"Observed","l")
+        leg.AddEntry(fs[2],"Expected, median & 68%","l")
+        leg.AddEntry(fs[2],"Expected, median & 95%","l")
         leg.AddEntry(fs[5],"Observed","l")
         leg.Draw()
+
+        legup.AddEntry(fs[1]," ","l")
+        legup.AddEntry(fs[0]," ","l")
+        legup.AddEntry(fs[5]," ","")
+        legup.Draw()
+
+        legdn.AddEntry(fs[1]," ","l")
+        legdn.AddEntry(fs[0]," ","l")
+        legdn.AddEntry(fs[5]," ","")
+        legdn.Draw()
+
     #elif ci == 1:
     #    leg.AddEntry(fs[1],"Median expected = 1.0","l")
     #    leg.AddEntry(fs[0],"#pm 1#sigma expected = 1.0","l")

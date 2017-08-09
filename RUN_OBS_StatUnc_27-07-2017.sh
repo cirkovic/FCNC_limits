@@ -107,8 +107,10 @@ cd plot
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 0
 #./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
-./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
-./runShow_small_2_obs.sh $OUTPUTfalse 100.0 0.01 100.0 0.01 0
+#./runShow_small_2_obs.sh $OUTPUT 100.0 0.01 100.0 0.01 1
+#./runShow_small_2_obs.sh $OUTPUTfalse 100.0 0.01 100.0 0.01 0
+./runShow_small_2_obs.sh $OUTPUT 300.0 0.1 300.0 0.1 1
+./runShow_small_2_obs.sh $OUTPUTfalse 300.0 0.1 300.0 0.1 0
 #./runShow_small_2_obs_27-07-2017.sh $OUTPUT 100.0 0.01 100.0 0.01 1
 #./runShow_small_2_obs_27-07-2017.sh $OUTPUTfalse 100.0 0.01 100.0 0.01 0
 cd ../..

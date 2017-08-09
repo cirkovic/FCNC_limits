@@ -1,0 +1,32 @@
+imax * # number of channels
+jmax * # number of backgrounds
+kmax * # number of nuisance parameters
+---------------
+bin b3j4
+observation 53352
+---------------
+shapes * * /afs/cern.ch/work/c/cirkovic/FCNC_limits/input_files/input_MVAHctComb_b3j4_hct.root combSTandTT_$PROCESS combSTandTT_$PROCESS_$SYSTEMATIC
+---------------
+bin b3j4 b3j4 b3j4 b3j4 b3j4
+process sig ttbb ttcc ttlf other
+process 0 1 2 3 4
+rate 2830.48 11414.3 9764.54 28874.1 4322.73
+---------------
+lumi lnN 1.027 1.027 1.027 1.027 1.027
+Jes lnN 1.05 1.05 1.05 1.05 1.05
+tt_norm lnN - 1.055 1.055 1.055 -
+other_norm_b3j4 lnN - - - - 1.10
+tt_add_bb lnN - 1.50 - - -
+tt_add_cc lnN - - 1.50 - -
+hdamp lnN - 1.05 1.05 1.05 -
+scaleEnvelope lnN - 1.15 1.15 1.15 -
+SfIteraviveFitHfstats1 shape 1 1 1 1 1
+SfIteraviveFitHfstats2 shape 1 1 1 1 1
+SfIteraviveFitLfstats1 shape 1 1 1 1 1
+SfIteraviveFitLfstats2 shape 1 1 1 1 1
+SfIteraviveFitLf shape 1 1 1 1 1
+SfIteraviveFitHf shape 1 1 1 1 1
+SfIteraviveFitCferr1 shape 1 1 1 1 1
+SfIteraviveFitCferr2 shape 1 1 1 1 1
+Jer shape 1 1 1 1 1
+---------------

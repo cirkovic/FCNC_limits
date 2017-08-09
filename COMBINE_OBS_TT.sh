@@ -22,7 +22,8 @@ OPTIONSp=""
 #OPTIONS="$OPTIONS --rMin=-0.1 --rMax=0.1"
 #OPTIONS="$OPTIONS --minimizerStrategy 0 --minimizerTolerance 0.1"
 #OPTIONSp="$OPTIONSp --robustFit=1 --rMin=-2 --rMax=2 --stepSize=0.05 --minimizerAlgo=SeqMinimizer --minimizerTolerance 0.01"
-OPTIONSp="$OPTIONSp --rMin=-3 --rMax=3"
+#OPTIONSp="$OPTIONSp --rMin=-3 --rMax=3"
+OPTIONS="$OPTIONS --rMin=0.0 --rMax=100.0"
 
 PS=""
 

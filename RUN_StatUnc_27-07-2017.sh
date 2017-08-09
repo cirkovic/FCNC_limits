@@ -22,6 +22,7 @@ OUTPUT=~/www/14-06-2017/limits_StatUnc
 OUTPUT=~/www/01-07-2017/limits_StatUnc
 OUTPUT=~/www/02-07-2017/limits_StatUnc
 OUTPUT=~/www/27-07-2017/limits_StatUnc
+OUTPUT=~/www/31-07-2017/limits_StatUnc
 
 #./RUN_OBS_STTT_StatUnc.sh $OUTPUT
 

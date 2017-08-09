@@ -1132,7 +1132,9 @@ void limitXsecCatShowWob4j4_small_obs_27072017(std::string coup = "Hut", double 
    TLegend *leg;
    //leg = new TLegend(0.75,0.90,0.90,0.70);
    //leg = new TLegend(0.65,0.80,0.90,0.50);
-   leg = new TLegend(0.70,0.83,0.95,0.53);
+   //leg = new TLegend(0.70,0.83,0.95,0.53);
+   //leg = new TLegend(0.60,0.83,0.95,0.53);
+   leg = new TLegend(0.58,0.83,0.95,0.53);
    //leg->SetHeader(coup.c_str()); // option "C" allows to center the header
    //leg->SetFillColor(253);
    //leg->SetFillColor(0);
@@ -1140,9 +1142,9 @@ void limitXsecCatShowWob4j4_small_obs_27072017(std::string coup = "Hut", double 
    leg->SetFillStyle(0);
    leg->SetBorderSize(0);
    
-   leg->AddEntry(line[0],"Expected","l");
-   leg->AddEntry(s1[0],"68\%","f");
-   leg->AddEntry(s2[0],"95\%","f");
+   leg->AddEntry(line[0],"Median expected","l");
+   leg->AddEntry(s1[0],"68\% expected","f");
+   leg->AddEntry(s2[0],"95\% expected","f");
    leg->AddEntry(lineObs[0],"Observed","l");
    
    c1->RedrawAxis("g");
@@ -1178,7 +1180,9 @@ void limitXsecCatShowWob4j4_small_obs_27072017(std::string coup = "Hut", double 
 
    //TLatex *ctex = new TLatex(0.50, 0.87, coup.c_str());
    //TLatex *ctex = new TLatex(0.77, 0.87, coup.c_str());
-   TLatex *ctex = new TLatex(0.79, 0.906825, coup.c_str());
+   //TLatex *ctex = new TLatex(0.79, 0.906825, coup.c_str());
+   //TLatex *ctex = new TLatex(0.70, 0.906825, coup.c_str());
+   TLatex *ctex = new TLatex(0.72, 0.906825, coup.c_str());
    ctex->SetNDC();
    ctex->SetTextAlign(13);
    ctex->SetTextFont(61);

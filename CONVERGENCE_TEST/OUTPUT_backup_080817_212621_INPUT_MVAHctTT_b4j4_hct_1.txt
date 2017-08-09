@@ -1,0 +1,6 @@
+[?1034h[['s+b', <ROOT.RooFitResult object at 0x51dae90>], ['b-only', <ROOT.RooFitResult object at 0x4b1aaf0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices

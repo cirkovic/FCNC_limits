@@ -147,7 +147,8 @@ int main(int argc, const char *argv[])
    TGraph *g_mel = new TGraph(nrm,coup,mel2);
    g_mel->SetTitle("");
    g_mel->SetLineColor(kBlack);
-   g_mel->SetLineWidth(2);
+   //g_mel->SetLineWidth(2);
+   g_mel->SetLineWidth(6);
    g_mel->Draw("AL");
    //g_mel->SetMaximum(500);
    //g_mel->SetMaximum(1);
@@ -158,13 +159,15 @@ int main(int argc, const char *argv[])
    TGraph *g_data = new TGraph(nrm,coup,data2);
    g_data->SetTitle("");
    g_data->SetLineColor(kRed);
-   g_data->SetLineWidth(2);
+   //g_data->SetLineWidth(2);
+   g_data->SetLineWidth(6);
 
    TGraph *g_theory = new TGraph(nrm,coup,theory_xsec);
    g_theory->SetTitle("");
    g_theory->SetLineColor(kBlack);
    g_theory->SetLineStyle(2);
-   g_theory->SetLineWidth(2);
+   //g_theory->SetLineWidth(2);
+   g_theory->SetLineWidth(6);
    
    TPolyLine *pl2_p = new TPolyLine(nel,x,y2_p);
    pl2_p->SetFillColor(kYellow);
@@ -193,13 +196,17 @@ int main(int argc, const char *argv[])
    
    g_theory->Draw("L");
    
-   TLegend *l1 = new TLegend(0.68,0.64,0.87,0.83);
+   //TLegend *l1 = new TLegend(0.68,0.64,0.87,0.83);
+   //TLegend *l1 = new TLegend(0.58,0.83,0.95,0.53);
+   //TLegend *l1 = new TLegend(0.58,0.83,0.93,0.53);
+   TLegend *l1 = new TLegend(0.58,0.83,0.93,0.50);
    l1->SetLineColor(0);
    l1->SetFillStyle(0);
-   l1->AddEntry(g_mel,"Expected","l");
+   l1->SetBorderSize(0);
+   l1->AddEntry(g_mel,"Median expected","l");
    l1->AddEntry(g_theory,"Theory","l");
-   l1->AddEntry(pl1_p,"68%","f");
-   l1->AddEntry(pl2_p,"95%","f");
+   l1->AddEntry(pl1_p,"68\% expected","f");
+   l1->AddEntry(pl2_p,"95\% expected","f");
    
    if( drawObs )
      l1->AddEntry(g_data,"Observed","l");
@@ -208,6 +215,8 @@ int main(int argc, const char *argv[])
    //std::string intLLab = "#intLdt = "+intL+" fb^{-1}";
    //l1->SetHeader(intLLab.c_str());
    l1->Draw("SAME");
+
+//   g_theory->Draw("L");
 
    /*
    TLatex lEner;
@@ -219,7 +228,16 @@ int main(int argc, const char *argv[])
    */
 
    //lEner.DrawLatex(0.50,0.83, "Hct");
+   /*
    TLatex *ctex = new TLatex(0.50, 0.87, "Hct");
+   ctex->SetNDC();
+   ctex->SetTextAlign(13);
+   ctex->SetTextFont(61);
+   ctex->SetTextSize(0.07475);
+   ctex->SetLineWidth(2);
+   ctex->Draw();
+   */
+   TLatex *ctex = new TLatex(0.72, 0.906825, "Hct");
    ctex->SetNDC();
    ctex->SetTextAlign(13);
    ctex->SetTextFont(61);

@@ -1,0 +1,182 @@
+[cirkovic@lxplus052 CONVERGENCE_TEST]$ ./run.sh
+[['s+b', <ROOT.RooFitResult object at 0x4f5c6b0>], ['b-only', <ROOT.RooFitResult object at 0x48339a0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4241a60>], ['b-only', <ROOT.RooFitResult object at 0x3b24940>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x52af010>], ['b-only', <ROOT.RooFitResult object at 0x4b69f50>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x3ad9bb0>], ['b-only', <ROOT.RooFitResult object at 0x33d7950>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x5127b40>], ['b-only', <ROOT.RooFitResult object at 0x4a30ed0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4dacd00>], ['b-only', <ROOT.RooFitResult object at 0x4693a40>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4b53850>], ['b-only', <ROOT.RooFitResult object at 0x442aa60>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x3e39700>], ['b-only', <ROOT.RooFitResult object at 0x375ca30>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x3c19110>], ['b-only', <ROOT.RooFitResult object at 0x350b8f0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x51dae90>], ['b-only', <ROOT.RooFitResult object at 0x4b1aaf0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x3de0700>], ['b-only', <ROOT.RooFitResult object at 0x36beb70>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x57fe6b0>], ['b-only', <ROOT.RooFitResult object at 0x50e1820>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x43d66f0>], ['b-only', <ROOT.RooFitResult object at 0x3cdfae0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x57e8920>], ['b-only', <ROOT.RooFitResult object at 0x50e2a70>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x555b4b0>], ['b-only', <ROOT.RooFitResult object at 0x4ec09d0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x52d8110>], ['b-only', <ROOT.RooFitResult object at 0x4bc6b20>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x3c45560>], ['b-only', <ROOT.RooFitResult object at 0x351ca00>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x58cd080>], ['b-only', <ROOT.RooFitResult object at 0x51ec9e0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4d28520>], ['b-only', <ROOT.RooFitResult object at 0x45cdb20>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x407ad10>], ['b-only', <ROOT.RooFitResult object at 0x39c1980>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x415bf80>], ['b-only', <ROOT.RooFitResult object at 0x3a2bbe0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x523c120>], ['b-only', <ROOT.RooFitResult object at 0x4b0fad0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x50d22b0>], ['b-only', <ROOT.RooFitResult object at 0x49dbd20>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x42523c0>], ['b-only', <ROOT.RooFitResult object at 0x3b4c9b0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x52c1760>], ['b-only', <ROOT.RooFitResult object at 0x4c209b0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x504a770>], ['b-only', <ROOT.RooFitResult object at 0x4931b40>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4e5b080>], ['b-only', <ROOT.RooFitResult object at 0x472aac0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x54edcb0>], ['b-only', <ROOT.RooFitResult object at 0x4e0d9f0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4fa6eb0>], ['b-only', <ROOT.RooFitResult object at 0x4899c10>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+[['s+b', <ROOT.RooFitResult object at 0x4833a40>], ['b-only', <ROOT.RooFitResult object at 0x411dca0>]]
+3
+s+b Full, accurate covariance matrix
+3
+b-only Full, accurate covariance matrix
+Both matrices were Full, accurate covariance matrices
+
